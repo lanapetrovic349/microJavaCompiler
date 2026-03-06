@@ -1,0 +1,279 @@
+INFO  16:01:52,102 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:01:52,131 - #2 program
+INFO  16:01:52,131 - #45 Test
+INFO  16:01:52,131 - #45 int
+INFO  16:01:52,133 - #45 x
+INFO  16:01:52,133 - #6 ;
+INFO  16:01:52,133 - #11 enum
+INFO  16:01:52,134 - #45 E
+INFO  16:01:52,134 - #3 {
+INFO  16:01:52,134 - #45 A
+INFO  16:01:52,134 - #8 =
+INFO  16:01:52,134 - #46 1
+INFO  16:01:52,134 - #7 ,
+INFO  16:01:52,134 - #45 B
+INFO  16:01:52,134 - #8 =
+INFO  16:01:52,134 - #46 1
+INFO  16:01:52,134 - #4 }
+INFO  16:01:52,134 - #3 {
+INFO  16:01:52,135 - #45 int
+INFO  16:01:52,135 - #45 sum
+INFO  16:01:52,135 - #12 (
+INFO  16:01:52,136 - #45 int
+INFO  16:01:52,136 - #45 a
+INFO  16:01:52,136 - #7 ,
+INFO  16:01:52,136 - #45 int
+INFO  16:01:52,136 - #45 b
+INFO  16:01:52,136 - #13 )
+INFO  16:01:52,136 - #3 {
+INFO  16:01:52,137 - #19 return
+INFO  16:01:52,137 - #45 a
+INFO  16:01:52,137 - #33 +
+INFO  16:01:52,138 - #45 b
+INFO  16:01:52,139 - #6 ;
+INFO  16:01:52,139 - #4 }
+INFO  16:01:52,139 - #14 void
+INFO  16:01:52,140 - #45 main
+INFO  16:01:52,140 - #12 (
+INFO  16:01:52,140 - #13 )
+INFO  16:01:52,140 - #45 int
+INFO  16:01:52,140 - #45 x
+INFO  16:01:52,140 - #6 ;
+INFO  16:01:52,141 - #45 char
+INFO  16:01:52,141 - #45 c
+INFO  16:01:52,141 - #6 ;
+INFO  16:01:52,141 - #45 int
+INFO  16:01:52,141 - #45 a
+INFO  16:01:52,141 - #9 [
+INFO  16:01:52,141 - #10 ]
+INFO  16:01:52,141 - #6 ;
+INFO  16:01:52,141 - #3 {
+INFO  16:01:52,141 - #45 x
+INFO  16:01:52,142 - #8 =
+INFO  16:01:52,142 - #45 c
+INFO  16:01:52,142 - #31 *
+INFO  16:01:52,142 - #46 3
+INFO  16:01:52,143 - #6 ;
+INFO  16:01:52,143 - #4 }
+INFO  16:01:52,143 - #4 }
+INFO  16:01:52,145 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclEnum(
+        EnumDecl(
+          EnumName(
+           E
+          ) [EnumName]
+          EnumValueListMore(
+            EnumValueDef(
+             A
+             1
+            ) [EnumValueDef]
+            EnumValueListSingle(
+              EnumValueDef(
+               B
+               1
+              ) [EnumValueDef]
+            ) [EnumValueListSingle]
+          ) [EnumValueListMore]
+        ) [EnumDecl]
+      ) [ConstVarDeclEnum]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       sum
+      ) [MethodName]
+      FormParsOptYes(
+        FormParsMore(
+          FormParsSingle(
+            FormParSingle(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormParSingle]
+          ) [FormParsSingle]
+          FormParSingle(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [FormParSingle]
+        ) [FormParsMore]
+      ) [FormParsOptYes]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          ExprArithmetic(
+            ArithmeticExprAdd(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorDesignator(
+                      Designator(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                Factor(
+                  UnaryEpsilon(
+                  ) [UnaryEpsilon]
+                  FactorDesignator(
+                    Designator(
+                      DesignatorName(
+                       b
+                      ) [DesignatorName]
+                      DesignatorTailEpsilon(
+                      ) [DesignatorTailEpsilon]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [Factor]
+              ) [TermFactor]
+            ) [ArithmeticExprAdd]
+          ) [ExprArithmetic]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListMore(
+          VarDeclOk(
+            Type(
+             int
+            ) [Type]
+            VarDeclItemSingle(
+             x
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclOk]
+          LocalVarDeclListMore(
+            VarDeclOk(
+              Type(
+               char
+              ) [Type]
+              VarDeclItemSingle(
+               c
+              ) [VarDeclItemSingle]
+              VarDeclListEpsilon(
+              ) [VarDeclListEpsilon]
+            ) [VarDeclOk]
+            LocalVarDeclListMore(
+              VarDeclOk(
+                Type(
+                 int
+                ) [Type]
+                VarDeclItemArray(
+                 a
+                ) [VarDeclItemArray]
+                VarDeclListEpsilon(
+                ) [VarDeclListEpsilon]
+              ) [VarDeclOk]
+              LocalVarDeclListEpsilon(
+              ) [LocalVarDeclListEpsilon]
+            ) [LocalVarDeclListMore]
+          ) [LocalVarDeclListMore]
+        ) [LocalVarDeclListMore]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermMul(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorDesignator(
+                          Designator(
+                            DesignatorName(
+                             c
+                            ) [DesignatorName]
+                            DesignatorTailEpsilon(
+                            ) [DesignatorTailEpsilon]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [Factor]
+                    ) [TermFactor]
+                    MulopMul(
+                    ) [MulopMul]
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermMul]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+ERROR 16:01:52,151 - Enum vrednost mora biti jedinstvena na liniji 3
+INFO  16:01:52,151 - Obradjuje se metoda: sum na liniji 5
+INFO  16:01:52,152 - Obradjuje se metoda: main na liniji 9
+ERROR 16:01:52,152 - Operatori *, / i %  mogu samo nad int tipovima na liniji 8
+ERROR 16:01:52,152 - Parsiranje nije uspesno zavrseno.

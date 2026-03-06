@@ -1,0 +1,201 @@
+INFO  16:45:27,080 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:45:27,122 - #2 program
+INFO  16:45:27,122 - #45 Test5
+INFO  16:45:27,122 - #45 int
+INFO  16:45:27,122 - #45 x
+INFO  16:45:27,123 - #6 ;
+INFO  16:45:27,123 - #3 {
+INFO  16:45:27,124 - #14 void
+INFO  16:45:27,124 - #45 main
+INFO  16:45:27,124 - #12 (
+INFO  16:45:27,124 - #13 )
+INFO  16:45:27,126 - #3 {
+INFO  16:45:27,126 - #45 x
+INFO  16:45:27,126 - #8 =
+INFO  16:45:27,128 - #46 5
+INFO  16:45:27,130 - #27 >
+INFO  16:45:27,131 - #46 3
+INFO  16:45:27,132 - #35 ?
+INFO  16:45:27,133 - #46 10
+INFO  16:45:27,133 - #36 :
+INFO  16:45:27,134 - #46 20
+INFO  16:45:27,134 - #6 ;
+INFO  16:45:27,134 - #18 print
+INFO  16:45:27,137 - #12 (
+INFO  16:45:27,137 - #45 x
+INFO  16:45:27,137 - #13 )
+INFO  16:45:27,138 - #6 ;
+INFO  16:45:27,138 - #4 }
+INFO  16:45:27,139 - #4 }
+INFO  16:45:27,141 - Program(
+  ProgramName(
+   Test5
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           5
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailArithmetic(
+                      RelopGT(
+                      ) [RelopGT]
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             3
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [CondFactTailArithmetic]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptTernary(
+                Expr(
+                  ConditionSingle(
+                    CondTermSingle(
+                      CondFact(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorNumber(
+                               10
+                              ) [FactorNumber]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                        CondFactTailEpsilon(
+                        ) [CondFactTailEpsilon]
+                      ) [CondFact]
+                    ) [CondTermSingle]
+                  ) [ConditionSingle]
+                  ExprOptEpsilon(
+                  ) [ExprOptEpsilon]
+                ) [Expr]
+                Expr(
+                  ConditionSingle(
+                    CondTermSingle(
+                      CondFact(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorNumber(
+                               20
+                              ) [FactorNumber]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                        CondFactTailEpsilon(
+                        ) [CondFactTailEpsilon]
+                      ) [CondFact]
+                    ) [CondTermSingle]
+                  ) [ConditionSingle]
+                  ExprOptEpsilon(
+                  ) [ExprOptEpsilon]
+                ) [Expr]
+              ) [ExprOptTernary]
+            ) [Expr]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorDesignator(
+                            Designator(
+                              DesignatorName(
+                               x
+                              ) [DesignatorName]
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:45:27,148 - Obradjuje se metoda: main na liniji 6
+INFO  16:45:27,149 - Parsiranje uspesno zavrseno.

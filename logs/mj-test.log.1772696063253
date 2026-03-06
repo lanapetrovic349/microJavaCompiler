@@ -1,0 +1,189 @@
+INFO  08:33:53,053 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  08:33:53,092 - #2 program
+INFO  08:33:53,092 - #45 TestTernary
+INFO  08:33:53,092 - #45 int
+INFO  08:33:53,093 - #45 i
+INFO  08:33:53,094 - #7 ,
+INFO  08:33:53,094 - #45 res
+INFO  08:33:53,094 - #6 ;
+INFO  08:33:53,094 - #3 {
+INFO  08:33:53,096 - #14 void
+INFO  08:33:53,096 - #45 main
+INFO  08:33:53,097 - #12 (
+INFO  08:33:53,097 - #13 )
+INFO  08:33:53,098 - #3 {
+INFO  08:33:53,098 - #45 i
+INFO  08:33:53,099 - #8 =
+INFO  08:33:53,101 - #46 10
+INFO  08:33:53,103 - #6 ;
+INFO  08:33:53,104 - #45 res
+INFO  08:33:53,104 - #8 =
+INFO  08:33:53,105 - #12 (
+INFO  08:33:53,105 - #45 i
+INFO  08:33:53,105 - #27 >
+INFO  08:33:53,109 - #46 5
+INFO  08:33:53,110 - #13 )
+ERROR 08:33:53,111 - 
+Sintaksna greska na liniji 8
+INFO  08:33:53,111 - #35 ?
+INFO  08:33:53,111 - #46 1
+INFO  08:33:53,111 - #36 :
+INFO  08:33:53,112 - #46 0
+ERROR 08:33:53,112 - Oporavak: greska u izrazu
+INFO  08:33:53,114 - #6 ;
+ERROR 08:33:53,114 - 
+Sintaksna greska na liniji 8
+INFO  08:33:53,114 - #18 print
+INFO  08:33:53,114 - #12 (
+INFO  08:33:53,114 - #45 res
+INFO  08:33:53,115 - #13 )
+INFO  08:33:53,115 - #6 ;
+INFO  08:33:53,115 - #18 print
+INFO  08:33:53,115 - #12 (
+INFO  08:33:53,115 - #12 (
+INFO  08:33:53,115 - #45 i
+INFO  08:33:53,115 - #26 <
+INFO  08:33:53,115 - #46 5
+INFO  08:33:53,115 - #13 )
+INFO  08:33:53,115 - #35 ?
+INFO  08:33:53,115 - #46 8
+INFO  08:33:53,116 - #36 :
+INFO  08:33:53,116 - #46 9
+ERROR 08:33:53,116 - Oporavak: greska u izrazu
+INFO  08:33:53,116 - #13 )
+INFO  08:33:53,116 - #6 ;
+INFO  08:33:53,116 - #4 }
+INFO  08:33:53,117 - #4 }
+INFO  08:33:53,119 - Program(
+  ProgramName(
+   TestTernary
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         i
+        ) [VarDeclItemSingle]
+        VarDeclListList(
+          VarDeclItemSingle(
+           res
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclListList]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               i
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprRegular(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     10
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprRegular]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 res
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprRegular(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorParen(
+                        ExprTernary(
+                          ConditionSingle(
+                            ConditionError(
+                            ) [ConditionError]
+                          ) [ConditionSingle]
+                          TernaryQuestionMarker(
+                          ) [TernaryQuestionMarker]
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorNumber(
+                                 8
+                                ) [FactorNumber]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                          TernaryColonMarker(
+                          ) [TernaryColonMarker]
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorNumber(
+                                 9
+                                ) [FactorNumber]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprTernary]
+                      ) [FactorParen]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprRegular]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  08:33:53,129 - Obradjuje se metoda: main na liniji 4
+ERROR 08:33:53,130 - Uslov ternarnog operatora mora biti tipa bool na liniji 14
+ERROR 08:33:53,130 - Generisanje koda nije uspesno zavrseno.

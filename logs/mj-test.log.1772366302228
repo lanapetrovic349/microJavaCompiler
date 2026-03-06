@@ -1,0 +1,74 @@
+INFO  12:58:09,800 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:58:09,831 - #2 program
+INFO  12:58:09,831 - #45 Test
+INFO  12:58:09,831 - #11 enum
+INFO  12:58:09,832 - #45 E
+INFO  12:58:09,832 - #3 {
+INFO  12:58:09,832 - #45 A
+INFO  12:58:09,832 - #7 ,
+INFO  12:58:09,832 - #45 B
+INFO  12:58:09,832 - #4 }
+INFO  12:58:09,833 - #45 int
+INFO  12:58:09,833 - #45 a
+INFO  12:58:09,835 - #45 b
+ERROR 12:58:09,835 - 
+Sintaksna greska na liniji 4
+INFO  12:58:09,835 - #6 ;
+INFO  12:58:09,835 - #3 {
+INFO  12:58:09,835 - #14 void
+INFO  12:58:09,835 - #45 main
+ERROR 12:58:09,835 - Oporavak: greska u globalnoj deklaraciji
+INFO  12:58:09,836 - #12 (
+INFO  12:58:09,837 - #13 )
+INFO  12:58:09,840 - #3 {
+INFO  12:58:09,840 - #4 }
+INFO  12:58:09,841 - #4 }
+INFO  12:58:09,845 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         E
+        ) [EnumName]
+        EnumValueListMore(
+          EnumValueDecl(
+           A
+          ) [EnumValueDecl]
+          EnumValueListSingle(
+            EnumValueDecl(
+             B
+            ) [EnumValueDecl]
+          ) [EnumValueListSingle]
+        ) [EnumValueListMore]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListList(
+      ConstVarDeclError(
+      ) [ConstVarDeclError]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  12:58:09,853 - Obradjuje se metoda: main na liniji 7
+ERROR 12:58:09,854 - Parsiranje nije uspesno zavrseno.

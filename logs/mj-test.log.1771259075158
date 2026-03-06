@@ -1,0 +1,97 @@
+INFO  17:24:08,250 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:24:08,276 - #2 program
+INFO  17:24:08,276 - #45 Fail1
+INFO  17:24:08,276 - #45 int
+INFO  17:24:08,277 - #45 x
+INFO  17:24:08,277 - #6 ;
+INFO  17:24:08,277 - #3 {
+INFO  17:24:08,278 - #14 void
+INFO  17:24:08,278 - #45 main
+INFO  17:24:08,278 - #12 (
+INFO  17:24:08,278 - #13 )
+INFO  17:24:08,279 - #3 {
+INFO  17:24:08,279 - #40 if
+INFO  17:24:08,279 - #12 (
+INFO  17:24:08,279 - #45 x
+INFO  17:24:08,280 - #13 )
+INFO  17:24:08,282 - #3 {
+INFO  17:24:08,282 - #4 }
+INFO  17:24:08,282 - #4 }
+INFO  17:24:08,283 - #4 }
+INFO  17:24:08,284 - Program(
+  ProgramName(
+   Fail1
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorDesignator(
+                        Designator(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailEpsilon(
+                ) [CondFactTailEpsilon]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:24:08,289 - Obradjuje se metoda: main na liniji 7
+ERROR 17:24:08,289 - Uslov bez relacije mora biti bool na liniji 11
+ERROR 17:24:08,289 - Uslov u if mora biti bool na liniji 11
+ERROR 17:24:08,290 - Parsiranje nije uspesno zavrseno.

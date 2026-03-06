@@ -1,0 +1,85 @@
+INFO  17:00:09,069 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:00:09,097 - #2 program
+INFO  17:00:09,097 - #45 Test
+INFO  17:00:09,097 - #3 {
+INFO  17:00:09,097 - #14 void
+INFO  17:00:09,097 - #45 main
+INFO  17:00:09,098 - #12 (
+INFO  17:00:09,098 - #13 )
+INFO  17:00:09,098 - #45 int
+INFO  17:00:09,098 - #45 arr
+INFO  17:00:09,098 - #9 [
+INFO  17:00:09,098 - #10 ]
+INFO  17:00:09,098 - #6 ;
+INFO  17:00:09,099 - #3 {
+INFO  17:00:09,099 - #18 print
+INFO  17:00:09,099 - #12 (
+INFO  17:00:09,099 - #45 arr
+INFO  17:00:09,100 - #13 )
+INFO  17:00:09,101 - #6 ;
+INFO  17:00:09,101 - #4 }
+INFO  17:00:09,102 - #4 }
+INFO  17:00:09,104 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemArray(
+           arr
+          ) [VarDeclItemArray]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtPrint(
+          ExprArithmetic(
+            ArithmeticExprTerm(
+              TermFactor(
+                Factor(
+                  UnaryEpsilon(
+                  ) [UnaryEpsilon]
+                  FactorDesignator(
+                    Designator(
+                      DesignatorName(
+                       arr
+                      ) [DesignatorName]
+                      DesignatorTailEpsilon(
+                      ) [DesignatorTailEpsilon]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [Factor]
+              ) [TermFactor]
+            ) [ArithmeticExprTerm]
+          ) [ExprArithmetic]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:00:09,111 - Obradjuje se metoda: main na liniji 2
+ERROR 17:00:09,111 - print podrzava samo int, char i bool na liniji 13
+ERROR 17:00:09,111 - Parsiranje nije uspesno zavrseno.

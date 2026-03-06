@@ -1,0 +1,386 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+   
+   	boolean isError;
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	isError = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+    isError = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, CONST, SEMI, COMMA, ASSIGN, LBRACKET, RBRACKET, ENUM, LPAREN, RPAREN, VOID, BREAK, CONTINUE, READ, PRINT, RETURN, INC, DEC, DOT, LENGTH, EQ, NEQ, LT, GT, LTE, GTE, REM, MUL, DIV, PLUS, MINUS, QUESTION, 
+COLON, NEW, OR, AND, IF, ELSE, SWITCH, FOR, CASE;
+terminal String IDENT;
+terminal Integer NUMBER, BOOL;
+terminal Character CHARACTER;
+
+nonterminal Program, ConstVarDeclList, MethodDeclList, ConstDecl, VarDecl, EnumDecl, ConstVarDecl, ConstDeclList, ConstInit, ConstValue, VarDeclItem, 
+VarDeclList, EnumValueList, EnumValue, MethodDecl, MethodType, LocalVarDeclList, FormParsOpt, StatementList, FormPars, FormPar, Statement, DesignatorStatement, PrintOpt, ActParsOpt, ActPars, 
+Assignop, DesignatorSuffix, Addop, Mulop, Relop, CondFactTail, ElseStatement, ForInitOpt, ForCondOpt, ForStepOpt, CaseClause, CaseList,
+ProgramName, EnumName, ForStepEndMarker, IfCondMarker, CaseMarker, SwitchExprEndMarker, CaseStart, TernaryMarker;
+nonterminal TernaryQuestionMarker, TernaryColonMarker, TernaryStartMarker;
+nonterminal Unary, SwitchHeader, CallOpt, ThenEndMarker, OrMarker, CondEndMarker, ForCondMarker, ForStepMarker, ForBodyMarker;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, FactorNeg, Term, ArithmeticExpr, Expr, Condition, CondTerm, CondFact, Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, DesignatorName, DesignatorTail, MethodName;
+
+precedence left ELSE;
+
+Program ::= (Program) PROG ProgramName ConstVarDeclList LBRACE MethodDeclList RBRACE;
+
+ProgramName ::= (ProgramName) IDENT;
+
+ConstVarDeclList ::= (ConstVarDeclListList) ConstVarDecl ConstVarDeclList 
+					 |
+					 (ConstVarDeclListEpsilon)
+					 ;
+					 
+ConstVarDecl ::= (ConstVarDeclConst) ConstDecl
+				 |
+				 (ConstVarDeclVar) VarDecl
+				 |
+				 (ConstVarDeclEnum) EnumDecl
+				 |
+			     (ConstVarDeclError) error SEMI
+			     {: parser.report_error("Oporavak: greska u globalnoj deklaraciji", null); :}
+			     ;
+
+ConstDecl ::= (ConstDeclSingle) CONST Type ConstDeclList SEMI;
+
+Type ::= (Type) IDENT;
+
+ConstDeclList ::= (ConstDeclListMore) ConstDeclList COMMA ConstInit
+				  |
+				  (ConstDeclListSingle) ConstInit
+				  ;
+
+ConstInit ::= (ConstInit) IDENT ASSIGN ConstValue;
+
+ConstValue ::= (ConstNum) NUMBER
+			   |
+			   (ConstChar) CHARACTER
+			   |
+			   (ConstBool) BOOL
+			   ;
+
+VarDecl ::= (VarDeclOk) Type VarDeclItem VarDeclList SEMI;			
+
+VarDeclItem ::= (VarDeclItemSingle) IDENT 
+				|
+				(VarDeclItemArray) IDENT LBRACKET RBRACKET
+				;
+				
+VarDeclList ::= (VarDeclListList) COMMA VarDeclItem VarDeclList
+				|
+			    (VarDeclErrorAfterComma) COMMA error VarDeclList:e
+			    {: parser.report_error("Oporavak: greska posle zareza", null); :}
+			    |
+				(VarDeclListEpsilon)
+				; 
+
+
+EnumDecl ::= (EnumDecl) ENUM EnumName LBRACE EnumValueList RBRACE;
+
+EnumName ::= (EnumName) IDENT;
+
+EnumValueList ::= (EnumValueListSingle) EnumValue
+				  |
+				  (EnumValueListMore) EnumValue COMMA EnumValueList
+				  ;
+
+EnumValue ::= (EnumValueDecl) IDENT
+			  |
+			  (EnumValueDef) IDENT ASSIGN NUMBER
+			  ;
+
+MethodDeclList ::= (MethodDeclListMore) MethodDecl MethodDeclList
+  				   |
+    			   (MethodDeclListEpsilon)
+  				   ;
+  				   
+MethodDecl ::= (MethodDecl) MethodType MethodName LPAREN FormParsOpt RPAREN LocalVarDeclList LBRACE StatementList RBRACE;
+
+MethodName ::= (MethodName) IDENT;
+
+MethodType ::= (MethodTypeType) Type
+			   |
+			   (MethodTypeVoid) VOID
+			   ;
+			   
+LocalVarDeclList ::= (LocalVarDeclListMore) VarDecl LocalVarDeclList
+					 |
+                     (LocalVarDeclListEpsilon)
+                     ;
+
+FormParsOpt ::= (FormParsOptYes) FormPars
+                |
+                (FormParsOptNo)
+                ;
+          
+FormPars ::= (FormParsSingle) FormPar
+             |
+             (FormParsMore) FormPars COMMA FormPar
+             |
+             (FormParsError) error 
+             {: parser.report_error("Oporavak: greska u formalnim argumentima", null); :}
+             ;
+             
+FormPar ::= (FormParSingle) Type IDENT
+            |
+            (FormParArray) Type IDENT LBRACKET RBRACKET
+            ;
+
+
+StatementList ::= (StatementListMore) Statement StatementList
+				  |
+				  (StatementListEpsilon)
+				  ;
+				  
+Statement ::= (StmtDesignator) DesignatorStatement SEMI
+              |
+              (StmtDesignatorError) error SEMI
+              {: parser.report_error("Oporavak: greska prilikom dodele do ;", null); :}
+              |
+			  (StmtIf) IF LPAREN IfCondMarker Condition RPAREN CondEndMarker Statement ElseStatement
+              |
+			  (StmtBreak) BREAK SEMI
+			  |
+			  (StmtContinue) CONTINUE SEMI
+			  |
+			  (StmtReturnNoExpr) RETURN SEMI
+			  |
+			  (StmtReturnExpr) RETURN Expr SEMI
+			  |
+			  (StmtRead) READ LPAREN Designator RPAREN SEMI
+			  |
+			  (StmtPrint) PRINT LPAREN Expr PrintOpt RPAREN SEMI
+			  |
+			  (StmtSwitch) SWITCH LPAREN Expr SwitchExprEndMarker RPAREN LBRACE CaseList RBRACE
+			  |
+			  (StmtFor) FOR LPAREN ForInitOpt SEMI ForCondMarker ForCondOpt SEMI ForStepMarker ForStepOpt ForStepEndMarker RPAREN ForBodyMarker Statement
+			  |
+			  (StmtBlock) LBRACE StatementList RBRACE
+			  ;
+			  
+ForCondMarker ::= (ForCondMarker);
+ForStepMarker ::= (ForStepMarker);
+ForBodyMarker ::= (ForBodyMarker);
+ForStepEndMarker ::= (ForStepEndMarker);
+IfCondMarker ::= (IfCondMarker);
+CondEndMarker ::= (CondEndMarker);
+
+SwitchExprEndMarker ::= (SwitchExprEndMarker);
+
+                     
+ElseStatement ::= (ElseStmtYes) ELSE ThenEndMarker Statement
+				  |
+				  (ElseStmtNo)
+				  ;
+				  
+ThenEndMarker ::= (ThenEndMarker);
+				  
+ForInitOpt ::= (ForInitYes) DesignatorStatement
+               |
+               (ForInitNo) 
+               ;
+
+ForCondOpt ::= (ForCondYes) Condition
+               |
+               (ForCondNo) 
+               ;
+
+ForStepOpt ::= (ForStepYes) DesignatorStatement
+               |
+               (ForStepNo) 
+               ;
+
+CaseList ::= (CaseListMore) CaseList CaseClause 
+             |
+             (CaseListEpsilon) 
+             ;
+
+CaseClause ::= (CaseClause) CASE NUMBER CaseMarker COLON CaseStart StatementList;
+
+CaseMarker ::= (CaseMarker);
+
+CaseStart ::= (CaseStart);
+
+PrintOpt ::= (PrintOptYes) COMMA NUMBER
+			 |
+			 (PrintOptNo)
+			 ;
+			 
+DesignatorStatement ::= (DesignatorStmtAssign) Designator Assignop Expr
+                        |
+						(DesignatorStmtCall) Designator LPAREN ActParsOpt RPAREN
+						| 
+						(DesignatorStmtInc) Designator INC
+						|
+						(DesignatorStmtDec) Designator DEC
+						;
+						
+ActParsOpt ::= (ActParsYes) ActPars
+			   |
+			   (ActParsNo)
+			   ;
+			   
+ActPars ::= (ActParsSingle) Expr
+            |
+            (ActParsMore) ActPars COMMA Expr
+            ;
+		
+
+Designator ::= (Designator) DesignatorName DesignatorTail;
+
+DesignatorName ::= (DesignatorName) IDENT;
+
+DesignatorTail ::= (DesignatorTailMore) DesignatorTail DesignatorSuffix
+				   |
+				   (DesignatorTailEpsilon)
+				   ;
+				   
+DesignatorSuffix ::= (DesignatorSuffixField) DOT IDENT
+					 |
+					 (DesignatorSuffixLength) DOT LENGTH
+					 |
+					 (DesignatorSuffixArray) LBRACKET Expr RBRACKET
+					 ;
+					 
+Assignop ::= (Assignop) ASSIGN;
+					 
+Addop ::= (AddopPlus) PLUS
+		  |
+		  (AddopMinus) MINUS
+		  ;
+
+Mulop ::= (MulopMul) MUL
+		  |
+		  (MulopDiv) DIV
+		  |
+		  (MulopRem) REM
+		  ;
+		  
+Relop ::= (RelopEQ) EQ
+		  |
+		  (RelopNEQ) NEQ
+		  |
+		  (RelopGT) GT
+		  |
+		  (RelopGTE) GTE
+		  |
+		  (RelopLT) LT
+		  |
+		  (RelopLTE) LTE
+		  ;
+
+			
+Term ::= (TermFactor) Factor 
+		 | 
+		 (TermMul) Term Mulop Factor
+		 ;
+
+
+ArithmeticExpr ::= (ArithmeticExprTerm) Term 
+				   |
+				   (ArithmeticExprAdd) ArithmeticExpr Addop Term
+				   ;
+				   
+Expr ::= (ExprRegular) ArithmeticExpr
+         | 
+         (ExprTernary) Condition TernaryQuestionMarker QUESTION Expr TernaryColonMarker COLON Expr;
+         
+         		
+TernaryQuestionMarker ::= (TernaryQuestionMarker);
+TernaryColonMarker ::= (TernaryColonMarker);		 
+
+Factor ::= (Factor) Unary FactorNeg; 
+
+Unary ::= (UnaryMinus) MINUS 
+          |
+          (UnaryEpsilon) 
+          ; 
+          
+FactorNeg ::= (FactorDesOrFuncCall) Designator CallOpt 
+			  | 
+			  (FactorNumber) NUMBER 
+			  | 
+			  (FactorChar) CHARACTER 
+			  | 
+			  (FactorBool) BOOL 
+			  |
+			  (FactorNew) NEW Type LBRACKET Expr RBRACKET 
+			  | 
+			  (FactorParen) LPAREN Expr RPAREN 
+			  ;
+
+CallOpt ::= (CallOptYes) LPAREN ActParsOpt RPAREN
+			|
+			(CallOptEpsilon)
+			;
+			
+Condition ::= (ConditionSingle) CondTerm
+              | 
+              (ConditionOr) Condition OR OrMarker CondTerm            
+              ;
+              
+OrMarker ::= (OrMarker);
+
+CondTerm ::= (CondTermSingle) CondFact
+             | 
+             (CondTermAnd) CondTerm AND CondFact
+             |
+             (ConditionError) error 
+             {: parser.report_error("Oporavak: greska u izrazu", null); :}
+             ;
+
+CondFact ::= (CondFact) ArithmeticExpr CondFactTail;
+             
+CondFactTail ::= (CondFactTailArithmetic) Relop ArithmeticExpr
+			     |
+			     (CondFactTailEpsilon)
+                 ;
+
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,327 @@
+INFO  10:47:13,096 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  10:47:13,123 - #2 program
+INFO  10:47:13,123 - #45 TestEnum2
+INFO  10:47:13,123 - #11 enum
+INFO  10:47:13,123 - #45 Stanje
+INFO  10:47:13,125 - #3 {
+INFO  10:47:13,125 - #45 OFF
+INFO  10:47:13,125 - #7 ,
+INFO  10:47:13,125 - #45 ON
+INFO  10:47:13,125 - #4 }
+INFO  10:47:13,125 - #45 int
+INFO  10:47:13,126 - #45 res
+INFO  10:47:13,126 - #6 ;
+INFO  10:47:13,126 - #3 {
+INFO  10:47:13,127 - #14 void
+INFO  10:47:13,127 - #45 main
+INFO  10:47:13,127 - #12 (
+INFO  10:47:13,127 - #13 )
+INFO  10:47:13,127 - #3 {
+INFO  10:47:13,128 - #45 res
+INFO  10:47:13,128 - #8 =
+INFO  10:47:13,128 - #45 Stanje
+INFO  10:47:13,131 - #22 .
+INFO  10:47:13,131 - #45 ON
+INFO  10:47:13,131 - #27 >
+INFO  10:47:13,133 - #45 Stanje
+INFO  10:47:13,133 - #22 .
+INFO  10:47:13,133 - #45 OFF
+INFO  10:47:13,133 - #35 ?
+INFO  10:47:13,134 - #46 10
+INFO  10:47:13,134 - #36 :
+INFO  10:47:13,134 - #46 20
+INFO  10:47:13,134 - #6 ;
+INFO  10:47:13,135 - #18 print
+INFO  10:47:13,135 - #12 (
+INFO  10:47:13,135 - #45 res
+INFO  10:47:13,135 - #13 )
+INFO  10:47:13,135 - #6 ;
+INFO  10:47:13,135 - #18 print
+INFO  10:47:13,135 - #12 (
+INFO  10:47:13,136 - #45 Stanje
+INFO  10:47:13,136 - #22 .
+INFO  10:47:13,136 - #45 OFF
+INFO  10:47:13,136 - #24 ==
+INFO  10:47:13,136 - #46 0
+INFO  10:47:13,136 - #35 ?
+INFO  10:47:13,136 - #48 Y
+INFO  10:47:13,136 - #36 :
+INFO  10:47:13,136 - #48 N
+INFO  10:47:13,136 - #13 )
+INFO  10:47:13,136 - #6 ;
+INFO  10:47:13,136 - #4 }
+INFO  10:47:13,137 - #4 }
+INFO  10:47:13,139 - Program(
+  ProgramName(
+   TestEnum2
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         Stanje
+        ) [EnumName]
+        EnumValueListMore(
+          EnumValueDecl(
+           OFF
+          ) [EnumValueDecl]
+          EnumValueListSingle(
+            EnumValueDecl(
+             ON
+            ) [EnumValueDecl]
+          ) [EnumValueListSingle]
+        ) [EnumValueListMore]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           res
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               res
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprTernary(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorDesOrFuncCall(
+                            Designator(
+                              DesignatorName(
+                               Stanje
+                              ) [DesignatorName]
+                              DesignatorTailMore(
+                                DesignatorTailEpsilon(
+                                ) [DesignatorTailEpsilon]
+                                DesignatorSuffixField(
+                                 ON
+                                ) [DesignatorSuffixField]
+                              ) [DesignatorTailMore]
+                            ) [Designator]
+                            CallOptEpsilon(
+                            ) [CallOptEpsilon]
+                          ) [FactorDesOrFuncCall]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailArithmetic(
+                      RelopGT(
+                      ) [RelopGT]
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorDesOrFuncCall(
+                              Designator(
+                                DesignatorName(
+                                 Stanje
+                                ) [DesignatorName]
+                                DesignatorTailMore(
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                  DesignatorSuffixField(
+                                   OFF
+                                  ) [DesignatorSuffixField]
+                                ) [DesignatorTailMore]
+                              ) [Designator]
+                              CallOptEpsilon(
+                              ) [CallOptEpsilon]
+                            ) [FactorDesOrFuncCall]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [CondFactTailArithmetic]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              TernaryQuestionMarker(
+              ) [TernaryQuestionMarker]
+              ExprRegular(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       10
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprRegular]
+              TernaryColonMarker(
+              ) [TernaryColonMarker]
+              ExprRegular(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       20
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprRegular]
+            ) [ExprTernary]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtPrint(
+            ExprRegular(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorDesOrFuncCall(
+                      Designator(
+                        DesignatorName(
+                         res
+                        ) [DesignatorName]
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                      CallOptEpsilon(
+                      ) [CallOptEpsilon]
+                    ) [FactorDesOrFuncCall]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprRegular]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListMore(
+            StmtPrint(
+              ExprTernary(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorDesOrFuncCall(
+                              Designator(
+                                DesignatorName(
+                                 Stanje
+                                ) [DesignatorName]
+                                DesignatorTailMore(
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                  DesignatorSuffixField(
+                                   OFF
+                                  ) [DesignatorSuffixField]
+                                ) [DesignatorTailMore]
+                              ) [Designator]
+                              CallOptEpsilon(
+                              ) [CallOptEpsilon]
+                            ) [FactorDesOrFuncCall]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailArithmetic(
+                        RelopEQ(
+                        ) [RelopEQ]
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorNumber(
+                               0
+                              ) [FactorNumber]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                      ) [CondFactTailArithmetic]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                TernaryQuestionMarker(
+                ) [TernaryQuestionMarker]
+                ExprRegular(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorChar(
+                         Y
+                        ) [FactorChar]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [ExprRegular]
+                TernaryColonMarker(
+                ) [TernaryColonMarker]
+                ExprRegular(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorChar(
+                         N
+                        ) [FactorChar]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [ExprRegular]
+              ) [ExprTernary]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  10:47:13,145 - Obradjuje se metoda: main na liniji 5
+INFO  10:47:13,149 - Generisanje koda uspesno zavrseno.

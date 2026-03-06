@@ -1,0 +1,185 @@
+INFO  08:53:54,021 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  08:53:54,053 - #2 program
+INFO  08:53:54,054 - #45 TestEnum2
+INFO  08:53:54,054 - #11 enum
+INFO  08:53:54,054 - #45 Stanje
+INFO  08:53:54,054 - #3 {
+INFO  08:53:54,055 - #45 OFF
+INFO  08:53:54,055 - #7 ,
+INFO  08:53:54,055 - #45 ON
+INFO  08:53:54,055 - #4 }
+INFO  08:53:54,055 - #45 int
+INFO  08:53:54,056 - #45 res
+INFO  08:53:54,056 - #6 ;
+INFO  08:53:54,057 - #3 {
+INFO  08:53:54,057 - #14 void
+INFO  08:53:54,057 - #45 main
+INFO  08:53:54,058 - #12 (
+INFO  08:53:54,058 - #13 )
+INFO  08:53:54,059 - #3 {
+INFO  08:53:54,059 - #45 res
+INFO  08:53:54,059 - #8 =
+INFO  08:53:54,061 - #12 (
+INFO  08:53:54,065 - #45 Stanje
+INFO  08:53:54,065 - #22 .
+INFO  08:53:54,065 - #45 ON
+INFO  08:53:54,065 - #27 >
+INFO  08:53:54,067 - #45 Stanje
+INFO  08:53:54,067 - #22 .
+INFO  08:53:54,067 - #45 OFF
+INFO  08:53:54,067 - #13 )
+ERROR 08:53:54,068 - 
+Sintaksna greska na liniji 7
+INFO  08:53:54,068 - #35 ?
+INFO  08:53:54,068 - #46 10
+INFO  08:53:54,068 - #36 :
+INFO  08:53:54,068 - #46 20
+ERROR 08:53:54,068 - Oporavak: greska u izrazu
+INFO  08:53:54,070 - #6 ;
+ERROR 08:53:54,070 - 
+Sintaksna greska na liniji 7
+INFO  08:53:54,070 - #18 print
+INFO  08:53:54,070 - #12 (
+INFO  08:53:54,070 - #45 res
+INFO  08:53:54,070 - #13 )
+INFO  08:53:54,070 - #6 ;
+INFO  08:53:54,070 - #18 print
+INFO  08:53:54,070 - #12 (
+INFO  08:53:54,070 - #45 Stanje
+INFO  08:53:54,070 - #22 .
+INFO  08:53:54,070 - #45 OFF
+INFO  08:53:54,070 - #24 ==
+INFO  08:53:54,070 - #46 0
+INFO  08:53:54,070 - #35 ?
+INFO  08:53:54,070 - #48 Y
+INFO  08:53:54,071 - #36 :
+INFO  08:53:54,071 - #48 N
+ERROR 08:53:54,071 - Oporavak: greska u izrazu
+INFO  08:53:54,071 - #13 )
+INFO  08:53:54,071 - #6 ;
+INFO  08:53:54,071 - #4 }
+INFO  08:53:54,073 - #4 }
+INFO  08:53:54,077 - Program(
+  ProgramName(
+   TestEnum2
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         Stanje
+        ) [EnumName]
+        EnumValueListMore(
+          EnumValueDecl(
+           OFF
+          ) [EnumValueDecl]
+          EnumValueListSingle(
+            EnumValueDecl(
+             ON
+            ) [EnumValueDecl]
+          ) [EnumValueListSingle]
+        ) [EnumValueListMore]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           res
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               res
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprRegular(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorParen(
+                      ExprTernary(
+                        ConditionSingle(
+                          ConditionError(
+                          ) [ConditionError]
+                        ) [ConditionSingle]
+                        TernaryQuestionMarker(
+                        ) [TernaryQuestionMarker]
+                        ExprRegular(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorChar(
+                                 Y
+                                ) [FactorChar]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprRegular]
+                        TernaryColonMarker(
+                        ) [TernaryColonMarker]
+                        ExprRegular(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorChar(
+                                 N
+                                ) [FactorChar]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprRegular]
+                      ) [ExprTernary]
+                    ) [FactorParen]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprRegular]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  08:53:54,083 - Obradjuje se metoda: main na liniji 5
+ERROR 08:53:54,083 - Uslov ternarnog operatora mora biti tipa bool na liniji 14
+ERROR 08:53:54,083 - Nekompatibilni tipovi u dodeli na liniji 7
+ERROR 08:53:54,084 - Generisanje koda nije uspesno zavrseno.

@@ -1,0 +1,83 @@
+INFO  16:48:54,318 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:48:54,370 - #2 program
+INFO  16:48:54,370 - #45 P
+INFO  16:48:54,370 - #5 const
+INFO  16:48:54,371 - #45 int
+INFO  16:48:54,371 - #45 k
+INFO  16:48:54,372 - #8 =
+INFO  16:48:54,372 - #46 3
+INFO  16:48:54,372 - #6 ;
+INFO  16:48:54,374 - #3 {
+INFO  16:48:54,374 - #14 void
+INFO  16:48:54,374 - #45 main
+INFO  16:48:54,375 - #12 (
+INFO  16:48:54,376 - #13 )
+INFO  16:48:54,376 - #3 {
+INFO  16:48:54,377 - #17 read
+INFO  16:48:54,377 - #12 (
+INFO  16:48:54,377 - #45 k
+INFO  16:48:54,377 - #13 )
+INFO  16:48:54,378 - #6 ;
+INFO  16:48:54,378 - #19 return
+INFO  16:48:54,378 - #6 ;
+INFO  16:48:54,378 - #4 }
+INFO  16:48:54,380 - #4 }
+INFO  16:48:54,383 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclConst(
+      ConstDeclSingle(
+        Type(
+         int
+        ) [Type]
+        ConstDeclListSingle(
+          ConstInit(
+           k
+            ConstNum(
+             3
+            ) [ConstNum]
+          ) [ConstInit]
+        ) [ConstDeclListSingle]
+      ) [ConstDeclSingle]
+    ) [ConstVarDeclConst]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtRead(
+          Designator(
+            DesignatorName(
+             k
+            ) [DesignatorName]
+            DesignatorTailEpsilon(
+            ) [DesignatorTailEpsilon]
+          ) [Designator]
+        ) [StmtRead]
+        StatementListMore(
+          StmtReturnNoExpr(
+          ) [StmtReturnNoExpr]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:48:54,388 - Obradjuje se metoda: main na liniji 4
+ERROR 16:48:54,388 - Argument read mora biti promenljiva ili element niza na liniji 5
+ERROR 16:48:54,389 - Parsiranje nije uspesno zavrseno.

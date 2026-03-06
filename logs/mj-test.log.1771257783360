@@ -1,0 +1,117 @@
+INFO  17:02:46,097 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:02:46,124 - #2 program
+INFO  17:02:46,124 - #45 Test
+INFO  17:02:46,124 - #3 {
+INFO  17:02:46,124 - #45 int
+INFO  17:02:46,124 - #45 f
+INFO  17:02:46,126 - #12 (
+INFO  17:02:46,126 - #13 )
+INFO  17:02:46,126 - #3 {
+INFO  17:02:46,126 - #19 return
+INFO  17:02:46,126 - #48 x
+INFO  17:02:46,127 - #6 ;
+INFO  17:02:46,127 - #4 }
+INFO  17:02:46,128 - #14 void
+INFO  17:02:46,128 - #45 main
+INFO  17:02:46,129 - #12 (
+INFO  17:02:46,129 - #13 )
+INFO  17:02:46,129 - #3 {
+INFO  17:02:46,129 - #18 print
+INFO  17:02:46,129 - #12 (
+INFO  17:02:46,129 - #45 f
+INFO  17:02:46,129 - #12 (
+INFO  17:02:46,130 - #13 )
+INFO  17:02:46,132 - #13 )
+INFO  17:02:46,132 - #6 ;
+INFO  17:02:46,132 - #4 }
+INFO  17:02:46,132 - #4 }
+INFO  17:02:46,135 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          ExprArithmetic(
+            ArithmeticExprTerm(
+              TermFactor(
+                Factor(
+                  UnaryEpsilon(
+                  ) [UnaryEpsilon]
+                  FactorChar(
+                   x
+                  ) [FactorChar]
+                ) [Factor]
+              ) [TermFactor]
+            ) [ArithmeticExprTerm]
+          ) [ExprArithmetic]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtPrint(
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorFuncCall(
+                      Designator(
+                        DesignatorName(
+                         f
+                        ) [DesignatorName]
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                      ActParsNo(
+                      ) [ActParsNo]
+                    ) [FactorFuncCall]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:02:46,139 - Obradjuje se metoda: f na liniji 2
+ERROR 17:02:46,140 - Tip return izraza nije kompatibilan sa tipom metode na liniji 14
+INFO  17:02:46,140 - Obradjuje se metoda: main na liniji 3
+ERROR 17:02:46,168 - Parsiranje nije uspesno zavrseno.

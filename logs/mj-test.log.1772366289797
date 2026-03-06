@@ -1,0 +1,90 @@
+INFO  12:57:54,682 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:57:54,725 - #2 program
+INFO  12:57:54,725 - #45 Test
+INFO  12:57:54,725 - #45 int
+INFO  12:57:54,726 - #45 a
+INFO  12:57:54,727 - #45 b
+ERROR 12:57:54,727 - 
+Sintaksna greska na liniji 3
+INFO  12:57:54,727 - #45 c
+INFO  12:57:54,727 - #6 ;
+INFO  12:57:54,727 - #45 int
+INFO  12:57:54,728 - #45 x
+INFO  12:57:54,728 - #7 ,
+ERROR 12:57:54,729 - Oporavak: greska u globalnoj deklaraciji
+INFO  12:57:54,730 - #7 ,
+ERROR 12:57:54,730 - 
+Sintaksna greska na liniji 4
+INFO  12:57:54,730 - #45 y
+INFO  12:57:54,730 - #6 ;
+INFO  12:57:54,730 - #45 int
+ERROR 12:57:54,731 - Oporavak: greska posle zareza
+INFO  12:57:54,733 - #45 z
+INFO  12:57:54,733 - #6 ;
+INFO  12:57:54,733 - #3 {
+INFO  12:57:54,735 - #14 void
+INFO  12:57:54,735 - #45 main
+INFO  12:57:54,735 - #12 (
+INFO  12:57:54,735 - #13 )
+INFO  12:57:54,737 - #3 {
+INFO  12:57:54,737 - #4 }
+INFO  12:57:54,738 - #4 }
+INFO  12:57:54,739 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclError(
+    ) [ConstVarDeclError]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclErrorAfterComma(
+            null
+          ) [VarDeclErrorAfterComma]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListList(
+        ConstVarDeclVar(
+          VarDeclOk(
+            Type(
+             int
+            ) [Type]
+            VarDeclItemSingle(
+             z
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclOk]
+        ) [ConstVarDeclVar]
+        ConstVarDeclListEpsilon(
+        ) [ConstVarDeclListEpsilon]
+      ) [ConstVarDeclListList]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  12:57:54,745 - Obradjuje se metoda: main na liniji 8
+ERROR 12:57:54,745 - Parsiranje nije uspesno zavrseno.

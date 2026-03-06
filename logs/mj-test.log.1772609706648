@@ -1,0 +1,157 @@
+INFO  08:34:46,311 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  08:34:46,360 - #2 program
+INFO  08:34:46,360 - #45 TestRel
+INFO  08:34:46,360 - #3 {
+INFO  08:34:46,362 - #14 void
+INFO  08:34:46,362 - #45 main
+INFO  08:34:46,362 - #12 (
+INFO  08:34:46,364 - #13 )
+INFO  08:34:46,365 - #3 {
+INFO  08:34:46,366 - #40 if
+INFO  08:34:46,366 - #12 (
+INFO  08:34:46,366 - #46 5
+INFO  08:34:46,367 - #26 <
+INFO  08:34:46,368 - #46 10
+INFO  08:34:46,370 - #13 )
+INFO  08:34:46,372 - #18 print
+INFO  08:34:46,373 - #12 (
+INFO  08:34:46,373 - #46 1
+INFO  08:34:46,374 - #13 )
+INFO  08:34:46,377 - #6 ;
+INFO  08:34:46,377 - #18 print
+INFO  08:34:46,378 - #12 (
+INFO  08:34:46,378 - #45 eol
+INFO  08:34:46,381 - #13 )
+INFO  08:34:46,384 - #6 ;
+INFO  08:34:46,384 - #4 }
+INFO  08:34:46,385 - #4 }
+INFO  08:34:46,390 - Program(
+  ProgramName(
+   TestRel
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          IfHeader(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailArithmetic(
+                    RelopLT(
+                    ) [RelopLT]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           10
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [CondFactTailArithmetic]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+          ) [IfHeader]
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListMore(
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorDesOrFuncCall(
+                            Designator(
+                              DesignatorName(
+                               eol
+                              ) [DesignatorName]
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                            CallOptEpsilon(
+                            ) [CallOptEpsilon]
+                          ) [FactorDesOrFuncCall]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  08:34:46,400 - Obradjuje se metoda: main na liniji 4
+INFO  08:34:46,408 - Generisanje koda uspesno zavrseno.

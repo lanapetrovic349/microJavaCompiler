@@ -1,0 +1,111 @@
+INFO  14:20:06,541 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:20:06,585 - #2 program
+INFO  14:20:06,585 - #45 TestParamsError
+INFO  14:20:06,586 - #3 {
+INFO  14:20:06,586 - #14 void
+INFO  14:20:06,587 - #45 func2
+INFO  14:20:06,588 - #12 (
+INFO  14:20:06,588 - #45 int
+INFO  14:20:06,588 - #45 a
+INFO  14:20:06,589 - #7 ,
+INFO  14:20:06,589 - #45 int
+INFO  14:20:06,589 - #45 b
+INFO  14:20:06,589 - #13 )
+INFO  14:20:06,590 - #45 int
+INFO  14:20:06,590 - #45 x
+INFO  14:20:06,590 - #45 y
+ERROR 14:20:06,591 - 
+Sintaksna greska na liniji 5
+INFO  14:20:06,591 - #6 ;
+INFO  14:20:06,591 - #3 {
+INFO  14:20:06,591 - #45 x
+INFO  14:20:06,592 - #8 =
+INFO  14:20:06,592 - #46 5
+ERROR 14:20:06,594 - Oporavak: greska u deklarisanju promenljive
+INFO  14:20:06,597 - #6 ;
+INFO  14:20:06,597 - #18 print
+INFO  14:20:06,597 - #12 (
+INFO  14:20:06,597 - #48 2
+INFO  14:20:06,597 - #13 )
+INFO  14:20:06,598 - #6 ;
+INFO  14:20:06,598 - #4 }
+INFO  14:20:06,598 - #4 }
+INFO  14:20:06,600 - Program(
+ TestParamsError
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     func2
+      FormParsOptYes(
+        FormParsMore(
+          FormParsSingle(
+            FormParSingle(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormParSingle]
+          ) [FormParsSingle]
+          FormParSingle(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [FormParSingle]
+        ) [FormParsMore]
+      ) [FormParsOptYes]
+      LocalVarDeclListMore(
+        VarDeclError(
+        ) [VarDeclError]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             x
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtPrint(
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorChar(
+                   2
+                  ) [FactorChar]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  14:20:06,601 - AST stablo
+ERROR 14:20:06,601 - Parsiranje nije uspesno zavrseno.

@@ -1,0 +1,154 @@
+INFO  17:58:02,703 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:58:02,742 - #2 program
+INFO  17:58:02,742 - #45 T3
+INFO  17:58:02,742 - #3 {
+INFO  17:58:02,743 - #14 void
+INFO  17:58:02,743 - #45 main
+INFO  17:58:02,744 - #12 (
+INFO  17:58:02,744 - #13 )
+INFO  17:58:02,745 - #45 int
+INFO  17:58:02,745 - #45 x
+INFO  17:58:02,746 - #6 ;
+INFO  17:58:02,746 - #3 {
+INFO  17:58:02,747 - #45 x
+INFO  17:58:02,747 - #8 =
+INFO  17:58:02,749 - #46 1
+INFO  17:58:02,750 - #6 ;
+INFO  17:58:02,752 - #42 switch
+INFO  17:58:02,752 - #12 (
+INFO  17:58:02,752 - #45 x
+INFO  17:58:02,753 - #13 )
+INFO  17:58:02,753 - #3 {
+INFO  17:58:02,753 - #44 case
+INFO  17:58:02,754 - #46 1
+INFO  17:58:02,755 - #36 :
+INFO  17:58:02,755 - #16 continue
+INFO  17:58:02,755 - #6 ;
+INFO  17:58:02,755 - #4 }
+INFO  17:58:02,757 - #4 }
+INFO  17:58:02,757 - #4 }
+INFO  17:58:02,759 - Program(
+  ProgramName(
+   T3
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtSwitch(
+            SwitchHeader(
+              Expr(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorDesignator(
+                              Designator(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                                DesignatorTailEpsilon(
+                                ) [DesignatorTailEpsilon]
+                              ) [Designator]
+                            ) [FactorDesignator]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                ExprOptEpsilon(
+                ) [ExprOptEpsilon]
+              ) [Expr]
+            ) [SwitchHeader]
+            CaseListMore(
+              CaseClause(
+               1
+                StatementListMore(
+                  StmtContinue(
+                  ) [StmtContinue]
+                  StatementListEpsilon(
+                  ) [StatementListEpsilon]
+                ) [StatementListMore]
+              ) [CaseClause]
+              CaseListEpsilon(
+              ) [CaseListEpsilon]
+            ) [CaseListMore]
+          ) [StmtSwitch]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:58:02,768 - Obradjuje se metoda: main na liniji 4
+ERROR 17:58:02,768 - continue van petlje
+ERROR 17:58:02,770 - Parsiranje nije uspesno zavrseno.

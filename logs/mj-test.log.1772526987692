@@ -1,0 +1,94 @@
+INFO  09:18:59,645 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  09:18:59,682 - #2 program
+INFO  09:18:59,682 - #45 P
+INFO  09:18:59,682 - #5 const
+INFO  09:18:59,683 - #45 int
+INFO  09:18:59,683 - #45 pi
+INFO  09:18:59,683 - #8 =
+INFO  09:18:59,684 - #46 3
+INFO  09:18:59,684 - #6 ;
+INFO  09:18:59,685 - #3 {
+INFO  09:18:59,687 - #14 void
+INFO  09:18:59,687 - #45 main
+INFO  09:18:59,688 - #12 (
+INFO  09:18:59,689 - #13 )
+INFO  09:18:59,690 - #3 {
+INFO  09:18:59,691 - #18 print
+INFO  09:18:59,691 - #12 (
+INFO  09:18:59,691 - #46 1
+INFO  09:18:59,691 - #13 )
+INFO  09:18:59,696 - #6 ;
+INFO  09:18:59,697 - #4 }
+INFO  09:18:59,699 - #4 }
+INFO  09:18:59,701 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclConst(
+      ConstDeclSingle(
+        Type(
+         int
+        ) [Type]
+        ConstDeclListSingle(
+          ConstInit(
+           pi
+            ConstNum(
+             3
+            ) [ConstNum]
+          ) [ConstInit]
+        ) [ConstDeclListSingle]
+      ) [ConstDeclSingle]
+    ) [ConstVarDeclConst]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  09:18:59,707 - Obradjuje se metoda: main na liniji 6
+INFO  09:18:59,710 - Parsiranje uspesno zavrseno.

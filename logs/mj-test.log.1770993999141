@@ -1,0 +1,326 @@
+INFO  15:46:33,901 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:46:33,932 - #2 program
+INFO  15:46:33,932 - #45 TestParamsError
+INFO  15:46:33,932 - #5 const
+INFO  15:46:33,933 - #45 bool
+INFO  15:46:33,933 - #45 pi
+INFO  15:46:33,933 - #8 =
+INFO  15:46:33,933 - #47 1
+INFO  15:46:33,933 - #7 ,
+INFO  15:46:33,933 - #45 g
+INFO  15:46:33,933 - #8 =
+INFO  15:46:33,933 - #47 0
+INFO  15:46:33,933 - #6 ;
+INFO  15:46:33,933 - #45 int
+INFO  15:46:33,934 - #45 x
+INFO  15:46:33,934 - #7 ,
+INFO  15:46:33,934 - #45 z
+INFO  15:46:33,934 - #6 ;
+INFO  15:46:33,934 - #45 char
+INFO  15:46:33,934 - #45 c
+INFO  15:46:33,934 - #7 ,
+INFO  15:46:33,934 - #45 b
+INFO  15:46:33,935 - #9 [
+INFO  15:46:33,937 - #10 ]
+INFO  15:46:33,937 - #6 ;
+INFO  15:46:33,937 - #3 {
+INFO  15:46:33,937 - #14 void
+INFO  15:46:33,937 - #45 main
+INFO  15:46:33,937 - #12 (
+INFO  15:46:33,938 - #13 )
+INFO  15:46:33,938 - #45 int
+INFO  15:46:33,938 - #45 x
+INFO  15:46:33,938 - #6 ;
+INFO  15:46:33,938 - #3 {
+INFO  15:46:33,939 - #4 }
+INFO  15:46:33,939 - #45 char
+INFO  15:46:33,939 - #45 func2
+INFO  15:46:33,939 - #12 (
+INFO  15:46:33,939 - #45 int
+INFO  15:46:33,939 - #45 a
+INFO  15:46:33,939 - #7 ,
+INFO  15:46:33,940 - #45 int
+INFO  15:46:33,940 - #45 b
+INFO  15:46:33,940 - #13 )
+INFO  15:46:33,940 - #45 int
+INFO  15:46:33,940 - #45 y
+INFO  15:46:33,940 - #6 ;
+INFO  15:46:33,940 - #3 {
+INFO  15:46:33,940 - #45 x
+INFO  15:46:33,940 - #8 =
+INFO  15:46:33,941 - #46 2
+INFO  15:46:33,941 - #6 ;
+INFO  15:46:33,941 - #18 print
+INFO  15:46:33,941 - #12 (
+INFO  15:46:33,941 - #48 2
+INFO  15:46:33,941 - #13 )
+INFO  15:46:33,943 - #6 ;
+INFO  15:46:33,943 - #40 if
+INFO  15:46:33,943 - #12 (
+INFO  15:46:33,943 - #45 x
+INFO  15:46:33,943 - #27 >
+INFO  15:46:33,943 - #46 2
+INFO  15:46:33,943 - #13 )
+INFO  15:46:33,944 - #3 {
+INFO  15:46:33,944 - #18 print
+INFO  15:46:33,944 - #12 (
+INFO  15:46:33,944 - #48 e
+INFO  15:46:33,944 - #13 )
+INFO  15:46:33,944 - #6 ;
+INFO  15:46:33,944 - #4 }
+INFO  15:46:33,945 - #19 return
+INFO  15:46:33,945 - #48 e
+INFO  15:46:33,945 - #6 ;
+INFO  15:46:33,946 - #4 }
+INFO  15:46:33,947 - #4 }
+INFO  15:46:33,948 - Program(
+  ProgramName(
+   TestParamsError
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclConst(
+      ConstDeclSingle(
+        Type(
+         bool
+        ) [Type]
+        ConstDeclListMore(
+          ConstDeclListSingle(
+            ConstInit(
+             pi
+              ConstBool(
+               1
+              ) [ConstBool]
+            ) [ConstInit]
+          ) [ConstDeclListSingle]
+          ConstInit(
+           g
+            ConstBool(
+             0
+            ) [ConstBool]
+          ) [ConstInit]
+        ) [ConstDeclListMore]
+      ) [ConstDeclSingle]
+    ) [ConstVarDeclConst]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListList(
+            VarDeclItemSingle(
+             z
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclListList]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListList(
+        ConstVarDeclVar(
+          VarDeclOk(
+            Type(
+             char
+            ) [Type]
+            VarDeclItemSingle(
+             c
+            ) [VarDeclItemSingle]
+            VarDeclListList(
+              VarDeclItemArray(
+               b
+              ) [VarDeclItemArray]
+              VarDeclListEpsilon(
+              ) [VarDeclListEpsilon]
+            ) [VarDeclListList]
+          ) [VarDeclOk]
+        ) [ConstVarDeclVar]
+        ConstVarDeclListEpsilon(
+        ) [ConstVarDeclListEpsilon]
+      ) [ConstVarDeclListList]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeType(
+          Type(
+           char
+          ) [Type]
+        ) [MethodTypeType]
+        MethodName(
+         func2
+        ) [MethodName]
+        FormParsOptYes(
+          FormParsMore(
+            FormParsSingle(
+              FormParSingle(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormParSingle]
+            ) [FormParsSingle]
+            FormParSingle(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormParSingle]
+          ) [FormParsMore]
+        ) [FormParsOptYes]
+        LocalVarDeclListMore(
+          VarDeclOk(
+            Type(
+             int
+            ) [Type]
+            VarDeclItemSingle(
+             y
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclOk]
+          LocalVarDeclListEpsilon(
+          ) [LocalVarDeclListEpsilon]
+        ) [LocalVarDeclListMore]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+               x
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListMore(
+            StmtPrint(
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorChar(
+                     2
+                    ) [FactorChar]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            StatementListMore(
+              StmtIf(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            Designator(
+                             x
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailArithmetic(
+                        RelopGT(
+                        ) [RelopGT]
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             2
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                      ) [CondFactTailArithmetic]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                StmtBlock(
+                  StatementListMore(
+                    StmtPrint(
+                      ExprArithmetic(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            FactorChar(
+                             e
+                            ) [FactorChar]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                      ) [ExprArithmetic]
+                      PrintOptNo(
+                      ) [PrintOptNo]
+                    ) [StmtPrint]
+                    StatementListEpsilon(
+                    ) [StatementListEpsilon]
+                  ) [StatementListMore]
+                ) [StmtBlock]
+                ElseStmtNo(
+                ) [ElseStmtNo]
+              ) [StmtIf]
+              StatementListMore(
+                StmtReturnExpr(
+                  ExprArithmetic(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorChar(
+                         e
+                        ) [FactorChar]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprArithmetic]
+                ) [StmtReturnExpr]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  15:46:33,952 - Obradjuje se metoda: main na liniji 7
+INFO  15:46:33,952 - Obradjuje se metoda: func2 na liniji 10
+INFO  15:46:33,953 - Parsiranje uspesno zavrseno.

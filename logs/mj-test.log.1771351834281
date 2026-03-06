@@ -1,0 +1,137 @@
+INFO  19:08:23,242 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:08:23,283 - #2 program
+INFO  19:08:23,285 - #45 T
+INFO  19:08:23,285 - #3 {
+INFO  19:08:23,285 - #14 void
+INFO  19:08:23,285 - #45 main
+INFO  19:08:23,286 - #12 (
+INFO  19:08:23,286 - #13 )
+INFO  19:08:23,287 - #45 int
+INFO  19:08:23,287 - #45 x
+INFO  19:08:23,287 - #6 ;
+INFO  19:08:23,288 - #45 char
+INFO  19:08:23,288 - #45 c
+INFO  19:08:23,288 - #6 ;
+INFO  19:08:23,288 - #45 int
+INFO  19:08:23,288 - #45 arr
+INFO  19:08:23,288 - #9 [
+INFO  19:08:23,288 - #10 ]
+INFO  19:08:23,288 - #6 ;
+INFO  19:08:23,289 - #3 {
+INFO  19:08:23,289 - #45 len
+INFO  19:08:23,289 - #12 (
+INFO  19:08:23,290 - #45 arr
+INFO  19:08:23,294 - #13 )
+INFO  19:08:23,298 - #6 ;
+INFO  19:08:23,298 - #4 }
+INFO  19:08:23,299 - #4 }
+INFO  19:08:23,303 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListMore(
+          VarDeclOk(
+            Type(
+             char
+            ) [Type]
+            VarDeclItemSingle(
+             c
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclOk]
+          LocalVarDeclListMore(
+            VarDeclOk(
+              Type(
+               int
+              ) [Type]
+              VarDeclItemArray(
+               arr
+              ) [VarDeclItemArray]
+              VarDeclListEpsilon(
+              ) [VarDeclListEpsilon]
+            ) [VarDeclOk]
+            LocalVarDeclListEpsilon(
+            ) [LocalVarDeclListEpsilon]
+          ) [LocalVarDeclListMore]
+        ) [LocalVarDeclListMore]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtCall(
+            Designator(
+              DesignatorName(
+               len
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            ActParsYes(
+              ActParsSingle(
+                Expr(
+                  ConditionSingle(
+                    CondTermSingle(
+                      CondFact(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorDesOrFuncCall(
+                                Designator(
+                                  DesignatorName(
+                                   arr
+                                  ) [DesignatorName]
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                ) [Designator]
+                                CallOptEpsilon(
+                                ) [CallOptEpsilon]
+                              ) [FactorDesOrFuncCall]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                        CondFactTailEpsilon(
+                        ) [CondFactTailEpsilon]
+                      ) [CondFact]
+                    ) [CondTermSingle]
+                  ) [ConditionSingle]
+                  ExprOptEpsilon(
+                  ) [ExprOptEpsilon]
+                ) [Expr]
+              ) [ActParsSingle]
+            ) [ActParsYes]
+          ) [DesignatorStmtCall]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  19:08:23,310 - Obradjuje se metoda: main na liniji 4
+INFO  19:08:23,311 - Parsiranje uspesno zavrseno.

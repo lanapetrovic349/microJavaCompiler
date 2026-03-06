@@ -1,0 +1,197 @@
+INFO  17:16:08,152 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:16:08,228 - #2 program
+INFO  17:16:08,229 - #45 TestFor
+INFO  17:16:08,229 - #3 {
+INFO  17:16:08,230 - #14 void
+INFO  17:16:08,230 - #45 main
+INFO  17:16:08,231 - #12 (
+INFO  17:16:08,232 - #13 )
+INFO  17:16:08,233 - #3 {
+INFO  17:16:08,234 - #45 int
+INFO  17:16:08,234 - #45 i
+ERROR 17:16:08,234 - 
+Sintaksna greska na liniji 6
+INFO  17:16:08,234 - #6 ;
+INFO  17:16:08,234 - #43 for
+INFO  17:16:08,234 - #12 (
+INFO  17:16:08,235 - #45 i
+ERROR 17:16:08,235 - Oporavak: greska prilikom dodele do ;
+INFO  17:16:08,236 - #8 =
+INFO  17:16:08,239 - #46 0
+INFO  17:16:08,242 - #6 ;
+INFO  17:16:08,248 - #45 i
+INFO  17:16:08,248 - #26 <
+INFO  17:16:08,249 - #46 10
+INFO  17:16:08,250 - #6 ;
+INFO  17:16:08,251 - #45 i
+INFO  17:16:08,251 - #20 ++
+INFO  17:16:08,251 - #13 )
+INFO  17:16:08,251 - #18 print
+INFO  17:16:08,251 - #12 (
+INFO  17:16:08,251 - #45 i
+INFO  17:16:08,251 - #13 )
+INFO  17:16:08,253 - #6 ;
+INFO  17:16:08,253 - #4 }
+INFO  17:16:08,254 - #4 }
+INFO  17:16:08,259 - Program(
+  ProgramName(
+   TestFor
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListMore(
+          StmtFor(
+            ForInitYes(
+              DesignatorStmtAssign(
+                Designator(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  DesignatorTailEpsilon(
+                  ) [DesignatorTailEpsilon]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  ConditionSingle(
+                    CondTermSingle(
+                      CondFact(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorNumber(
+                               0
+                              ) [FactorNumber]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                        CondFactTailEpsilon(
+                        ) [CondFactTailEpsilon]
+                      ) [CondFact]
+                    ) [CondTermSingle]
+                  ) [ConditionSingle]
+                  ExprOptEpsilon(
+                  ) [ExprOptEpsilon]
+                ) [Expr]
+              ) [DesignatorStmtAssign]
+            ) [ForInitYes]
+            ForCondYes(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorDesignator(
+                            Designator(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailArithmetic(
+                      RelopLT(
+                      ) [RelopLT]
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             10
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [CondFactTailArithmetic]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+            ) [ForCondYes]
+            ForStepYes(
+              DesignatorStmtInc(
+                Designator(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  DesignatorTailEpsilon(
+                  ) [DesignatorTailEpsilon]
+                ) [Designator]
+              ) [DesignatorStmtInc]
+            ) [ForStepYes]
+            StmtPrint(
+              Expr(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorDesignator(
+                              Designator(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                                DesignatorTailEpsilon(
+                                ) [DesignatorTailEpsilon]
+                              ) [Designator]
+                            ) [FactorDesignator]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                ExprOptEpsilon(
+                ) [ExprOptEpsilon]
+              ) [Expr]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+          ) [StmtFor]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:16:08,277 - Obradjuje se metoda: main na liniji 4
+ERROR 17:16:08,277 - Simbol nije nadjen: i na liniji 8
+ERROR 17:16:08,278 - Nekompatibilni tipovi u dodeli na liniji 8
+ERROR 17:16:08,278 - Simbol nije nadjen: i na liniji 8
+ERROR 17:16:08,278 - Nekompatibilni tipovi u relaciji na liniji 18
+ERROR 17:16:08,278 - Simbol nije nadjen: i na liniji 8
+ERROR 17:16:08,279 - Simbol nije nadjen: i na liniji 9
+ERROR 17:16:08,279 - print podrzava samo int, char i bool na liniji 17
+ERROR 17:16:08,279 - Uslov u for mora biti tipa bool na liniji 8
+ERROR 17:16:08,280 - Parsiranje nije uspesno zavrseno.

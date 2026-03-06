@@ -1,0 +1,145 @@
+INFO  10:18:57,899 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  10:18:57,932 - #2 program
+INFO  10:18:57,932 - #45 TestAssign
+INFO  10:18:57,932 - #45 int
+INFO  10:18:57,932 - #45 x
+INFO  10:18:57,933 - #6 ;
+INFO  10:18:57,933 - #3 {
+INFO  10:18:57,935 - #14 void
+INFO  10:18:57,935 - #45 main
+INFO  10:18:57,935 - #12 (
+INFO  10:18:57,935 - #13 )
+INFO  10:18:57,936 - #3 {
+INFO  10:18:57,937 - #45 x
+INFO  10:18:57,937 - #8 =
+INFO  10:18:57,938 - #46 1
+INFO  10:18:57,939 - #6 ;
+INFO  10:18:57,939 - #45 x
+INFO  10:18:57,940 - #8 =
+INFO  10:18:57,940 - #46 3
+INFO  10:18:57,940 - #33 +
+INFO  10:18:57,940 - #31 *
+ERROR 10:18:57,940 - 
+Sintaksna greska na liniji 8
+INFO  10:18:57,942 - #46 5
+INFO  10:18:57,942 - #6 ;
+INFO  10:18:57,942 - #18 print
+INFO  10:18:57,943 - #12 (
+INFO  10:18:57,943 - #45 x
+ERROR 10:18:57,943 - Oporavak: Greska u dodeli vrednosti do ; na liniji 8
+INFO  10:18:57,944 - #13 )
+INFO  10:18:57,946 - #6 ;
+INFO  10:18:57,946 - #45 x
+INFO  10:18:57,946 - #8 =
+INFO  10:18:57,946 - #30 %
+ERROR 10:18:57,946 - 
+Sintaksna greska na liniji 13
+INFO  10:18:57,946 - #6 ;
+INFO  10:18:57,946 - #18 print
+INFO  10:18:57,946 - #12 (
+INFO  10:18:57,947 - #48 K
+ERROR 10:18:57,947 - Oporavak: Greska u dodeli vrednosti do ; na liniji 13
+INFO  10:18:57,947 - #13 )
+INFO  10:18:57,947 - #6 ;
+INFO  10:18:57,948 - #4 }
+INFO  10:18:57,948 - #4 }
+INFO  10:18:57,950 - Program(
+ TestAssign
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDeclOk(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             x
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          ErrorStmtAssign(
+          ) [ErrorStmtAssign]
+          StatementListMore(
+            StmtPrint(
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      Designator(
+                       x
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            StatementListMore(
+              ErrorStmtAssign(
+              ) [ErrorStmtAssign]
+              StatementListMore(
+                StmtPrint(
+                  ExprArithmetic(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorChar(
+                         K
+                        ) [FactorChar]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprArithmetic]
+                  PrintOptNo(
+                  ) [PrintOptNo]
+                ) [StmtPrint]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDeclOk]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  10:18:57,950 - AST stablo
+ERROR 10:18:57,950 - Parsiranje nije uspesno zavrseno.

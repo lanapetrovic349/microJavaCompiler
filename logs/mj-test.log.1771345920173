@@ -1,0 +1,178 @@
+INFO  17:31:51,121 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:31:51,155 - #2 program
+INFO  17:31:51,155 - #45 TestFor4
+INFO  17:31:51,155 - #3 {
+INFO  17:31:51,157 - #14 void
+INFO  17:31:51,158 - #45 main
+INFO  17:31:51,158 - #12 (
+INFO  17:31:51,159 - #13 )
+INFO  17:31:51,159 - #3 {
+INFO  17:31:51,160 - #45 int
+INFO  17:31:51,160 - #45 i
+ERROR 17:31:51,160 - 
+Sintaksna greska na liniji 6
+INFO  17:31:51,160 - #6 ;
+INFO  17:31:51,160 - #43 for
+INFO  17:31:51,160 - #12 (
+INFO  17:31:51,160 - #45 i
+ERROR 17:31:51,160 - Oporavak: greska prilikom dodele do ;
+INFO  17:31:51,161 - #8 =
+INFO  17:31:51,162 - #46 0
+INFO  17:31:51,164 - #6 ;
+INFO  17:31:51,168 - #6 ;
+INFO  17:31:51,171 - #45 i
+INFO  17:31:51,171 - #20 ++
+INFO  17:31:51,171 - #13 )
+INFO  17:31:51,171 - #3 {
+INFO  17:31:51,172 - #40 if
+INFO  17:31:51,172 - #12 (
+INFO  17:31:51,172 - #45 i
+INFO  17:31:51,172 - #24 ==
+INFO  17:31:51,172 - #46 3
+INFO  17:31:51,172 - #13 )
+INFO  17:31:51,172 - #15 break
+INFO  17:31:51,172 - #6 ;
+INFO  17:31:51,172 - #4 }
+INFO  17:31:51,175 - #4 }
+INFO  17:31:51,175 - #4 }
+INFO  17:31:51,178 - Program(
+  ProgramName(
+   TestFor4
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListMore(
+          StmtFor(
+            ForHeader(
+              ForInitYes(
+                DesignatorStmtAssign(
+                  Designator(
+                    DesignatorName(
+                     i
+                    ) [DesignatorName]
+                    DesignatorTailEpsilon(
+                    ) [DesignatorTailEpsilon]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    ConditionSingle(
+                      CondTermSingle(
+                        CondFact(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorNumber(
+                                 0
+                                ) [FactorNumber]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                          CondFactTailEpsilon(
+                          ) [CondFactTailEpsilon]
+                        ) [CondFact]
+                      ) [CondTermSingle]
+                    ) [ConditionSingle]
+                    ExprOptEpsilon(
+                    ) [ExprOptEpsilon]
+                  ) [Expr]
+                ) [DesignatorStmtAssign]
+              ) [ForInitYes]
+              ForCondNo(
+              ) [ForCondNo]
+              ForStepYes(
+                DesignatorStmtInc(
+                  Designator(
+                    DesignatorName(
+                     i
+                    ) [DesignatorName]
+                    DesignatorTailEpsilon(
+                    ) [DesignatorTailEpsilon]
+                  ) [Designator]
+                ) [DesignatorStmtInc]
+              ) [ForStepYes]
+            ) [ForHeader]
+            StmtBlock(
+              StatementListMore(
+                StmtIf(
+                  ConditionSingle(
+                    CondTermSingle(
+                      CondFact(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorDesignator(
+                                Designator(
+                                  DesignatorName(
+                                   i
+                                  ) [DesignatorName]
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                        CondFactTailArithmetic(
+                          RelopEQ(
+                          ) [RelopEQ]
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorNumber(
+                                 3
+                                ) [FactorNumber]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [CondFactTailArithmetic]
+                      ) [CondFact]
+                    ) [CondTermSingle]
+                  ) [ConditionSingle]
+                  StmtBreak(
+                  ) [StmtBreak]
+                  ElseStmtNo(
+                  ) [ElseStmtNo]
+                ) [StmtIf]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StmtBlock]
+          ) [StmtFor]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:31:51,185 - Obradjuje se metoda: main na liniji 4
+ERROR 17:31:51,185 - Simbol nije nadjen: i na liniji 8
+ERROR 17:31:51,186 - Nekompatibilni tipovi u dodeli na liniji 8
+ERROR 17:31:51,186 - Simbol nije nadjen: i na liniji 8
+ERROR 17:31:51,186 - Simbol nije nadjen: i na liniji 10
+ERROR 17:31:51,186 - Nekompatibilni tipovi u relaciji na liniji 15
+ERROR 17:31:51,186 - Uslov u if mora biti bool na liniji 15
+ERROR 17:31:51,187 - Parsiranje nije uspesno zavrseno.

@@ -1,0 +1,62 @@
+INFO  18:40:39,733 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:40:39,762 - #2 program
+INFO  18:40:39,762 - #45 Test
+INFO  18:40:39,762 - #3 {
+INFO  18:40:39,763 - #14 void
+INFO  18:40:39,763 - #45 main
+INFO  18:40:39,763 - #12 (
+INFO  18:40:39,764 - #13 )
+INFO  18:40:39,764 - #3 {
+INFO  18:40:39,764 - #40 if
+INFO  18:40:39,764 - #12 (
+INFO  18:40:39,764 - #46 5
+INFO  18:40:39,765 - #26 <
+INFO  18:40:39,766 - #13 )
+ERROR 18:40:39,766 - 
+Sintaksna greska na liniji 4
+INFO  18:40:39,766 - #3 {
+INFO  18:40:39,766 - #4 }
+INFO  18:40:39,766 - #4 }
+ERROR 18:40:39,766 - Oporavak: greska u izrazu
+INFO  18:40:39,767 - #4 }
+INFO  18:40:39,770 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            ConditionError(
+            ) [ConditionError]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:40:39,778 - Obradjuje se metoda: main na liniji 3
+ERROR 18:40:39,778 - Uslov u if mora biti bool na liniji 11
+ERROR 18:40:39,779 - Parsiranje nije uspesno zavrseno.

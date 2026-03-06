@@ -1,0 +1,128 @@
+INFO  13:53:29,466 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:53:29,496 - #2 program
+INFO  13:53:29,496 - #45 Test
+INFO  13:53:29,496 - #45 int
+INFO  13:53:29,497 - #45 x
+INFO  13:53:29,497 - #6 ;
+INFO  13:53:29,497 - #3 {
+INFO  13:53:29,499 - #14 void
+INFO  13:53:29,499 - #45 main
+INFO  13:53:29,499 - #12 (
+INFO  13:53:29,499 - #13 )
+INFO  13:53:29,500 - #3 {
+INFO  13:53:29,500 - #45 x
+INFO  13:53:29,500 - #8 =
+INFO  13:53:29,502 - #46 5
+INFO  13:53:29,505 - #33 +
+INFO  13:53:29,505 - #6 ;
+ERROR 13:53:29,505 - 
+Sintaksna greska na liniji 7
+INFO  13:53:29,506 - #45 x
+INFO  13:53:29,506 - #8 =
+INFO  13:53:29,506 - #46 10
+ERROR 13:53:29,506 - Oporavak: greska u izrazu
+INFO  13:53:29,510 - #6 ;
+INFO  13:53:29,511 - #4 }
+INFO  13:53:29,511 - #4 }
+INFO  13:53:29,513 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ConditionSingle(
+                ConditionError(
+                ) [ConditionError]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             10
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                ExprOptEpsilon(
+                ) [ExprOptEpsilon]
+              ) [Expr]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  13:53:29,519 - Obradjuje se metoda: main na liniji 6
+ERROR 13:53:29,519 - Nekompatibilni tipovi u dodeli na liniji 7
+ERROR 13:53:29,520 - Parsiranje nije uspesno zavrseno.

@@ -1,0 +1,99 @@
+INFO  12:58:08,990 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:58:09,019 - #2 program
+INFO  12:58:09,019 - #45 Test
+INFO  12:58:09,019 - #3 {
+INFO  12:58:09,020 - #14 void
+INFO  12:58:09,020 - #45 main
+INFO  12:58:09,020 - #12 (
+INFO  12:58:09,020 - #13 )
+INFO  12:58:09,021 - #3 {
+INFO  12:58:09,021 - #18 print
+INFO  12:58:09,021 - #12 (
+INFO  12:58:09,021 - #46 2
+INFO  12:58:09,022 - #33 +
+INFO  12:58:09,022 - #46 10
+INFO  12:58:09,023 - #30 %
+INFO  12:58:09,023 - #46 3
+INFO  12:58:09,024 - #13 )
+INFO  12:58:09,028 - #6 ;
+INFO  12:58:09,028 - #4 }
+INFO  12:58:09,028 - #4 }
+INFO  12:58:09,029 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprAdd(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermMul(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           10
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                      MulopRem(
+                      ) [MulopRem]
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermMul]
+                  ) [ArithmeticExprAdd]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  12:58:09,037 - Obradjuje se metoda: main na liniji 4
+INFO  12:58:09,041 - Generisanje koda uspesno zavrseno.

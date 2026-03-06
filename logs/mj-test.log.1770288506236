@@ -1,0 +1,184 @@
+INFO  11:45:41,322 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  11:45:41,354 - #2 program
+INFO  11:45:41,354 - #45 ArrayTest
+INFO  11:45:41,354 - #45 int
+INFO  11:45:41,355 - #45 arr
+INFO  11:45:41,355 - #9 [
+INFO  11:45:41,355 - #10 ]
+INFO  11:45:41,355 - #6 ;
+INFO  11:45:41,356 - #45 int
+INFO  11:45:41,357 - #45 i
+INFO  11:45:41,357 - #6 ;
+INFO  11:45:41,357 - #3 {
+INFO  11:45:41,359 - #14 void
+INFO  11:45:41,359 - #45 main
+INFO  11:45:41,359 - #12 (
+INFO  11:45:41,359 - #13 )
+INFO  11:45:41,359 - #3 {
+INFO  11:45:41,360 - #45 arr
+INFO  11:45:41,360 - #8 =
+INFO  11:45:41,360 - #37 new
+INFO  11:45:41,361 - #45 int
+INFO  11:45:41,361 - #9 [
+INFO  11:45:41,361 - #46 5
+INFO  11:45:41,363 - #10 ]
+INFO  11:45:41,363 - #6 ;
+INFO  11:45:41,363 - #45 arr
+INFO  11:45:41,363 - #9 [
+INFO  11:45:41,363 - #46 0
+INFO  11:45:41,363 - #10 ]
+INFO  11:45:41,363 - #8 =
+INFO  11:45:41,364 - #30 %
+ERROR 11:45:41,364 - 
+Sintaksna greska na liniji 11
+INFO  11:45:41,364 - #30 %
+INFO  11:45:41,364 - #30 %
+INFO  11:45:41,364 - #6 ;
+INFO  11:45:41,364 - #45 arr
+INFO  11:45:41,364 - #9 [
+INFO  11:45:41,364 - #46 1
+ERROR 11:45:41,364 - Oporavak: Greska u dodeli do ;
+INFO  11:45:41,365 - #33 +
+INFO  11:45:41,365 - #31 *
+ERROR 11:45:41,365 - 
+Sintaksna greska na liniji 17
+INFO  11:45:41,365 - #10 ]
+INFO  11:45:41,365 - #8 =
+INFO  11:45:41,365 - #46 2
+INFO  11:45:41,365 - #6 ;
+INFO  11:45:41,365 - #43 for
+INFO  11:45:41,365 - #12 (
+INFO  11:45:41,366 - #45 i
+ERROR 11:45:41,366 - Oporavak: Greska u dodeli do ;
+INFO  11:45:41,366 - #8 =
+INFO  11:45:41,366 - #46 0
+INFO  11:45:41,366 - #6 ;
+INFO  11:45:41,366 - #45 i
+INFO  11:45:41,366 - #26 <
+INFO  11:45:41,366 - #31 *
+ERROR 11:45:41,366 - 
+Sintaksna greska na liniji 22
+INFO  11:45:41,367 - #6 ;
+INFO  11:45:41,367 - #45 i
+INFO  11:45:41,367 - #20 ++
+INFO  11:45:41,367 - #13 )
+ERROR 11:45:41,367 - Oporavak: Greska u dodeli do ;
+ERROR 11:45:41,367 - 
+Sintaksna greska na liniji 22
+INFO  11:45:41,367 - #3 {
+INFO  11:45:41,367 - #18 print
+INFO  11:45:41,367 - #12 (
+INFO  11:45:41,368 - #45 arr
+INFO  11:45:41,368 - #9 [
+INFO  11:45:41,368 - #45 i
+INFO  11:45:41,368 - #10 ]
+INFO  11:45:41,368 - #13 )
+INFO  11:45:41,368 - #6 ;
+INFO  11:45:41,368 - #4 }
+INFO  11:45:41,368 - #18 print
+INFO  11:45:41,368 - #12 (
+INFO  11:45:41,368 - #46 0
+INFO  11:45:41,368 - #13 )
+INFO  11:45:41,369 - #6 ;
+INFO  11:45:41,369 - #4 }
+INFO  11:45:41,369 - #4 }
+ERROR 11:45:41,369 - Oporavak: Greska u dodeli do ;
+INFO  11:45:41,373 - Program(
+ ArrayTest
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         arr
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           i
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDeclOk(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             arr
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNew(
+                    Type(
+                     int
+                    ) [Type]
+                    ExprArithmetic(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           5
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [ExprArithmetic]
+                  ) [FactorNew]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtDesignatorError(
+          ) [StmtDesignatorError]
+          StatementListMore(
+            StmtDesignatorError(
+            ) [StmtDesignatorError]
+            StatementListMore(
+              StmtDesignatorError(
+              ) [StmtDesignatorError]
+              StatementListMore(
+                StmtDesignatorError(
+                ) [StmtDesignatorError]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDeclOk]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  11:45:41,373 - AST stablo
+ERROR 11:45:41,373 - Parsiranje nije uspesno zavrseno.

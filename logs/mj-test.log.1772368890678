@@ -1,0 +1,65 @@
+INFO  12:58:22,232 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:58:22,283 - #2 program
+INFO  12:58:22,284 - #45 Test
+INFO  12:58:22,284 - #45 int
+INFO  12:58:22,286 - #45 x
+INFO  12:58:22,287 - #6 ;
+INFO  12:58:22,288 - #3 {
+INFO  12:58:22,289 - #14 void
+INFO  12:58:22,289 - #45 main
+INFO  12:58:22,290 - #12 (
+INFO  12:58:22,290 - #13 )
+INFO  12:58:22,291 - #3 {
+INFO  12:58:22,291 - #45 int
+INFO  12:58:22,292 - #45 a
+ERROR 12:58:22,292 - 
+Sintaksna greska na liniji 7
+INFO  12:58:22,292 - #45 b
+INFO  12:58:22,292 - #6 ;
+INFO  12:58:22,292 - #4 }
+INFO  12:58:22,293 - #4 }
+ERROR 12:58:22,293 - Oporavak: greska prilikom dodele do ;
+INFO  12:58:22,296 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  12:58:22,308 - Obradjuje se metoda: main na liniji 6
+ERROR 12:58:22,309 - Parsiranje nije uspesno zavrseno.

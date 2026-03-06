@@ -1,0 +1,172 @@
+INFO  18:41:21,974 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:41:22,000 - #2 program
+INFO  18:41:22,000 - #45 Test
+INFO  18:41:22,000 - #45 int
+INFO  18:41:22,001 - #45 a
+INFO  18:41:22,001 - #45 b
+ERROR 18:41:22,001 - 
+Sintaksna greska na liniji 3
+INFO  18:41:22,001 - #7 ,
+INFO  18:41:22,001 - #7 ,
+INFO  18:41:22,001 - #45 c
+INFO  18:41:22,001 - #6 ;
+INFO  18:41:22,001 - #3 {
+INFO  18:41:22,001 - #14 void
+INFO  18:41:22,001 - #45 f
+ERROR 18:41:22,001 - Oporavak: greska u globalnoj deklaraciji
+INFO  18:41:22,002 - #12 (
+INFO  18:41:22,004 - #45 int
+INFO  18:41:22,004 - #45 x
+INFO  18:41:22,004 - #7 ,
+INFO  18:41:22,004 - #7 ,
+ERROR 18:41:22,004 - 
+Sintaksna greska na liniji 7
+INFO  18:41:22,006 - #45 int
+INFO  18:41:22,006 - #45 y
+INFO  18:41:22,006 - #13 )
+ERROR 18:41:22,006 - Oporavak: greska u formalnim argumentima
+INFO  18:41:22,008 - #3 {
+INFO  18:41:22,008 - #40 if
+INFO  18:41:22,008 - #12 (
+INFO  18:41:22,008 - #46 5
+INFO  18:41:22,008 - #26 <
+INFO  18:41:22,009 - #13 )
+ERROR 18:41:22,009 - 
+Sintaksna greska na liniji 8
+INFO  18:41:22,009 - #3 {
+INFO  18:41:22,009 - #45 a
+INFO  18:41:22,009 - #8 =
+ERROR 18:41:22,009 - Oporavak: greska u izrazu
+INFO  18:41:22,010 - #46 5
+INFO  18:41:22,010 - #33 +
+INFO  18:41:22,010 - #6 ;
+ERROR 18:41:22,010 - 
+Sintaksna greska na liniji 9
+INFO  18:41:22,010 - #4 }
+INFO  18:41:22,010 - #45 a
+INFO  18:41:22,010 - #8 =
+ERROR 18:41:22,010 - Oporavak: greska u izrazu
+INFO  18:41:22,012 - #46 10
+INFO  18:41:22,012 - #6 ;
+INFO  18:41:22,012 - #4 }
+INFO  18:41:22,012 - #4 }
+INFO  18:41:22,014 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclError(
+    ) [ConstVarDeclError]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptYes(
+        FormParsMore(
+          FormParsError(
+          ) [FormParsError]
+          FormParSingle(
+            Type(
+             int
+            ) [Type]
+           y
+          ) [FormParSingle]
+        ) [FormParsMore]
+      ) [FormParsOptYes]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            ConditionError(
+            ) [ConditionError]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListMore(
+              StmtDesignator(
+                DesignatorStmtAssign(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    DesignatorTailEpsilon(
+                    ) [DesignatorTailEpsilon]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    ConditionSingle(
+                      ConditionError(
+                      ) [ConditionError]
+                    ) [ConditionSingle]
+                    ExprOptEpsilon(
+                    ) [ExprOptEpsilon]
+                  ) [Expr]
+                ) [DesignatorStmtAssign]
+              ) [StmtDesignator]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             10
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                ExprOptEpsilon(
+                ) [ExprOptEpsilon]
+              ) [Expr]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:41:22,019 - Obradjuje se metoda: f na liniji 7
+ERROR 18:41:22,019 - Simbol nije nadjen: a na liniji 9
+ERROR 18:41:22,019 - Uslov u if mora biti bool na liniji 11
+ERROR 18:41:22,019 - Simbol nije nadjen: a na liniji 11
+ERROR 18:41:22,019 - Nekompatibilni tipovi u dodeli na liniji 11
+ERROR 18:41:22,019 - Ne postoji main metoda! na liniji 1
+ERROR 18:41:22,020 - Parsiranje nije uspesno zavrseno.

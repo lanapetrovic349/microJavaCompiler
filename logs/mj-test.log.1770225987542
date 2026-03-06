@@ -1,0 +1,243 @@
+INFO  18:21:24,287 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:21:24,331 - #2 program
+INFO  18:21:24,331 - #45 P
+INFO  18:21:24,332 - #45 int
+INFO  18:21:24,332 - #45 a
+INFO  18:21:24,332 - #9 [
+INFO  18:21:24,332 - #10 ]
+INFO  18:21:24,332 - #6 ;
+INFO  18:21:24,333 - #45 int
+INFO  18:21:24,333 - #45 i
+INFO  18:21:24,333 - #6 ;
+INFO  18:21:24,333 - #3 {
+INFO  18:21:24,334 - #14 void
+INFO  18:21:24,334 - #45 main
+INFO  18:21:24,335 - #12 (
+INFO  18:21:24,335 - #13 )
+INFO  18:21:24,335 - #3 {
+INFO  18:21:24,336 - #45 a
+INFO  18:21:24,336 - #8 =
+INFO  18:21:24,337 - #37 new
+INFO  18:21:24,338 - #45 int
+INFO  18:21:24,338 - #9 [
+INFO  18:21:24,338 - #46 3
+INFO  18:21:24,340 - #10 ]
+INFO  18:21:24,340 - #6 ;
+INFO  18:21:24,340 - #45 a
+INFO  18:21:24,340 - #9 [
+INFO  18:21:24,340 - #46 0
+INFO  18:21:24,340 - #10 ]
+INFO  18:21:24,340 - #8 =
+INFO  18:21:24,340 - #46 1
+INFO  18:21:24,340 - #6 ;
+INFO  18:21:24,340 - #45 a
+INFO  18:21:24,340 - #9 [
+INFO  18:21:24,340 - #45 a
+INFO  18:21:24,340 - #9 [
+INFO  18:21:24,340 - #46 0
+INFO  18:21:24,340 - #10 ]
+INFO  18:21:24,342 - #10 ]
+INFO  18:21:24,342 - #8 =
+INFO  18:21:24,342 - #46 7
+INFO  18:21:24,342 - #6 ;
+INFO  18:21:24,342 - #18 print
+INFO  18:21:24,342 - #12 (
+INFO  18:21:24,342 - #45 a
+INFO  18:21:24,342 - #22 .
+INFO  18:21:24,342 - #23 length
+INFO  18:21:24,342 - #13 )
+INFO  18:21:24,344 - #6 ;
+INFO  18:21:24,344 - #4 }
+INFO  18:21:24,344 - #4 }
+INFO  18:21:24,346 - Program(
+ P
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         a
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           i
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             a
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNew(
+                    Type(
+                     int
+                    ) [Type]
+                    ExprArithmetic(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [ExprArithmetic]
+                  ) [FactorNew]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+               a
+                DesignatorTailMore(
+                  DesignatorTailEpsilon(
+                  ) [DesignatorTailEpsilon]
+                  DesignatorSuffixArray(
+                    ExprArithmetic(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [ExprArithmetic]
+                  ) [DesignatorSuffixArray]
+                ) [DesignatorTailMore]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListMore(
+            StmtDesignator(
+              DesignatorStmtAssign(
+                Designator(
+                 a
+                  DesignatorTailMore(
+                    DesignatorTailEpsilon(
+                    ) [DesignatorTailEpsilon]
+                    DesignatorSuffixArray(
+                      ExprArithmetic(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              Designator(
+                               a
+                                DesignatorTailMore(
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                  DesignatorSuffixArray(
+                                    ExprArithmetic(
+                                      ArithmeticExprTerm(
+                                        TermFactor(
+                                          FactorNumber(
+                                           0
+                                          ) [FactorNumber]
+                                        ) [TermFactor]
+                                      ) [ArithmeticExprTerm]
+                                    ) [ExprArithmetic]
+                                  ) [DesignatorSuffixArray]
+                                ) [DesignatorTailMore]
+                              ) [Designator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                      ) [ExprArithmetic]
+                    ) [DesignatorSuffixArray]
+                  ) [DesignatorTailMore]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                ExprArithmetic(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       7
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [ExprArithmetic]
+              ) [DesignatorStmtAssign]
+            ) [StmtDesignator]
+            StatementListMore(
+              StmtPrint(
+                ExprArithmetic(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        Designator(
+                         a
+                          DesignatorTailMore(
+                            DesignatorTailEpsilon(
+                            ) [DesignatorTailEpsilon]
+                            DesignatorSuffixLength(
+                            ) [DesignatorSuffixLength]
+                          ) [DesignatorTailMore]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [ExprArithmetic]
+                PrintOptNo(
+                ) [PrintOptNo]
+              ) [StmtPrint]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:21:24,346 - ---------------------------------------------------------------------

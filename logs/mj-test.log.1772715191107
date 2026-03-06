@@ -1,0 +1,70 @@
+INFO  13:53:02,106 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:53:02,138 - #2 program
+INFO  13:53:02,138 - #45 Test8
+INFO  13:53:02,138 - #11 enum
+INFO  13:53:02,138 - #45 A
+INFO  13:53:02,138 - #3 {
+INFO  13:53:02,138 - #45 X
+INFO  13:53:02,138 - #8 =
+INFO  13:53:02,138 - #46 5
+INFO  13:53:02,138 - #7 ,
+INFO  13:53:02,139 - #45 Y
+INFO  13:53:02,139 - #8 =
+INFO  13:53:02,139 - #46 5
+INFO  13:53:02,139 - #4 }
+INFO  13:53:02,139 - #3 {
+INFO  13:53:02,140 - #14 void
+INFO  13:53:02,140 - #45 main
+INFO  13:53:02,140 - #12 (
+INFO  13:53:02,141 - #13 )
+INFO  13:53:02,141 - #3 {
+INFO  13:53:02,142 - #4 }
+INFO  13:53:02,143 - #4 }
+INFO  13:53:02,145 - Program(
+  ProgramName(
+   Test8
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         A
+        ) [EnumName]
+        EnumValueListMore(
+          EnumValueDef(
+           X
+           5
+          ) [EnumValueDef]
+          EnumValueListSingle(
+            EnumValueDef(
+             Y
+             5
+            ) [EnumValueDef]
+          ) [EnumValueListSingle]
+        ) [EnumValueListMore]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+ERROR 13:53:02,152 - Enum vrednost mora biti jedinstvena na liniji 3
+INFO  13:53:02,152 - Obradjuje se metoda: main na liniji 5
+ERROR 13:53:02,153 - Generisanje koda nije uspesno zavrseno.

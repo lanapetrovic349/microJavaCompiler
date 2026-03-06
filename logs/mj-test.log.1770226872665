@@ -1,0 +1,197 @@
+INFO  18:28:00,819 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:28:00,862 - #2 program
+INFO  18:28:00,862 - #45 P
+INFO  18:28:00,862 - #45 int
+INFO  18:28:00,862 - #45 a
+INFO  18:28:00,863 - #9 [
+INFO  18:28:00,863 - #10 ]
+INFO  18:28:00,863 - #6 ;
+INFO  18:28:00,863 - #45 int
+INFO  18:28:00,864 - #45 i
+INFO  18:28:00,864 - #6 ;
+INFO  18:28:00,864 - #3 {
+INFO  18:28:00,865 - #14 void
+INFO  18:28:00,865 - #45 main
+INFO  18:28:00,865 - #12 (
+INFO  18:28:00,865 - #13 )
+INFO  18:28:00,866 - #3 {
+INFO  18:28:00,866 - #45 a
+INFO  18:28:00,866 - #8 =
+INFO  18:28:00,867 - #37 new
+INFO  18:28:00,867 - #45 int
+INFO  18:28:00,867 - #9 [
+INFO  18:28:00,869 - #46 3
+INFO  18:28:00,870 - #10 ]
+INFO  18:28:00,870 - #6 ;
+INFO  18:28:00,870 - #45 i
+INFO  18:28:00,872 - #8 =
+INFO  18:28:00,872 - #34 -
+INFO  18:28:00,872 - #46 6
+INFO  18:28:00,872 - #34 -
+INFO  18:28:00,872 - #12 (
+INFO  18:28:00,873 - #34 -
+INFO  18:28:00,873 - #46 3
+INFO  18:28:00,873 - #13 )
+INFO  18:28:00,873 - #34 -
+INFO  18:28:00,873 - #46 2
+INFO  18:28:00,874 - #6 ;
+INFO  18:28:00,874 - #18 print
+INFO  18:28:00,874 - #12 (
+INFO  18:28:00,874 - #45 i
+INFO  18:28:00,874 - #13 )
+INFO  18:28:00,874 - #6 ;
+INFO  18:28:00,874 - #4 }
+INFO  18:28:00,875 - #4 }
+INFO  18:28:00,878 - Program(
+ P
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         a
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           i
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             a
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNew(
+                    Type(
+                     int
+                    ) [Type]
+                    ExprArithmetic(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [ExprArithmetic]
+                  ) [FactorNew]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+               i
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprArithmetic(
+                ArithmeticExprAdd(
+                  ArithmeticExprAdd(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorNeg(
+                          FactorNumber(
+                           6
+                          ) [FactorNumber]
+                        ) [FactorNeg]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    TermFactor(
+                      FactorParen(
+                        ExprArithmetic(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              FactorNeg(
+                                FactorNumber(
+                                 3
+                                ) [FactorNumber]
+                              ) [FactorNeg]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprArithmetic]
+                      ) [FactorParen]
+                    ) [TermFactor]
+                  ) [ArithmeticExprAdd]
+                  AddopMinus(
+                  ) [AddopMinus]
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ArithmeticExprAdd]
+              ) [ExprArithmetic]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListMore(
+            StmtPrint(
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      Designator(
+                       i
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:28:00,878 - ---------------------------------------------------------------------

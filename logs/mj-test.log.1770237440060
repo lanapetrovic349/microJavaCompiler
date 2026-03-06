@@ -1,0 +1,134 @@
+INFO  21:20:55,295 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:20:55,325 - #2 program
+INFO  21:20:55,325 - #45 T1
+INFO  21:20:55,325 - #3 {
+INFO  21:20:55,326 - #14 void
+INFO  21:20:55,326 - #45 main
+INFO  21:20:55,326 - #12 (
+INFO  21:20:55,326 - #13 )
+INFO  21:20:55,326 - #45 int
+INFO  21:20:55,326 - #45 a
+INFO  21:20:55,327 - #6 ;
+INFO  21:20:55,327 - #3 {
+INFO  21:20:55,328 - #45 a
+INFO  21:20:55,328 - #8 =
+INFO  21:20:55,330 - #46 5
+INFO  21:20:55,330 - #6 ;
+INFO  21:20:55,331 - #40 if
+INFO  21:20:55,331 - #12 (
+INFO  21:20:55,331 - #45 a
+INFO  21:20:55,331 - #27 >
+INFO  21:20:55,331 - #13 )
+ERROR 21:20:55,332 - 
+Sintaksna greska na liniji 7
+INFO  21:20:55,333 - #3 {
+INFO  21:20:55,333 - #18 print
+INFO  21:20:55,333 - #12 (
+ERROR 21:20:55,334 - Izvrsen oporavak od greske u konstrukciji if-a do ) u liniji 7
+INFO  21:20:55,334 - #46 1
+INFO  21:20:55,334 - #13 )
+INFO  21:20:55,335 - #6 ;
+INFO  21:20:55,335 - #4 }
+INFO  21:20:55,336 - #41 else
+ERROR 21:20:55,336 - 
+Sintaksna greska na liniji 10
+INFO  21:20:55,336 - #3 {
+INFO  21:20:55,336 - #18 print
+INFO  21:20:55,336 - #12 (
+INFO  21:20:55,336 - #46 0
+INFO  21:20:55,336 - #13 )
+INFO  21:20:55,336 - #6 ;
+INFO  21:20:55,336 - #4 }
+INFO  21:20:55,336 - #18 print
+INFO  21:20:55,336 - #12 (
+INFO  21:20:55,336 - #46 2
+INFO  21:20:55,336 - #13 )
+INFO  21:20:55,336 - #6 ;
+INFO  21:20:55,336 - #4 }
+INFO  21:20:55,336 - #4 }
+ERROR 21:20:55,336 - Greska u iskazu dodele do ; na liniji: 7
+INFO  21:20:55,340 - Program(
+ T1
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           a
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             a
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtIfError(
+          ) [StmtIfError]
+          StatementListMore(
+            StmtBlock(
+              StatementListMore(
+                StmtPrint(
+                  ExprArithmetic(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprArithmetic]
+                  PrintOptNo(
+                  ) [PrintOptNo]
+                ) [StmtPrint]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StmtBlock]
+            StatementListMore(
+              StmtDesignatorError(
+              ) [StmtDesignatorError]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  21:20:55,340 - AST stablo
+ERROR 21:20:55,340 - Parsiranje nije uspesno zavrseno.

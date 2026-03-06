@@ -1,0 +1,64 @@
+INFO  18:47:53,889 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:47:53,916 - #2 program
+INFO  18:47:53,916 - #45 Test
+INFO  18:47:53,916 - #11 enum
+INFO  18:47:53,917 - #45 Broj
+INFO  18:47:53,917 - #3 {
+INFO  18:47:53,918 - #45 NULA
+INFO  18:47:53,918 - #7 ,
+INFO  18:47:53,918 - #45 NULA
+INFO  18:47:53,918 - #4 }
+INFO  18:47:53,918 - #3 {
+INFO  18:47:53,919 - #14 void
+INFO  18:47:53,919 - #45 main
+INFO  18:47:53,920 - #12 (
+INFO  18:47:53,920 - #13 )
+INFO  18:47:53,920 - #3 {
+INFO  18:47:53,921 - #4 }
+INFO  18:47:53,921 - #4 }
+INFO  18:47:53,923 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         Broj
+        ) [EnumName]
+        EnumValueListMore(
+          EnumValueDecl(
+           NULA
+          ) [EnumValueDecl]
+          EnumValueListSingle(
+            EnumValueDecl(
+             NULA
+            ) [EnumValueDecl]
+          ) [EnumValueListSingle]
+        ) [EnumValueListMore]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+ERROR 18:47:53,930 - Duplikat enum konstante: NULA na liniji 3
+INFO  18:47:53,930 - Obradjuje se metoda: main na liniji 6
+ERROR 18:47:53,931 - Parsiranje nije uspesno zavrseno.

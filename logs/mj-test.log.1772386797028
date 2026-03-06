@@ -1,0 +1,106 @@
+INFO  18:39:45,232 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:39:45,258 - #2 program
+INFO  18:39:45,260 - #45 Test
+INFO  18:39:45,260 - #45 int
+INFO  18:39:45,260 - #45 x
+INFO  18:39:45,260 - #6 ;
+INFO  18:39:45,260 - #3 {
+INFO  18:39:45,261 - #14 void
+INFO  18:39:45,261 - #45 main
+INFO  18:39:45,261 - #12 (
+INFO  18:39:45,261 - #13 )
+INFO  18:39:45,262 - #3 {
+INFO  18:39:45,262 - #45 x
+INFO  18:39:45,262 - #8 =
+INFO  18:39:45,263 - #6 ;
+ERROR 18:39:45,263 - 
+Sintaksna greska na liniji 7
+INFO  18:39:45,263 - #45 x
+INFO  18:39:45,263 - #8 =
+INFO  18:39:45,263 - #46 7
+ERROR 18:39:45,264 - Oporavak: greska prilikom dodele do ;
+INFO  18:39:45,265 - #6 ;
+INFO  18:39:45,269 - #4 }
+INFO  18:39:45,270 - #4 }
+INFO  18:39:45,271 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             7
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                ExprOptEpsilon(
+                ) [ExprOptEpsilon]
+              ) [Expr]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:39:45,275 - Obradjuje se metoda: main na liniji 6
+ERROR 18:39:45,276 - Parsiranje nije uspesno zavrseno.

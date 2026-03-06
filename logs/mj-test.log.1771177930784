@@ -1,0 +1,125 @@
+INFO  18:52:05,225 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:52:05,250 - #2 program
+INFO  18:52:05,250 - #45 Test
+INFO  18:52:05,250 - #11 enum
+INFO  18:52:05,250 - #45 Broj
+INFO  18:52:05,250 - #3 {
+INFO  18:52:05,251 - #45 NULA
+INFO  18:52:05,251 - #4 }
+INFO  18:52:05,251 - #3 {
+INFO  18:52:05,252 - #14 void
+INFO  18:52:05,252 - #45 main
+INFO  18:52:05,252 - #12 (
+INFO  18:52:05,253 - #13 )
+INFO  18:52:05,253 - #45 int
+INFO  18:52:05,253 - #45 arr
+INFO  18:52:05,253 - #9 [
+INFO  18:52:05,253 - #10 ]
+INFO  18:52:05,253 - #6 ;
+INFO  18:52:05,254 - #3 {
+INFO  18:52:05,254 - #45 arr
+INFO  18:52:05,254 - #8 =
+INFO  18:52:05,255 - #37 new
+INFO  18:52:05,256 - #45 int
+INFO  18:52:05,258 - #9 [
+INFO  18:52:05,258 - #47 1
+INFO  18:52:05,258 - #10 ]
+INFO  18:52:05,259 - #6 ;
+INFO  18:52:05,259 - #4 }
+INFO  18:52:05,260 - #4 }
+INFO  18:52:05,261 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         Broj
+        ) [EnumName]
+        EnumValueListSingle(
+          EnumValueDecl(
+           NULA
+          ) [EnumValueDecl]
+        ) [EnumValueListSingle]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemArray(
+           arr
+          ) [VarDeclItemArray]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               arr
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNew(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprArithmetic(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorBool(
+                               1
+                              ) [FactorBool]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                      ) [ExprArithmetic]
+                    ) [FactorNew]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:52:05,266 - Obradjuje se metoda: main na liniji 6
+ERROR 18:52:05,266 - Velicina niza mora biti int na liniji 7
+ERROR 18:52:05,267 - Parsiranje nije uspesno zavrseno.

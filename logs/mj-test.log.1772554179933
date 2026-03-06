@@ -1,0 +1,108 @@
+INFO  17:09:23,909 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:09:23,938 - #2 program
+INFO  17:09:23,938 - #45 Test
+INFO  17:09:23,938 - #3 {
+INFO  17:09:23,939 - #45 int
+INFO  17:09:23,939 - #45 f
+INFO  17:09:23,940 - #12 (
+INFO  17:09:23,940 - #13 )
+INFO  17:09:23,941 - #3 {
+INFO  17:09:23,941 - #45 int
+INFO  17:09:23,941 - #45 x
+ERROR 17:09:23,941 - 
+Sintaksna greska na liniji 4
+INFO  17:09:23,941 - #8 =
+INFO  17:09:23,941 - #46 5
+INFO  17:09:23,941 - #6 ;
+INFO  17:09:23,943 - #4 }
+INFO  17:09:23,943 - #14 void
+INFO  17:09:23,943 - #45 main
+ERROR 17:09:23,943 - Oporavak: greska prilikom dodele do ;
+INFO  17:09:23,944 - #12 (
+INFO  17:09:23,944 - #13 )
+INFO  17:09:23,945 - #3 {
+INFO  17:09:23,945 - #18 print
+INFO  17:09:23,945 - #12 (
+INFO  17:09:23,945 - #46 1
+INFO  17:09:23,946 - #13 )
+INFO  17:09:23,948 - #6 ;
+INFO  17:09:23,948 - #4 }
+INFO  17:09:23,948 - #4 }
+INFO  17:09:23,950 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:09:23,954 - Obradjuje se metoda: f na liniji 3
+INFO  17:09:23,954 - Obradjuje se metoda: main na liniji 7
+ERROR 17:09:23,956 - Generisanje koda nije uspesno zavrseno.

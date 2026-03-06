@@ -1,0 +1,131 @@
+INFO  19:26:56,870 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:26:56,910 - #2 program
+INFO  19:26:56,910 - #45 Test7
+INFO  19:26:56,910 - #11 enum
+INFO  19:26:56,910 - #45 A
+INFO  19:26:56,910 - #3 {
+INFO  19:26:56,910 - #45 X
+INFO  19:26:56,910 - #4 }
+INFO  19:26:56,911 - #3 {
+INFO  19:26:56,912 - #14 void
+INFO  19:26:56,912 - #45 ispis
+INFO  19:26:56,913 - #12 (
+INFO  19:26:56,914 - #13 )
+INFO  19:26:56,914 - #3 {
+INFO  19:26:56,915 - #18 print
+INFO  19:26:56,915 - #12 (
+INFO  19:26:56,915 - #46 1
+INFO  19:26:56,916 - #13 )
+INFO  19:26:56,919 - #6 ;
+INFO  19:26:56,920 - #4 }
+INFO  19:26:56,920 - #14 void
+INFO  19:26:56,921 - #45 main
+INFO  19:26:56,921 - #12 (
+INFO  19:26:56,924 - #13 )
+INFO  19:26:56,924 - #3 {
+INFO  19:26:56,924 - #45 ispis
+INFO  19:26:56,924 - #12 (
+INFO  19:26:56,926 - #13 )
+INFO  19:26:56,926 - #6 ;
+INFO  19:26:56,926 - #4 }
+INFO  19:26:56,927 - #4 }
+INFO  19:26:56,930 - Program(
+  ProgramName(
+   Test7
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         A
+        ) [EnumName]
+        EnumValueListSingle(
+          EnumValueDecl(
+           X
+          ) [EnumValueDecl]
+        ) [EnumValueListSingle]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       ispis
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtCall(
+              Designator(
+                DesignatorName(
+                 ispis
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              ActParsNo(
+              ) [ActParsNo]
+            ) [DesignatorStmtCall]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  19:26:56,937 - Obradjuje se metoda: ispis na liniji 7
+INFO  19:26:56,938 - Obradjuje se metoda: main na liniji 9
+INFO  19:26:56,942 - Generisanje koda uspesno zavrseno.

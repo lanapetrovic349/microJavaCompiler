@@ -1,0 +1,64 @@
+INFO  18:48:51,354 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:48:51,386 - #2 program
+INFO  18:48:51,386 - #45 Test9
+INFO  18:48:51,386 - #11 enum
+INFO  18:48:51,386 - #45 A
+INFO  18:48:51,387 - #3 {
+INFO  18:48:51,387 - #45 X
+INFO  18:48:51,387 - #7 ,
+INFO  18:48:51,387 - #45 X
+INFO  18:48:51,387 - #4 }
+INFO  18:48:51,387 - #3 {
+INFO  18:48:51,388 - #14 void
+INFO  18:48:51,388 - #45 main
+INFO  18:48:51,389 - #12 (
+INFO  18:48:51,389 - #13 )
+INFO  18:48:51,390 - #3 {
+INFO  18:48:51,390 - #4 }
+INFO  18:48:51,391 - #4 }
+INFO  18:48:51,394 - Program(
+  ProgramName(
+   Test9
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         A
+        ) [EnumName]
+        EnumValueListMore(
+          EnumValueDecl(
+           X
+          ) [EnumValueDecl]
+          EnumValueListSingle(
+            EnumValueDecl(
+             X
+            ) [EnumValueDecl]
+          ) [EnumValueListSingle]
+        ) [EnumValueListMore]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+ERROR 18:48:51,402 - Duplikat enum konstante: X na liniji 3
+INFO  18:48:51,402 - Obradjuje se metoda: main na liniji 5
+ERROR 18:48:51,404 - Generisanje koda nije uspesno zavrseno.

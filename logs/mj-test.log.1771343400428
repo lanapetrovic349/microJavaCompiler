@@ -1,0 +1,109 @@
+INFO  16:49:42,013 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:49:42,059 - #2 program
+INFO  16:49:42,059 - #45 Test13
+INFO  16:49:42,059 - #3 {
+INFO  16:49:42,060 - #14 void
+INFO  16:49:42,060 - #45 f
+INFO  16:49:42,061 - #12 (
+INFO  16:49:42,061 - #13 )
+INFO  16:49:42,062 - #3 {
+INFO  16:49:42,062 - #19 return
+INFO  16:49:42,062 - #46 5
+INFO  16:49:42,062 - #6 ;
+INFO  16:49:42,066 - #4 }
+INFO  16:49:42,066 - #14 void
+INFO  16:49:42,066 - #45 main
+INFO  16:49:42,066 - #12 (
+INFO  16:49:42,066 - #13 )
+INFO  16:49:42,066 - #3 {
+INFO  16:49:42,066 - #45 f
+INFO  16:49:42,066 - #12 (
+INFO  16:49:42,069 - #13 )
+INFO  16:49:42,069 - #6 ;
+INFO  16:49:42,070 - #4 }
+INFO  16:49:42,071 - #4 }
+INFO  16:49:42,072 - Program(
+  ProgramName(
+   Test13
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtCall(
+              Designator(
+                DesignatorName(
+                 f
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              ActParsNo(
+              ) [ActParsNo]
+            ) [DesignatorStmtCall]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:49:42,079 - Obradjuje se metoda: f na liniji 4
+ERROR 16:49:42,079 - Void metoda ne sme vracati vrednost na liniji 5
+INFO  16:49:42,079 - Obradjuje se metoda: main na liniji 8
+ERROR 16:49:42,080 - Parsiranje nije uspesno zavrseno.

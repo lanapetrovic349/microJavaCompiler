@@ -1,0 +1,136 @@
+INFO  16:49:09,284 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:49:09,329 - #2 program
+INFO  16:49:09,329 - #45 Test12
+INFO  16:49:09,329 - #3 {
+INFO  16:49:09,331 - #45 int
+INFO  16:49:09,331 - #45 f
+INFO  16:49:09,332 - #12 (
+INFO  16:49:09,333 - #13 )
+INFO  16:49:09,333 - #3 {
+INFO  16:49:09,335 - #19 return
+INFO  16:49:09,335 - #46 5
+INFO  16:49:09,335 - #6 ;
+INFO  16:49:09,340 - #4 }
+INFO  16:49:09,341 - #14 void
+INFO  16:49:09,342 - #45 main
+INFO  16:49:09,343 - #12 (
+INFO  16:49:09,343 - #13 )
+INFO  16:49:09,343 - #3 {
+INFO  16:49:09,343 - #18 print
+INFO  16:49:09,343 - #12 (
+INFO  16:49:09,343 - #45 f
+INFO  16:49:09,343 - #12 (
+INFO  16:49:09,346 - #13 )
+INFO  16:49:09,349 - #13 )
+INFO  16:49:09,349 - #6 ;
+INFO  16:49:09,349 - #4 }
+INFO  16:49:09,349 - #4 }
+INFO  16:49:09,352 - Program(
+  ProgramName(
+   Test12
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorFuncCall(
+                            Designator(
+                              DesignatorName(
+                               f
+                              ) [DesignatorName]
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                            ActParsNo(
+                            ) [ActParsNo]
+                          ) [FactorFuncCall]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:49:09,359 - Obradjuje se metoda: f na liniji 4
+INFO  16:49:09,359 - Obradjuje se metoda: main na liniji 9
+INFO  16:49:09,408 - Parsiranje uspesno zavrseno.

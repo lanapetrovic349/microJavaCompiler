@@ -1,0 +1,407 @@
+INFO  08:33:35,785 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  08:33:35,829 - #2 program
+INFO  08:33:35,829 - #45 TestTernary
+INFO  08:33:35,829 - #45 int
+INFO  08:33:35,829 - #45 i
+INFO  08:33:35,830 - #7 ,
+INFO  08:33:35,830 - #45 res
+INFO  08:33:35,830 - #6 ;
+INFO  08:33:35,831 - #3 {
+INFO  08:33:35,832 - #14 void
+INFO  08:33:35,832 - #45 main
+INFO  08:33:35,834 - #12 (
+INFO  08:33:35,835 - #13 )
+INFO  08:33:35,836 - #3 {
+INFO  08:33:35,836 - #45 i
+INFO  08:33:35,836 - #8 =
+INFO  08:33:35,839 - #46 10
+INFO  08:33:35,843 - #6 ;
+INFO  08:33:35,844 - #18 print
+INFO  08:33:35,845 - #12 (
+INFO  08:33:35,845 - #46 1
+INFO  08:33:35,845 - #35 ?
+INFO  08:33:35,846 - #46 2
+INFO  08:33:35,848 - #36 :
+INFO  08:33:35,849 - #46 3
+INFO  08:33:35,849 - #13 )
+INFO  08:33:35,850 - #6 ;
+INFO  08:33:35,850 - #18 print
+INFO  08:33:35,850 - #12 (
+INFO  08:33:35,850 - #46 0
+INFO  08:33:35,851 - #35 ?
+INFO  08:33:35,851 - #46 2
+INFO  08:33:35,851 - #36 :
+INFO  08:33:35,851 - #46 3
+INFO  08:33:35,851 - #13 )
+INFO  08:33:35,851 - #6 ;
+INFO  08:33:35,851 - #18 print
+INFO  08:33:35,851 - #12 (
+INFO  08:33:35,851 - #46 1
+INFO  08:33:35,851 - #35 ?
+INFO  08:33:35,851 - #46 2
+INFO  08:33:35,851 - #36 :
+INFO  08:33:35,852 - #46 3
+INFO  08:33:35,852 - #35 ?
+ERROR 08:33:35,852 - 
+Sintaksna greska na liniji 9
+INFO  08:33:35,852 - #46 4
+INFO  08:33:35,852 - #36 :
+INFO  08:33:35,852 - #46 5
+ERROR 08:33:35,853 - Oporavak: greska u izrazu
+INFO  08:33:35,854 - #13 )
+INFO  08:33:35,854 - #6 ;
+INFO  08:33:35,854 - #18 print
+INFO  08:33:35,854 - #12 (
+INFO  08:33:35,855 - #46 0
+INFO  08:33:35,855 - #35 ?
+INFO  08:33:35,855 - #46 2
+INFO  08:33:35,855 - #36 :
+INFO  08:33:35,855 - #46 3
+INFO  08:33:35,855 - #35 ?
+ERROR 08:33:35,855 - 
+Sintaksna greska na liniji 10
+INFO  08:33:35,855 - #46 4
+INFO  08:33:35,855 - #36 :
+INFO  08:33:35,855 - #46 5
+ERROR 08:33:35,855 - Oporavak: greska u izrazu
+INFO  08:33:35,856 - #13 )
+INFO  08:33:35,856 - #6 ;
+INFO  08:33:35,856 - #18 print
+INFO  08:33:35,857 - #12 (
+INFO  08:33:35,857 - #46 1
+INFO  08:33:35,857 - #35 ?
+INFO  08:33:35,857 - #46 2
+INFO  08:33:35,857 - #36 :
+INFO  08:33:35,857 - #46 3
+INFO  08:33:35,858 - #33 +
+INFO  08:33:35,858 - #46 4
+INFO  08:33:35,859 - #13 )
+INFO  08:33:35,859 - #6 ;
+INFO  08:33:35,859 - #4 }
+INFO  08:33:35,860 - #4 }
+INFO  08:33:35,862 - Program(
+  ProgramName(
+   TestTernary
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         i
+        ) [VarDeclItemSingle]
+        VarDeclListList(
+          VarDeclItemSingle(
+           res
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclListList]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               i
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprRegular(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     10
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprRegular]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtPrint(
+            ExprTernary(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              TernaryQuestionMarker(
+              ) [TernaryQuestionMarker]
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+              TernaryColonMarker(
+              ) [TernaryColonMarker]
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprTernary]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListMore(
+            StmtPrint(
+              ExprTernary(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             0
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                TernaryQuestionMarker(
+                ) [TernaryQuestionMarker]
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                TernaryColonMarker(
+                ) [TernaryColonMarker]
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprTernary]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            StatementListMore(
+              StmtPrint(
+                ExprTernary(
+                  ConditionSingle(
+                    ConditionError(
+                    ) [ConditionError]
+                  ) [ConditionSingle]
+                  TernaryQuestionMarker(
+                  ) [TernaryQuestionMarker]
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         4
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  TernaryColonMarker(
+                  ) [TernaryColonMarker]
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [ExprTernary]
+                PrintOptNo(
+                ) [PrintOptNo]
+              ) [StmtPrint]
+              StatementListMore(
+                StmtPrint(
+                  ExprTernary(
+                    ConditionSingle(
+                      ConditionError(
+                      ) [ConditionError]
+                    ) [ConditionSingle]
+                    TernaryQuestionMarker(
+                    ) [TernaryQuestionMarker]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           4
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    TernaryColonMarker(
+                    ) [TernaryColonMarker]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           5
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprTernary]
+                  PrintOptNo(
+                  ) [PrintOptNo]
+                ) [StmtPrint]
+                StatementListMore(
+                  StmtPrint(
+                    ExprTernary(
+                      ConditionSingle(
+                        CondTermSingle(
+                          CondFact(
+                            ArithmeticExprTerm(
+                              TermFactor(
+                                Factor(
+                                  UnaryEpsilon(
+                                  ) [UnaryEpsilon]
+                                  FactorNumber(
+                                   1
+                                  ) [FactorNumber]
+                                ) [Factor]
+                              ) [TermFactor]
+                            ) [ArithmeticExprTerm]
+                            CondFactTailEpsilon(
+                            ) [CondFactTailEpsilon]
+                          ) [CondFact]
+                        ) [CondTermSingle]
+                      ) [ConditionSingle]
+                      TernaryQuestionMarker(
+                      ) [TernaryQuestionMarker]
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             2
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      TernaryColonMarker(
+                      ) [TernaryColonMarker]
+                      ArithmeticExprAdd(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            Factor(
+                              UnaryEpsilon(
+                              ) [UnaryEpsilon]
+                              FactorNumber(
+                               3
+                              ) [FactorNumber]
+                            ) [Factor]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             4
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprAdd]
+                    ) [ExprTernary]
+                    PrintOptNo(
+                    ) [PrintOptNo]
+                  ) [StmtPrint]
+                  StatementListEpsilon(
+                  ) [StatementListEpsilon]
+                ) [StatementListMore]
+              ) [StatementListMore]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  08:33:35,869 - Obradjuje se metoda: main na liniji 4
+ERROR 08:33:35,869 - Uslov ternarnog operatora mora biti tipa bool na liniji 13
+ERROR 08:33:35,869 - Uslov ternarnog operatora mora biti tipa bool na liniji 7
+ERROR 08:33:35,869 - Uslov ternarnog operatora mora biti tipa bool na liniji 7
+ERROR 08:33:35,869 - Uslov ternarnog operatora mora biti tipa bool na liniji 7
+ERROR 08:33:35,869 - Uslov ternarnog operatora mora biti tipa bool na liniji 7
+ERROR 08:33:35,871 - Generisanje koda nije uspesno zavrseno.

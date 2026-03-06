@@ -1,0 +1,71 @@
+INFO  17:32:28,229 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:32:28,274 - #2 program
+INFO  17:32:28,275 - #45 TestBreak3
+INFO  17:32:28,275 - #3 {
+INFO  17:32:28,276 - #14 void
+INFO  17:32:28,276 - #45 main
+INFO  17:32:28,277 - #12 (
+INFO  17:32:28,277 - #13 )
+INFO  17:32:28,278 - #3 {
+INFO  17:32:28,278 - #40 if
+INFO  17:32:28,278 - #12 (
+INFO  17:32:28,278 - #47 1
+INFO  17:32:28,279 - #13 )
+INFO  17:32:28,281 - #15 break
+INFO  17:32:28,281 - #6 ;
+INFO  17:32:28,281 - #4 }
+INFO  17:32:28,285 - #4 }
+INFO  17:32:28,287 - Program(
+  ProgramName(
+   TestBreak3
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorBool(
+                       1
+                      ) [FactorBool]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailEpsilon(
+                ) [CondFactTailEpsilon]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StmtBreak(
+          ) [StmtBreak]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:32:28,298 - Obradjuje se metoda: main na liniji 4
+ERROR 17:32:28,299 - break van petlje
+ERROR 17:32:28,299 - Parsiranje nije uspesno zavrseno.

@@ -1,0 +1,57 @@
+INFO  18:39:57,030 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:39:57,057 - #2 program
+INFO  18:39:57,057 - #45 Test
+INFO  18:39:57,057 - #3 {
+INFO  18:39:57,058 - #14 void
+INFO  18:39:57,058 - #45 f
+INFO  18:39:57,058 - #12 (
+INFO  18:39:57,058 - #45 int
+INFO  18:39:57,058 - #45 a
+INFO  18:39:57,059 - #7 ,
+INFO  18:39:57,059 - #7 ,
+ERROR 18:39:57,059 - 
+Sintaksna greska na liniji 3
+INFO  18:39:57,059 - #45 int
+INFO  18:39:57,059 - #45 b
+INFO  18:39:57,059 - #13 )
+ERROR 18:39:57,059 - Oporavak: greska u formalnim argumentima
+INFO  18:39:57,060 - #3 {
+INFO  18:39:57,060 - #4 }
+INFO  18:39:57,061 - #4 }
+INFO  18:39:57,061 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptYes(
+        FormParsMore(
+          FormParsError(
+          ) [FormParsError]
+          FormParSingle(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [FormParSingle]
+        ) [FormParsMore]
+      ) [FormParsOptYes]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:39:57,067 - Obradjuje se metoda: f na liniji 3
+ERROR 18:39:57,067 - Ne postoji main metoda! na liniji 1
+ERROR 18:39:57,067 - Parsiranje nije uspesno zavrseno.

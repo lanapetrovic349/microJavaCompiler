@@ -1,0 +1,110 @@
+INFO  19:00:20,652 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:00:20,683 - #2 program
+INFO  19:00:20,683 - #45 P
+INFO  19:00:20,683 - #45 int
+INFO  19:00:20,683 - #45 a
+INFO  19:00:20,683 - #9 [
+INFO  19:00:20,683 - #10 ]
+INFO  19:00:20,683 - #6 ;
+INFO  19:00:20,684 - #45 int
+INFO  19:00:20,684 - #45 i
+INFO  19:00:20,684 - #6 ;
+INFO  19:00:20,684 - #3 {
+INFO  19:00:20,684 - #14 void
+INFO  19:00:20,685 - #45 main
+INFO  19:00:20,685 - #12 (
+INFO  19:00:20,685 - #13 )
+INFO  19:00:20,685 - #45 int
+INFO  19:00:20,685 - #45 b
+INFO  19:00:20,685 - #6 ;
+INFO  19:00:20,686 - #3 {
+INFO  19:00:20,686 - #45 b
+INFO  19:00:20,686 - #8 =
+INFO  19:00:20,687 - #46 2
+INFO  19:00:20,690 - #6 ;
+INFO  19:00:20,690 - #4 }
+INFO  19:00:20,690 - #4 }
+INFO  19:00:20,692 - Program(
+ P
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         a
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           i
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           b
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             b
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  19:00:20,692 - AST stablo
+INFO  19:00:20,692 - Parsiranje uspesno zavrseno.

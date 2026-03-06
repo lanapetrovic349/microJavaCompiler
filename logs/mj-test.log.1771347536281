@@ -1,0 +1,99 @@
+INFO  17:58:50,770 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:58:50,807 - #2 program
+INFO  17:58:50,808 - #45 T10
+INFO  17:58:50,808 - #3 {
+INFO  17:58:50,809 - #14 void
+INFO  17:58:50,809 - #45 main
+INFO  17:58:50,809 - #12 (
+INFO  17:58:50,809 - #13 )
+INFO  17:58:50,810 - #3 {
+INFO  17:58:50,810 - #40 if
+INFO  17:58:50,810 - #12 (
+INFO  17:58:50,811 - #46 5
+INFO  17:58:50,811 - #13 )
+INFO  17:58:50,814 - #18 print
+INFO  17:58:50,814 - #12 (
+INFO  17:58:50,814 - #46 1
+INFO  17:58:50,814 - #13 )
+INFO  17:58:50,816 - #6 ;
+INFO  17:58:50,816 - #4 }
+INFO  17:58:50,816 - #4 }
+INFO  17:58:50,819 - Program(
+  ProgramName(
+   T10
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailEpsilon(
+                ) [CondFactTailEpsilon]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:58:50,830 - Obradjuje se metoda: main na liniji 4
+ERROR 17:58:50,831 - Uslov u if mora biti bool na liniji 11
+ERROR 17:58:50,831 - Parsiranje nije uspesno zavrseno.

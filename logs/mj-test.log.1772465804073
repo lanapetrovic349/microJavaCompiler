@@ -1,0 +1,169 @@
+INFO  16:36:31,116 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:36:31,173 - #2 program
+INFO  16:36:31,173 - #45 Test
+INFO  16:36:31,173 - #45 int
+INFO  16:36:31,174 - #45 a
+INFO  16:36:31,175 - #9 [
+INFO  16:36:31,175 - #10 ]
+INFO  16:36:31,175 - #6 ;
+INFO  16:36:31,176 - #45 int
+INFO  16:36:31,176 - #45 b
+INFO  16:36:31,176 - #9 [
+INFO  16:36:31,176 - #10 ]
+INFO  16:36:31,176 - #6 ;
+INFO  16:36:31,176 - #3 {
+INFO  16:36:31,177 - #14 void
+INFO  16:36:31,177 - #45 f
+INFO  16:36:31,177 - #12 (
+INFO  16:36:31,178 - #45 int
+INFO  16:36:31,178 - #45 x
+INFO  16:36:31,178 - #7 ,
+INFO  16:36:31,179 - #45 int
+INFO  16:36:31,179 - #45 y
+INFO  16:36:31,179 - #13 )
+INFO  16:36:31,179 - #3 {
+INFO  16:36:31,180 - #40 if
+INFO  16:36:31,180 - #12 (
+INFO  16:36:31,180 - #45 a
+INFO  16:36:31,181 - #24 ==
+INFO  16:36:31,184 - #45 b
+INFO  16:36:31,186 - #13 )
+INFO  16:36:31,187 - #3 {
+INFO  16:36:31,187 - #19 return
+INFO  16:36:31,187 - #6 ;
+INFO  16:36:31,187 - #4 }
+INFO  16:36:31,188 - #4 }
+INFO  16:36:31,189 - #4 }
+INFO  16:36:31,192 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         a
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemArray(
+           b
+          ) [VarDeclItemArray]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptYes(
+        FormParsMore(
+          FormParsSingle(
+            FormParSingle(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormParSingle]
+          ) [FormParsSingle]
+          FormParSingle(
+            Type(
+             int
+            ) [Type]
+           y
+          ) [FormParSingle]
+        ) [FormParsMore]
+      ) [FormParsOptYes]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorDesOrFuncCall(
+                        Designator(
+                          DesignatorName(
+                           a
+                          ) [DesignatorName]
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                        CallOptEpsilon(
+                        ) [CallOptEpsilon]
+                      ) [FactorDesOrFuncCall]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailArithmetic(
+                  RelopEQ(
+                  ) [RelopEQ]
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorDesOrFuncCall(
+                          Designator(
+                            DesignatorName(
+                             b
+                            ) [DesignatorName]
+                            DesignatorTailEpsilon(
+                            ) [DesignatorTailEpsilon]
+                          ) [Designator]
+                          CallOptEpsilon(
+                          ) [CallOptEpsilon]
+                        ) [FactorDesOrFuncCall]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [CondFactTailArithmetic]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListMore(
+              StmtReturnNoExpr(
+              ) [StmtReturnNoExpr]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:36:31,200 - Obradjuje se metoda: f na liniji 9
+ERROR 16:36:31,206 - Ne postoji main metoda! na liniji 1
+ERROR 16:36:31,206 - Parsiranje nije uspesno zavrseno.

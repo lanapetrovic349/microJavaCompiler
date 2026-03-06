@@ -1,0 +1,121 @@
+INFO  15:25:00,486 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:25:00,512 - #2 program
+INFO  15:25:00,512 - #45 Test
+INFO  15:25:00,512 - #3 {
+INFO  15:25:00,513 - #14 void
+INFO  15:25:00,513 - #45 main
+INFO  15:25:00,513 - #12 (
+INFO  15:25:00,513 - #13 )
+INFO  15:25:00,514 - #45 int
+INFO  15:25:00,514 - #45 x
+INFO  15:25:00,514 - #6 ;
+INFO  15:25:00,514 - #45 bool
+INFO  15:25:00,515 - #45 b
+INFO  15:25:00,515 - #6 ;
+INFO  15:25:00,515 - #3 {
+INFO  15:25:00,515 - #45 x
+INFO  15:25:00,515 - #8 =
+INFO  15:25:00,516 - #45 b
+INFO  15:25:00,518 - #33 +
+INFO  15:25:00,518 - #46 3
+INFO  15:25:00,519 - #6 ;
+INFO  15:25:00,519 - #4 }
+INFO  15:25:00,519 - #4 }
+INFO  15:25:00,522 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListMore(
+          VarDeclOk(
+            Type(
+             bool
+            ) [Type]
+            VarDeclItemSingle(
+             b
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclOk]
+          LocalVarDeclListEpsilon(
+          ) [LocalVarDeclListEpsilon]
+        ) [LocalVarDeclListMore]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprAdd(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorDesignator(
+                        Designator(
+                          DesignatorName(
+                           b
+                          ) [DesignatorName]
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                AddopPlus(
+                ) [AddopPlus]
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprAdd]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  15:25:00,526 - Obradjuje se metoda: main na liniji 4
+ERROR 15:25:00,526 - Operatori + i - mogu samo nad int tipovima na liniji 10
+ERROR 15:25:00,528 - Parsiranje nije uspesno zavrseno.

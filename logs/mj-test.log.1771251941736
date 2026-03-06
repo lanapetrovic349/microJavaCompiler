@@ -1,0 +1,126 @@
+INFO  15:25:31,564 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:25:31,589 - #2 program
+INFO  15:25:31,589 - #45 Test
+INFO  15:25:31,589 - #3 {
+INFO  15:25:31,590 - #14 void
+INFO  15:25:31,590 - #45 main
+INFO  15:25:31,590 - #12 (
+INFO  15:25:31,590 - #13 )
+INFO  15:25:31,591 - #45 int
+INFO  15:25:31,591 - #45 x
+INFO  15:25:31,591 - #6 ;
+INFO  15:25:31,592 - #3 {
+INFO  15:25:31,592 - #45 x
+INFO  15:25:31,592 - #8 =
+INFO  15:25:31,593 - #12 (
+INFO  15:25:31,594 - #46 3
+INFO  15:25:31,594 - #33 +
+INFO  15:25:31,594 - #46 5
+INFO  15:25:31,595 - #13 )
+INFO  15:25:31,595 - #31 *
+INFO  15:25:31,595 - #46 2
+INFO  15:25:31,595 - #6 ;
+INFO  15:25:31,596 - #4 }
+INFO  15:25:31,598 - #4 }
+INFO  15:25:31,601 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermMul(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorParen(
+                        ExprArithmetic(
+                          ArithmeticExprAdd(
+                            ArithmeticExprTerm(
+                              TermFactor(
+                                Factor(
+                                  UnaryEpsilon(
+                                  ) [UnaryEpsilon]
+                                  FactorNumber(
+                                   3
+                                  ) [FactorNumber]
+                                ) [Factor]
+                              ) [TermFactor]
+                            ) [ArithmeticExprTerm]
+                            AddopPlus(
+                            ) [AddopPlus]
+                            TermFactor(
+                              Factor(
+                                UnaryEpsilon(
+                                ) [UnaryEpsilon]
+                                FactorNumber(
+                                 5
+                                ) [FactorNumber]
+                              ) [Factor]
+                            ) [TermFactor]
+                          ) [ArithmeticExprAdd]
+                        ) [ExprArithmetic]
+                      ) [FactorParen]
+                    ) [Factor]
+                  ) [TermFactor]
+                  MulopMul(
+                  ) [MulopMul]
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermMul]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  15:25:31,605 - Obradjuje se metoda: main na liniji 2
+INFO  15:25:31,606 - Parsiranje uspesno zavrseno.

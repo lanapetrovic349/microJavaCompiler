@@ -1,0 +1,98 @@
+INFO  15:58:49,192 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:58:49,226 - #2 program
+INFO  15:58:49,227 - #45 Test
+INFO  15:58:49,227 - #3 {
+INFO  15:58:49,228 - #14 void
+INFO  15:58:49,228 - #45 main
+INFO  15:58:49,228 - #12 (
+INFO  15:58:49,229 - #13 )
+INFO  15:58:49,229 - #45 int
+INFO  15:58:49,229 - #45 x
+INFO  15:58:49,230 - #6 ;
+INFO  15:58:49,230 - #3 {
+INFO  15:58:49,231 - #45 x
+INFO  15:58:49,231 - #8 =
+INFO  15:58:49,233 - #48 a
+INFO  15:58:49,233 - #31 *
+INFO  15:58:49,234 - #46 2
+INFO  15:58:49,234 - #6 ;
+INFO  15:58:49,234 - #4 }
+INFO  15:58:49,234 - #4 }
+INFO  15:58:49,236 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermMul(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [Factor]
+                  ) [TermFactor]
+                  MulopMul(
+                  ) [MulopMul]
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermMul]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  15:58:49,245 - Obradjuje se metoda: main na liniji 2
+ERROR 15:58:49,246 - Operatori *, / i %  mogu samo nad int tipovima na liniji 10
+ERROR 15:58:49,246 - Parsiranje nije uspesno zavrseno.

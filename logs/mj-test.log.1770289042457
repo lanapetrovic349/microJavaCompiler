@@ -1,0 +1,374 @@
+INFO  11:54:56,533 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  11:54:56,581 - #2 program
+INFO  11:54:56,581 - #45 StmtTorture
+INFO  11:54:56,581 - #45 int
+INFO  11:54:56,581 - #45 x
+INFO  11:54:56,581 - #6 ;
+INFO  11:54:56,583 - #3 {
+INFO  11:54:56,584 - #14 void
+INFO  11:54:56,584 - #45 main
+INFO  11:54:56,585 - #12 (
+INFO  11:54:56,585 - #13 )
+INFO  11:54:56,585 - #3 {
+INFO  11:54:56,586 - #45 x
+INFO  11:54:56,586 - #8 =
+INFO  11:54:56,587 - #46 1
+INFO  11:54:56,587 - #6 ;
+INFO  11:54:56,588 - #40 if
+INFO  11:54:56,588 - #12 (
+INFO  11:54:56,588 - #45 x
+INFO  11:54:56,588 - #27 >
+INFO  11:54:56,588 - #46 0
+INFO  11:54:56,589 - #13 )
+INFO  11:54:56,591 - #3 {
+INFO  11:54:56,592 - #18 print
+INFO  11:54:56,592 - #12 (
+INFO  11:54:56,592 - #48 A
+INFO  11:54:56,592 - #13 )
+INFO  11:54:56,594 - #6 ;
+INFO  11:54:56,594 - #40 if
+INFO  11:54:56,594 - #12 (
+INFO  11:54:56,594 - #46 1
+INFO  11:54:56,594 - #33 +
+INFO  11:54:56,594 - #31 *
+ERROR 11:54:56,594 - 
+Sintaksna greska na liniji 11
+INFO  11:54:56,594 - #13 )
+INFO  11:54:56,594 - #45 x
+INFO  11:54:56,594 - #8 =
+INFO  11:54:56,595 - #46 2
+INFO  11:54:56,595 - #6 ;
+ERROR 11:54:56,595 - Oporavak: Greska u uslovu if naredbe do ) na liniji 11
+INFO  11:54:56,595 - #41 else
+ERROR 11:54:56,596 - 
+Sintaksna greska na liniji 13
+INFO  11:54:56,596 - #45 x
+INFO  11:54:56,596 - #8 =
+INFO  11:54:56,596 - #46 3
+INFO  11:54:56,596 - #6 ;
+INFO  11:54:56,596 - #4 }
+INFO  11:54:56,596 - #40 if
+INFO  11:54:56,596 - #12 (
+ERROR 11:54:56,596 - Oporavak: Greska u dodeli do ;
+INFO  11:54:56,597 - #45 x
+INFO  11:54:56,597 - #26 <
+INFO  11:54:56,597 - #33 +
+ERROR 11:54:56,597 - 
+Sintaksna greska na liniji 19
+INFO  11:54:56,597 - #13 )
+INFO  11:54:56,597 - #3 {
+INFO  11:54:56,597 - #45 x
+INFO  11:54:56,597 - #8 =
+INFO  11:54:56,599 - #46 4
+ERROR 11:54:56,599 - Oporavak: Greska u uslovu if naredbe do ) na liniji 19
+INFO  11:54:56,599 - #6 ;
+INFO  11:54:56,599 - #40 if
+INFO  11:54:56,599 - #12 (
+INFO  11:54:56,599 - #45 x
+INFO  11:54:56,599 - #24 ==
+INFO  11:54:56,599 - #46 4
+INFO  11:54:56,599 - #13 )
+INFO  11:54:56,599 - #18 print
+INFO  11:54:56,599 - #12 (
+INFO  11:54:56,599 - #48 B
+INFO  11:54:56,599 - #13 )
+INFO  11:54:56,600 - #6 ;
+INFO  11:54:56,600 - #4 }
+INFO  11:54:56,600 - #45 x
+INFO  11:54:56,600 - #8 =
+INFO  11:54:56,600 - #6 ;
+ERROR 11:54:56,600 - 
+Sintaksna greska na liniji 25
+INFO  11:54:56,600 - #45 x
+INFO  11:54:56,600 - #8 =
+INFO  11:54:56,600 - #46 5
+ERROR 11:54:56,600 - Oporavak: Greska u dodeli do ;
+INFO  11:54:56,600 - #33 +
+INFO  11:54:56,600 - #6 ;
+ERROR 11:54:56,600 - 
+Sintaksna greska na liniji 26
+INFO  11:54:56,600 - #45 x
+INFO  11:54:56,600 - #8 =
+INFO  11:54:56,600 - #45 error
+ERROR 11:54:56,600 - Oporavak: Greska u dodeli do ;
+INFO  11:54:56,600 - #6 ;
+INFO  11:54:56,600 - #18 print
+INFO  11:54:56,600 - #12 (
+INFO  11:54:56,601 - #45 END
+INFO  11:54:56,601 - #13 )
+INFO  11:54:56,601 - #6 ;
+INFO  11:54:56,601 - #4 }
+INFO  11:54:56,601 - #4 }
+INFO  11:54:56,604 - Program(
+ StmtTorture
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDeclOk(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             x
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtIf(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        Designator(
+                         x
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailArithmetic(
+                    RelopGT(
+                    ) [RelopGT]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         0
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [CondFactTailArithmetic]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            StmtBlock(
+              StatementListMore(
+                StmtPrint(
+                  ExprArithmetic(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorChar(
+                         A
+                        ) [FactorChar]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprArithmetic]
+                  PrintOptNo(
+                  ) [PrintOptNo]
+                ) [StmtPrint]
+                StatementListMore(
+                  StmtIfError(
+                  ) [StmtIfError]
+                  StatementListMore(
+                    StmtDesignator(
+                      DesignatorStmtAssign(
+                        Designator(
+                         x
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        ExprArithmetic(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              FactorNumber(
+                               2
+                              ) [FactorNumber]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprArithmetic]
+                      ) [DesignatorStmtAssign]
+                    ) [StmtDesignator]
+                    StatementListMore(
+                      StmtDesignatorError(
+                      ) [StmtDesignatorError]
+                      StatementListEpsilon(
+                      ) [StatementListEpsilon]
+                    ) [StatementListMore]
+                  ) [StatementListMore]
+                ) [StatementListMore]
+              ) [StatementListMore]
+            ) [StmtBlock]
+            ElseStmtNo(
+            ) [ElseStmtNo]
+          ) [StmtIf]
+          StatementListMore(
+            StmtIfError(
+            ) [StmtIfError]
+            StatementListMore(
+              StmtBlock(
+                StatementListMore(
+                  StmtDesignator(
+                    DesignatorStmtAssign(
+                      Designator(
+                       x
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      ExprArithmetic(
+                        ArithmeticExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             4
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ArithmeticExprTerm]
+                      ) [ExprArithmetic]
+                    ) [DesignatorStmtAssign]
+                  ) [StmtDesignator]
+                  StatementListMore(
+                    StmtIf(
+                      ConditionSingle(
+                        CondTermSingle(
+                          CondFact(
+                            ArithmeticExprTerm(
+                              TermFactor(
+                                FactorDesignator(
+                                  Designator(
+                                   x
+                                    DesignatorTailEpsilon(
+                                    ) [DesignatorTailEpsilon]
+                                  ) [Designator]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ArithmeticExprTerm]
+                            CondFactTailArithmetic(
+                              RelopEQ(
+                              ) [RelopEQ]
+                              ArithmeticExprTerm(
+                                TermFactor(
+                                  FactorNumber(
+                                   4
+                                  ) [FactorNumber]
+                                ) [TermFactor]
+                              ) [ArithmeticExprTerm]
+                            ) [CondFactTailArithmetic]
+                          ) [CondFact]
+                        ) [CondTermSingle]
+                      ) [ConditionSingle]
+                      StmtPrint(
+                        ExprArithmetic(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              FactorChar(
+                               B
+                              ) [FactorChar]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprArithmetic]
+                        PrintOptNo(
+                        ) [PrintOptNo]
+                      ) [StmtPrint]
+                      ElseStmtNo(
+                      ) [ElseStmtNo]
+                    ) [StmtIf]
+                    StatementListEpsilon(
+                    ) [StatementListEpsilon]
+                  ) [StatementListMore]
+                ) [StatementListMore]
+              ) [StmtBlock]
+              StatementListMore(
+                StmtDesignatorError(
+                ) [StmtDesignatorError]
+                StatementListMore(
+                  StmtDesignatorError(
+                  ) [StmtDesignatorError]
+                  StatementListMore(
+                    StmtDesignator(
+                      DesignatorStmtAssign(
+                        Designator(
+                         x
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        ExprArithmetic(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                Designator(
+                                 error
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprArithmetic]
+                      ) [DesignatorStmtAssign]
+                    ) [StmtDesignator]
+                    StatementListMore(
+                      StmtPrint(
+                        ExprArithmetic(
+                          ArithmeticExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                Designator(
+                                 END
+                                  DesignatorTailEpsilon(
+                                  ) [DesignatorTailEpsilon]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ArithmeticExprTerm]
+                        ) [ExprArithmetic]
+                        PrintOptNo(
+                        ) [PrintOptNo]
+                      ) [StmtPrint]
+                      StatementListEpsilon(
+                      ) [StatementListEpsilon]
+                    ) [StatementListMore]
+                  ) [StatementListMore]
+                ) [StatementListMore]
+              ) [StatementListMore]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDeclOk]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  11:54:56,604 - AST stablo
+ERROR 11:54:56,605 - Parsiranje nije uspesno zavrseno.

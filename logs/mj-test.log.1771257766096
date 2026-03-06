@@ -1,0 +1,116 @@
+INFO  17:00:18,271 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:00:18,300 - #2 program
+INFO  17:00:18,301 - #45 Test
+INFO  17:00:18,301 - #3 {
+INFO  17:00:18,302 - #45 int
+INFO  17:00:18,302 - #45 f
+INFO  17:00:18,304 - #12 (
+INFO  17:00:18,304 - #13 )
+INFO  17:00:18,304 - #3 {
+INFO  17:00:18,305 - #19 return
+INFO  17:00:18,305 - #46 1
+INFO  17:00:18,305 - #6 ;
+INFO  17:00:18,306 - #4 }
+INFO  17:00:18,306 - #14 void
+INFO  17:00:18,307 - #45 main
+INFO  17:00:18,307 - #12 (
+INFO  17:00:18,307 - #13 )
+INFO  17:00:18,307 - #3 {
+INFO  17:00:18,307 - #18 print
+INFO  17:00:18,307 - #12 (
+INFO  17:00:18,307 - #45 f
+INFO  17:00:18,308 - #12 (
+INFO  17:00:18,309 - #13 )
+INFO  17:00:18,309 - #13 )
+INFO  17:00:18,309 - #6 ;
+INFO  17:00:18,309 - #4 }
+INFO  17:00:18,310 - #4 }
+INFO  17:00:18,311 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          ExprArithmetic(
+            ArithmeticExprTerm(
+              TermFactor(
+                Factor(
+                  UnaryEpsilon(
+                  ) [UnaryEpsilon]
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [Factor]
+              ) [TermFactor]
+            ) [ArithmeticExprTerm]
+          ) [ExprArithmetic]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtPrint(
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorFuncCall(
+                      Designator(
+                        DesignatorName(
+                         f
+                        ) [DesignatorName]
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                      ActParsNo(
+                      ) [ActParsNo]
+                    ) [FactorFuncCall]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:00:18,317 - Obradjuje se metoda: f na liniji 2
+INFO  17:00:18,317 - Obradjuje se metoda: main na liniji 3
+INFO  17:00:18,349 - Parsiranje uspesno zavrseno.

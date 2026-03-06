@@ -1,0 +1,157 @@
+INFO  19:27:20,203 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:27:20,261 - #2 program
+INFO  19:27:20,262 - #45 Test7
+INFO  19:27:20,262 - #11 enum
+INFO  19:27:20,263 - #45 A
+INFO  19:27:20,263 - #3 {
+INFO  19:27:20,264 - #45 X
+INFO  19:27:20,264 - #4 }
+INFO  19:27:20,264 - #3 {
+INFO  19:27:20,266 - #45 int
+INFO  19:27:20,266 - #45 ispis
+INFO  19:27:20,266 - #12 (
+INFO  19:27:20,268 - #13 )
+INFO  19:27:20,268 - #3 {
+INFO  19:27:20,269 - #19 return
+INFO  19:27:20,269 - #46 1
+INFO  19:27:20,270 - #6 ;
+INFO  19:27:20,275 - #4 }
+INFO  19:27:20,277 - #14 void
+INFO  19:27:20,277 - #45 main
+INFO  19:27:20,278 - #12 (
+INFO  19:27:20,279 - #13 )
+INFO  19:27:20,279 - #3 {
+INFO  19:27:20,281 - #18 print
+INFO  19:27:20,281 - #12 (
+INFO  19:27:20,281 - #45 ispis
+INFO  19:27:20,281 - #12 (
+INFO  19:27:20,284 - #13 )
+INFO  19:27:20,284 - #13 )
+INFO  19:27:20,285 - #6 ;
+INFO  19:27:20,285 - #4 }
+INFO  19:27:20,285 - #4 }
+INFO  19:27:20,288 - Program(
+  ProgramName(
+   Test7
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         A
+        ) [EnumName]
+        EnumValueListSingle(
+          EnumValueDecl(
+           X
+          ) [EnumValueDecl]
+        ) [EnumValueListSingle]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       ispis
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtPrint(
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorDesOrFuncCall(
+                            Designator(
+                              DesignatorName(
+                               ispis
+                              ) [DesignatorName]
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                            CallOptYes(
+                              ActParsNo(
+                              ) [ActParsNo]
+                            ) [CallOptYes]
+                          ) [FactorDesOrFuncCall]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  19:27:20,300 - Obradjuje se metoda: ispis na liniji 7
+INFO  19:27:20,301 - Obradjuje se metoda: main na liniji 9
+INFO  19:27:20,306 - Generisanje koda uspesno zavrseno.

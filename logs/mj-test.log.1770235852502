@@ -1,0 +1,136 @@
+INFO  20:56:25,845 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:56:25,886 - #2 program
+INFO  20:56:25,888 - #45 T1
+INFO  20:56:25,888 - #3 {
+INFO  20:56:25,888 - #14 void
+INFO  20:56:25,888 - #45 main
+INFO  20:56:25,889 - #12 (
+INFO  20:56:25,889 - #13 )
+INFO  20:56:25,889 - #45 int
+INFO  20:56:25,889 - #45 a
+INFO  20:56:25,890 - #6 ;
+INFO  20:56:25,890 - #3 {
+INFO  20:56:25,892 - #45 a
+INFO  20:56:25,892 - #8 =
+INFO  20:56:25,893 - #46 5
+INFO  20:56:25,894 - #6 ;
+INFO  20:56:25,894 - #40 if
+INFO  20:56:25,894 - #12 (
+INFO  20:56:25,895 - #45 a
+INFO  20:56:25,895 - #27 >
+INFO  20:56:25,895 - #13 )
+ERROR 20:56:25,895 - 
+Sintaksna greska na liniji 7
+INFO  20:56:25,897 - #3 {
+INFO  20:56:25,897 - #18 print
+INFO  20:56:25,897 - #12 (
+INFO  20:56:25,898 - #46 1
+ERROR 20:56:25,898 - Greska u logickom izrazu if konstrukcije na liniji: 7
+INFO  20:56:25,899 - #13 )
+INFO  20:56:25,899 - #6 ;
+INFO  20:56:25,899 - #4 }
+INFO  20:56:25,900 - #41 else
+ERROR 20:56:25,900 - 
+Sintaksna greska na liniji 10
+INFO  20:56:25,900 - #3 {
+INFO  20:56:25,900 - #18 print
+INFO  20:56:25,900 - #12 (
+INFO  20:56:25,902 - #46 0
+INFO  20:56:25,902 - #13 )
+INFO  20:56:25,902 - #6 ;
+INFO  20:56:25,902 - #4 }
+INFO  20:56:25,902 - #18 print
+INFO  20:56:25,902 - #12 (
+INFO  20:56:25,902 - #46 2
+INFO  20:56:25,902 - #13 )
+INFO  20:56:25,902 - #6 ;
+INFO  20:56:25,902 - #4 }
+INFO  20:56:25,902 - #4 }
+ERROR 20:56:25,902 - Greska prilikom dodele na liniji: 7
+INFO  20:56:25,904 - Program(
+ T1
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           a
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             a
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtIfError(
+          ) [StmtIfError]
+          StatementListMore(
+            StmtBlock(
+              StatementListMore(
+                StmtPrint(
+                  ExprArithmetic(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprArithmetic]
+                  PrintOptNo(
+                  ) [PrintOptNo]
+                ) [StmtPrint]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StmtBlock]
+            StatementListMore(
+              StmtDesignator(
+                DesignatorStatementError(
+                ) [DesignatorStatementError]
+              ) [StmtDesignator]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  20:56:25,904 - AST stablo
+ERROR 20:56:25,904 - Parsiranje nije uspesno zavrseno.

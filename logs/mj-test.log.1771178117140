@@ -1,0 +1,117 @@
+INFO  18:54:56,992 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:54:57,018 - #2 program
+INFO  18:54:57,018 - #45 ErrorTest3
+INFO  18:54:57,018 - #11 enum
+INFO  18:54:57,018 - #45 Broj
+INFO  18:54:57,018 - #3 {
+INFO  18:54:57,019 - #45 NULA
+INFO  18:54:57,019 - #4 }
+INFO  18:54:57,019 - #3 {
+INFO  18:54:57,019 - #14 void
+INFO  18:54:57,019 - #45 main
+INFO  18:54:57,020 - #12 (
+INFO  18:54:57,020 - #13 )
+INFO  18:54:57,020 - #45 int
+INFO  18:54:57,020 - #45 x
+INFO  18:54:57,022 - #6 ;
+INFO  18:54:57,022 - #3 {
+INFO  18:54:57,022 - #45 x
+INFO  18:54:57,022 - #8 =
+INFO  18:54:57,023 - #45 Broj
+INFO  18:54:57,024 - #22 .
+INFO  18:54:57,024 - #45 TRI
+INFO  18:54:57,027 - #6 ;
+INFO  18:54:57,028 - #4 }
+INFO  18:54:57,028 - #4 }
+INFO  18:54:57,030 - Program(
+  ProgramName(
+   ErrorTest3
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         Broj
+        ) [EnumName]
+        EnumValueListSingle(
+          EnumValueDecl(
+           NULA
+          ) [EnumValueDecl]
+        ) [EnumValueListSingle]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorDesignator(
+                      Designator(
+                        DesignatorName(
+                         Broj
+                        ) [DesignatorName]
+                        DesignatorTailMore(
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                          DesignatorSuffixField(
+                           TRI
+                          ) [DesignatorSuffixField]
+                        ) [DesignatorTailMore]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:54:57,034 - Obradjuje se metoda: main na liniji 6
+ERROR 18:54:57,035 - Enum nema vrednost TRI na liniji 12
+ERROR 18:54:57,035 - Parsiranje nije uspesno zavrseno.

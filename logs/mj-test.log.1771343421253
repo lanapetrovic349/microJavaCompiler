@@ -1,0 +1,99 @@
+INFO  16:50:08,544 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:50:08,590 - #2 program
+INFO  16:50:08,590 - #45 Test15
+INFO  16:50:08,590 - #45 char
+INFO  16:50:08,591 - #45 c
+INFO  16:50:08,591 - #6 ;
+INFO  16:50:08,592 - #3 {
+INFO  16:50:08,592 - #14 void
+INFO  16:50:08,592 - #45 main
+INFO  16:50:08,593 - #12 (
+INFO  16:50:08,593 - #13 )
+INFO  16:50:08,594 - #3 {
+INFO  16:50:08,595 - #45 c
+INFO  16:50:08,595 - #8 =
+INFO  16:50:08,596 - #34 -
+INFO  16:50:08,597 - #48 a
+INFO  16:50:08,597 - #6 ;
+INFO  16:50:08,601 - #4 }
+INFO  16:50:08,601 - #4 }
+INFO  16:50:08,603 - Program(
+  ProgramName(
+   Test15
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         char
+        ) [Type]
+        VarDeclItemSingle(
+         c
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               c
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryMinus(
+                          ) [UnaryMinus]
+                          FactorChar(
+                           a
+                          ) [FactorChar]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailEpsilon(
+                    ) [CondFactTailEpsilon]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:50:08,611 - Obradjuje se metoda: main na liniji 6
+ERROR 16:50:08,611 - Ne moze se negirati dati tip na liniji 8
+ERROR 16:50:08,611 - Nekompatibilni tipovi u dodeli na liniji 8
+ERROR 16:50:08,612 - Parsiranje nije uspesno zavrseno.

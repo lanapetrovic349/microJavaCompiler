@@ -1,0 +1,101 @@
+INFO  16:47:31,775 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:47:31,819 - #2 program
+INFO  16:47:31,819 - #45 Test12
+INFO  16:47:31,819 - #45 int
+INFO  16:47:31,820 - #45 f
+INFO  16:47:31,820 - #12 (
+ERROR 16:47:31,820 - 
+Sintaksna greska na liniji 3
+INFO  16:47:31,820 - #13 )
+INFO  16:47:31,820 - #3 {
+INFO  16:47:31,820 - #19 return
+INFO  16:47:31,820 - #46 5
+INFO  16:47:31,820 - #6 ;
+INFO  16:47:31,820 - #4 }
+INFO  16:47:31,820 - #3 {
+INFO  16:47:31,822 - #14 void
+INFO  16:47:31,822 - #45 main
+INFO  16:47:31,822 - #12 (
+ERROR 16:47:31,822 - Oporavak: greska u deklarisanju promenljive
+INFO  16:47:31,823 - #13 )
+INFO  16:47:31,823 - #3 {
+INFO  16:47:31,824 - #18 print
+INFO  16:47:31,826 - #12 (
+INFO  16:47:31,826 - #45 f
+INFO  16:47:31,828 - #12 (
+INFO  16:47:31,829 - #13 )
+INFO  16:47:31,829 - #13 )
+INFO  16:47:31,833 - #6 ;
+INFO  16:47:31,833 - #4 }
+INFO  16:47:31,833 - #4 }
+INFO  16:47:31,835 - Program(
+  ProgramName(
+   Test12
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorFuncCall(
+                          Designator(
+                            DesignatorName(
+                             f
+                            ) [DesignatorName]
+                            DesignatorTailEpsilon(
+                            ) [DesignatorTailEpsilon]
+                          ) [Designator]
+                          ActParsNo(
+                          ) [ActParsNo]
+                        ) [FactorFuncCall]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:47:31,841 - Obradjuje se metoda: main na liniji 9
+ERROR 16:47:31,841 - Simbol nije nadjen: f na liniji 11
+ERROR 16:47:31,841 - print podrzava samo int, char i bool na liniji 13
+ERROR 16:47:31,841 - Parsiranje nije uspesno zavrseno.

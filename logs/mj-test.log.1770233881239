@@ -1,0 +1,152 @@
+INFO  20:37:49,637 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:37:49,667 - #2 program
+INFO  20:37:49,668 - #45 T1
+INFO  20:37:49,668 - #3 {
+INFO  20:37:49,668 - #14 void
+INFO  20:37:49,668 - #45 main
+INFO  20:37:49,669 - #12 (
+INFO  20:37:49,669 - #13 )
+INFO  20:37:49,669 - #45 int
+INFO  20:37:49,669 - #45 a
+INFO  20:37:49,670 - #6 ;
+INFO  20:37:49,671 - #3 {
+INFO  20:37:49,672 - #45 a
+INFO  20:37:49,672 - #8 =
+INFO  20:37:49,674 - #46 5
+INFO  20:37:49,675 - #6 ;
+INFO  20:37:49,675 - #40 if
+INFO  20:37:49,675 - #12 (
+INFO  20:37:49,675 - #45 a
+INFO  20:37:49,675 - #27 >
+INFO  20:37:49,675 - #46 3
+INFO  20:37:49,676 - #13 )
+INFO  20:37:49,677 - #18 print
+INFO  20:37:49,679 - #12 (
+INFO  20:37:49,679 - #46 1
+INFO  20:37:49,679 - #13 )
+INFO  20:37:49,679 - #6 ;
+INFO  20:37:49,679 - #18 print
+INFO  20:37:49,679 - #12 (
+INFO  20:37:49,679 - #46 2
+INFO  20:37:49,679 - #13 )
+INFO  20:37:49,679 - #6 ;
+INFO  20:37:49,679 - #4 }
+INFO  20:37:49,681 - #4 }
+INFO  20:37:49,683 - Program(
+ T1
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           a
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             a
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtIf(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        Designator(
+                         a
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailArithmetic(
+                    RelopGT(
+                    ) [RelopGT]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [CondFactTailArithmetic]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            StmtPrint(
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            ElseStmtNo(
+            ) [ElseStmtNo]
+          ) [StmtIf]
+          StatementListMore(
+            StmtPrint(
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+              PrintOptNo(
+              ) [PrintOptNo]
+            ) [StmtPrint]
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  20:37:49,683 - AST stablo
+INFO  20:37:49,683 - Parsiranje uspesno zavrseno.

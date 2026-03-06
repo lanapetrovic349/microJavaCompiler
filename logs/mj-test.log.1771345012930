@@ -1,0 +1,44 @@
+INFO  17:16:44,262 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:16:44,298 - #2 program
+INFO  17:16:44,299 - #45 TestContinue
+INFO  17:16:44,299 - #3 {
+INFO  17:16:44,300 - #14 void
+INFO  17:16:44,300 - #45 main
+INFO  17:16:44,300 - #12 (
+INFO  17:16:44,300 - #13 )
+INFO  17:16:44,301 - #3 {
+INFO  17:16:44,301 - #16 continue
+INFO  17:16:44,301 - #6 ;
+INFO  17:16:44,301 - #4 }
+INFO  17:16:44,302 - #4 }
+INFO  17:16:44,304 - Program(
+  ProgramName(
+   TestContinue
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtContinue(
+        ) [StmtContinue]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:16:44,311 - Obradjuje se metoda: main na liniji 4
+ERROR 17:16:44,311 - continue van petlje
+ERROR 17:16:44,312 - Parsiranje nije uspesno zavrseno.

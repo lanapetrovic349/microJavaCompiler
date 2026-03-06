@@ -1,0 +1,65 @@
+INFO  21:45:06,892 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:45:06,925 - #2 program
+INFO  21:45:06,925 - #45 P
+INFO  21:45:06,925 - #45 int
+INFO  21:45:06,925 - #45 a
+INFO  21:45:06,926 - #7 ,
+INFO  21:45:06,926 - #35 ?
+ERROR 21:45:06,926 - 
+Sintaksna greska na liniji 2
+INFO  21:45:06,926 - #35 ?
+INFO  21:45:06,926 - #7 ,
+INFO  21:45:06,926 - #45 b
+INFO  21:45:06,926 - #6 ;
+INFO  21:45:06,927 - #45 int
+INFO  21:45:06,927 - #45 x
+INFO  21:45:06,927 - #6 ;
+ERROR 21:45:06,927 - Greska u globalnoj deklaraciji do ; na liniji 2
+INFO  21:45:06,928 - #3 {
+INFO  21:45:06,929 - #14 void
+INFO  21:45:06,929 - #45 main
+INFO  21:45:06,929 - #12 (
+INFO  21:45:06,929 - #13 )
+INFO  21:45:06,932 - #3 {
+INFO  21:45:06,933 - #4 }
+INFO  21:45:06,933 - #4 }
+INFO  21:45:06,937 - Program(
+ P
+  ConstVarDeclListList(
+    ConstVarDeclErrorSemi(
+    ) [ConstVarDeclErrorSemi]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  21:45:06,937 - AST stablo
+ERROR 21:45:06,937 - Parsiranje nije uspesno zavrseno.

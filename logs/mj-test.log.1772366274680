@@ -1,0 +1,62 @@
+INFO  12:57:38,044 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:57:38,079 - #2 program
+INFO  12:57:38,079 - #45 Test
+INFO  12:57:38,079 - #45 int
+INFO  12:57:38,080 - #45 a
+INFO  12:57:38,080 - #7 ,
+INFO  12:57:38,080 - #7 ,
+ERROR 12:57:38,080 - 
+Sintaksna greska na liniji 3
+INFO  12:57:38,080 - #7 ,
+INFO  12:57:38,080 - #45 b
+INFO  12:57:38,080 - #6 ;
+INFO  12:57:38,081 - #3 {
+ERROR 12:57:38,081 - Oporavak: greska posle zareza
+INFO  12:57:38,082 - #14 void
+INFO  12:57:38,082 - #45 main
+INFO  12:57:38,083 - #12 (
+INFO  12:57:38,083 - #13 )
+INFO  12:57:38,084 - #3 {
+INFO  12:57:38,085 - #4 }
+INFO  12:57:38,085 - #4 }
+INFO  12:57:38,087 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         a
+        ) [VarDeclItemSingle]
+        VarDeclErrorAfterComma(
+          null
+        ) [VarDeclErrorAfterComma]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  12:57:38,095 - Obradjuje se metoda: main na liniji 6
+ERROR 12:57:38,096 - Parsiranje nije uspesno zavrseno.

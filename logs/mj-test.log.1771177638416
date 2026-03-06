@@ -1,0 +1,70 @@
+INFO  18:45:08,309 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:45:08,335 - #2 program
+INFO  18:45:08,335 - #45 Test
+INFO  18:45:08,335 - #3 {
+INFO  18:45:08,336 - #14 void
+INFO  18:45:08,336 - #45 main
+INFO  18:45:08,336 - #12 (
+INFO  18:45:08,337 - #13 )
+INFO  18:45:08,337 - #3 {
+INFO  18:45:08,337 - #45 x
+INFO  18:45:08,337 - #8 =
+INFO  18:45:08,338 - #46 5
+INFO  18:45:08,339 - #6 ;
+INFO  18:45:08,340 - #4 }
+INFO  18:45:08,340 - #4 }
+INFO  18:45:08,341 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:45:08,348 - Obradjuje se metoda: main na liniji 3
+ERROR 18:45:08,348 - Simbol nije nadjen: x na liniji 5
+ERROR 18:45:08,348 - Parsiranje nije uspesno zavrseno.

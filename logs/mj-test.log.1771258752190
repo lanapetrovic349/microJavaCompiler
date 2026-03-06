@@ -1,0 +1,137 @@
+INFO  17:03:03,363 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:03:03,393 - #2 program
+INFO  17:03:03,393 - #45 Test
+INFO  17:03:03,393 - #3 {
+INFO  17:03:03,394 - #45 int
+INFO  17:03:03,394 - #45 f
+INFO  17:03:03,395 - #12 (
+INFO  17:03:03,395 - #13 )
+INFO  17:03:03,395 - #3 {
+INFO  17:03:03,396 - #19 return
+INFO  17:03:03,396 - #46 1
+INFO  17:03:03,396 - #6 ;
+INFO  17:03:03,397 - #4 }
+INFO  17:03:03,397 - #14 void
+INFO  17:03:03,398 - #45 main
+INFO  17:03:03,398 - #12 (
+INFO  17:03:03,398 - #13 )
+INFO  17:03:03,398 - #3 {
+INFO  17:03:03,398 - #18 print
+INFO  17:03:03,398 - #12 (
+INFO  17:03:03,398 - #45 f
+INFO  17:03:03,399 - #12 (
+INFO  17:03:03,399 - #13 )
+INFO  17:03:03,402 - #13 )
+INFO  17:03:03,403 - #6 ;
+INFO  17:03:03,403 - #19 return
+INFO  17:03:03,403 - #46 1
+INFO  17:03:03,403 - #6 ;
+INFO  17:03:03,403 - #4 }
+INFO  17:03:03,403 - #4 }
+INFO  17:03:03,404 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          ExprArithmetic(
+            ArithmeticExprTerm(
+              TermFactor(
+                Factor(
+                  UnaryEpsilon(
+                  ) [UnaryEpsilon]
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [Factor]
+              ) [TermFactor]
+            ) [ArithmeticExprTerm]
+          ) [ExprArithmetic]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtPrint(
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorFuncCall(
+                      Designator(
+                        DesignatorName(
+                         f
+                        ) [DesignatorName]
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                      ActParsNo(
+                      ) [ActParsNo]
+                    ) [FactorFuncCall]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListMore(
+            StmtReturnExpr(
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+            ) [StmtReturnExpr]
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:03:03,409 - Obradjuje se metoda: f na liniji 2
+INFO  17:03:03,409 - Obradjuje se metoda: main na liniji 3
+ERROR 17:03:03,437 - Void metoda ne sme vracati vrednost na liniji 8
+ERROR 17:03:03,437 - Parsiranje nije uspesno zavrseno.

@@ -1,0 +1,96 @@
+INFO  18:39:19,469 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:39:19,496 - #2 program
+INFO  18:39:19,496 - #45 Test
+INFO  18:39:19,496 - #3 {
+INFO  18:39:19,497 - #14 void
+INFO  18:39:19,497 - #45 main
+INFO  18:39:19,497 - #12 (
+INFO  18:39:19,497 - #13 )
+INFO  18:39:19,498 - #45 int
+INFO  18:39:19,498 - #45 x
+INFO  18:39:19,498 - #6 ;
+INFO  18:39:19,498 - #3 {
+INFO  18:39:19,500 - #45 x
+INFO  18:39:19,500 - #8 =
+INFO  18:39:19,501 - #45 x
+INFO  18:39:19,502 - #22 .
+INFO  18:39:19,502 - #23 length
+INFO  18:39:19,502 - #6 ;
+INFO  18:39:19,503 - #4 }
+INFO  18:39:19,503 - #4 }
+INFO  18:39:19,504 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorDesignator(
+                      Designator(
+                        DesignatorName(
+                         x
+                        ) [DesignatorName]
+                        DesignatorTailMore(
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                          DesignatorSuffixLength(
+                          ) [DesignatorSuffixLength]
+                        ) [DesignatorTailMore]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:39:19,512 - Obradjuje se metoda: main na liniji 3
+INFO  18:39:19,513 - Parsiranje uspesno zavrseno.

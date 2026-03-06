@@ -1,0 +1,219 @@
+INFO  15:59:54,348 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:59:54,375 - #2 program
+INFO  15:59:54,375 - #45 Test
+INFO  15:59:54,375 - #3 {
+INFO  15:59:54,376 - #45 int
+INFO  15:59:54,376 - #45 sum
+INFO  15:59:54,376 - #12 (
+INFO  15:59:54,377 - #45 int
+INFO  15:59:54,377 - #45 a
+INFO  15:59:54,377 - #7 ,
+INFO  15:59:54,377 - #45 int
+INFO  15:59:54,377 - #45 b
+INFO  15:59:54,377 - #13 )
+INFO  15:59:54,378 - #3 {
+INFO  15:59:54,378 - #19 return
+INFO  15:59:54,378 - #45 a
+INFO  15:59:54,379 - #33 +
+INFO  15:59:54,380 - #45 b
+INFO  15:59:54,382 - #6 ;
+INFO  15:59:54,382 - #4 }
+INFO  15:59:54,382 - #14 void
+INFO  15:59:54,383 - #45 main
+INFO  15:59:54,384 - #12 (
+INFO  15:59:54,386 - #13 )
+INFO  15:59:54,386 - #45 int
+INFO  15:59:54,386 - #45 x
+INFO  15:59:54,386 - #6 ;
+INFO  15:59:54,386 - #45 char
+INFO  15:59:54,386 - #45 c
+INFO  15:59:54,386 - #6 ;
+INFO  15:59:54,386 - #3 {
+INFO  15:59:54,386 - #45 x
+INFO  15:59:54,386 - #8 =
+INFO  15:59:54,386 - #45 x
+INFO  15:59:54,387 - #12 (
+INFO  15:59:54,387 - #46 1
+INFO  15:59:54,387 - #13 )
+INFO  15:59:54,387 - #6 ;
+INFO  15:59:54,387 - #4 }
+INFO  15:59:54,387 - #4 }
+INFO  15:59:54,389 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeType]
+      MethodName(
+       sum
+      ) [MethodName]
+      FormParsOptYes(
+        FormParsMore(
+          FormParsSingle(
+            FormParSingle(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormParSingle]
+          ) [FormParsSingle]
+          FormParSingle(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [FormParSingle]
+        ) [FormParsMore]
+      ) [FormParsOptYes]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtReturnExpr(
+          ExprArithmetic(
+            ArithmeticExprAdd(
+              ArithmeticExprTerm(
+                TermFactor(
+                  Factor(
+                    UnaryEpsilon(
+                    ) [UnaryEpsilon]
+                    FactorDesignator(
+                      Designator(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                        DesignatorTailEpsilon(
+                        ) [DesignatorTailEpsilon]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [Factor]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                Factor(
+                  UnaryEpsilon(
+                  ) [UnaryEpsilon]
+                  FactorDesignator(
+                    Designator(
+                      DesignatorName(
+                       b
+                      ) [DesignatorName]
+                      DesignatorTailEpsilon(
+                      ) [DesignatorTailEpsilon]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [Factor]
+              ) [TermFactor]
+            ) [ArithmeticExprAdd]
+          ) [ExprArithmetic]
+        ) [StmtReturnExpr]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        FormParsOptNo(
+        ) [FormParsOptNo]
+        LocalVarDeclListMore(
+          VarDeclOk(
+            Type(
+             int
+            ) [Type]
+            VarDeclItemSingle(
+             x
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclOk]
+          LocalVarDeclListMore(
+            VarDeclOk(
+              Type(
+               char
+              ) [Type]
+              VarDeclItemSingle(
+               c
+              ) [VarDeclItemSingle]
+              VarDeclListEpsilon(
+              ) [VarDeclListEpsilon]
+            ) [VarDeclOk]
+            LocalVarDeclListEpsilon(
+            ) [LocalVarDeclListEpsilon]
+          ) [LocalVarDeclListMore]
+        ) [LocalVarDeclListMore]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              ExprArithmetic(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorFuncCall(
+                        Designator(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                        ActParsYes(
+                          ActParsSingle(
+                            ExprArithmetic(
+                              ArithmeticExprTerm(
+                                TermFactor(
+                                  Factor(
+                                    UnaryEpsilon(
+                                    ) [UnaryEpsilon]
+                                    FactorNumber(
+                                     1
+                                    ) [FactorNumber]
+                                  ) [Factor]
+                                ) [TermFactor]
+                              ) [ArithmeticExprTerm]
+                            ) [ExprArithmetic]
+                          ) [ActParsSingle]
+                        ) [ActParsYes]
+                      ) [FactorFuncCall]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+              ) [ExprArithmetic]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  15:59:54,394 - Obradjuje se metoda: sum na liniji 3
+INFO  15:59:54,395 - Obradjuje se metoda: main na liniji 7
+ERROR 15:59:54,395 - Poziv se moze vrsiti samo nad metodom na liniji 9
+ERROR 15:59:54,396 - Parsiranje nije uspesno zavrseno.

@@ -1,0 +1,136 @@
+INFO  21:10:52,505 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:10:52,553 - #2 program
+INFO  21:10:52,553 - #45 T1
+INFO  21:10:52,553 - #3 {
+INFO  21:10:52,553 - #14 void
+INFO  21:10:52,554 - #45 main
+INFO  21:10:52,554 - #12 (
+INFO  21:10:52,554 - #13 )
+INFO  21:10:52,554 - #45 int
+INFO  21:10:52,554 - #45 a
+INFO  21:10:52,554 - #6 ;
+INFO  21:10:52,556 - #3 {
+INFO  21:10:52,557 - #45 a
+INFO  21:10:52,557 - #8 =
+INFO  21:10:52,558 - #46 5
+INFO  21:10:52,558 - #6 ;
+INFO  21:10:52,560 - #40 if
+INFO  21:10:52,560 - #12 (
+INFO  21:10:52,560 - #45 a
+INFO  21:10:52,560 - #27 >
+INFO  21:10:52,560 - #13 )
+ERROR 21:10:52,560 - 
+Sintaksna greska na liniji 7
+INFO  21:10:52,562 - #3 {
+INFO  21:10:52,562 - #18 print
+INFO  21:10:52,562 - #12 (
+ERROR 21:10:52,564 - Izvrsen oporavak od greske u konstrukciji if-a do ) u liniji 7
+INFO  21:10:52,564 - #46 1
+INFO  21:10:52,564 - #13 )
+INFO  21:10:52,565 - #6 ;
+INFO  21:10:52,565 - #4 }
+INFO  21:10:52,566 - #41 else
+ERROR 21:10:52,566 - 
+Sintaksna greska na liniji 10
+INFO  21:10:52,567 - #3 {
+INFO  21:10:52,567 - #18 print
+INFO  21:10:52,567 - #12 (
+INFO  21:10:52,567 - #46 0
+INFO  21:10:52,567 - #13 )
+INFO  21:10:52,567 - #6 ;
+INFO  21:10:52,567 - #4 }
+INFO  21:10:52,567 - #18 print
+INFO  21:10:52,567 - #12 (
+INFO  21:10:52,567 - #46 2
+INFO  21:10:52,567 - #13 )
+INFO  21:10:52,567 - #6 ;
+INFO  21:10:52,567 - #4 }
+INFO  21:10:52,567 - #4 }
+ERROR 21:10:52,568 - Greska prilikom dodele na liniji: 7
+INFO  21:10:52,571 - Program(
+ T1
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           a
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+             a
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtIfError(
+          ) [StmtIfError]
+          StatementListMore(
+            StmtBlock(
+              StatementListMore(
+                StmtPrint(
+                  ExprArithmetic(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [ExprArithmetic]
+                  PrintOptNo(
+                  ) [PrintOptNo]
+                ) [StmtPrint]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StmtBlock]
+            StatementListMore(
+              StmtDesignator(
+                DesignatorStatementError(
+                ) [DesignatorStatementError]
+              ) [StmtDesignator]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  21:10:52,571 - AST stablo
+ERROR 21:10:52,571 - Parsiranje nije uspesno zavrseno.

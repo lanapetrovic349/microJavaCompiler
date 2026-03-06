@@ -1,0 +1,59 @@
+INFO  18:33:00,760 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:33:00,785 - #2 program
+INFO  18:33:00,786 - #45 Test
+INFO  18:33:00,786 - #11 enum
+INFO  18:33:00,786 - #45 Broj
+INFO  18:33:00,786 - #3 {
+INFO  18:33:00,787 - #45 NULA
+INFO  18:33:00,787 - #7 ,
+INFO  18:33:00,787 - #45 TRI
+INFO  18:33:00,787 - #8 =
+INFO  18:33:00,787 - #46 3
+INFO  18:33:00,787 - #7 ,
+INFO  18:33:00,787 - #45 PET
+INFO  18:33:00,787 - #8 =
+INFO  18:33:00,787 - #46 5
+INFO  18:33:00,787 - #4 }
+INFO  18:33:00,787 - #14 void
+ERROR 18:33:00,787 - 
+Sintaksna greska na liniji 5
+INFO  18:33:00,787 - #45 main
+INFO  18:33:00,788 - #12 (
+INFO  18:33:00,788 - #13 )
+INFO  18:33:00,788 - #45 int
+INFO  18:33:00,790 - #45 x
+INFO  18:33:00,790 - #6 ;
+INFO  18:33:00,790 - #3 {
+ERROR 18:33:00,791 - Oporavak: greska u deklarisanju promenljive
+INFO  18:33:00,792 - #4 }
+INFO  18:33:00,792 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListEpsilon(
+  ) [MethodDeclListEpsilon]
+) [Program]
+ERROR 18:33:00,796 - Ne postoji main metoda! na liniji 1
+ERROR 18:33:00,797 - Parsiranje nije uspesno zavrseno.

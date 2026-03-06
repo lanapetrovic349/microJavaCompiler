@@ -1,0 +1,98 @@
+INFO  18:38:21,916 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:38:21,944 - #2 program
+INFO  18:38:21,944 - #45 Test
+INFO  18:38:21,944 - #3 {
+INFO  18:38:21,945 - #14 void
+INFO  18:38:21,945 - #45 f
+INFO  18:38:21,945 - #12 (
+INFO  18:38:21,946 - #45 int
+INFO  18:38:21,946 - #45 a
+INFO  18:38:21,946 - #45 int
+ERROR 18:38:21,946 - 
+Sintaksna greska na liniji 2
+INFO  18:38:21,946 - #45 b
+INFO  18:38:21,946 - #13 )
+INFO  18:38:21,946 - #3 {
+INFO  18:38:21,947 - #40 if
+INFO  18:38:21,947 - #12 (
+ERROR 18:38:21,947 - Oporavak: greska u formalnim argumentima
+INFO  18:38:21,948 - #45 x
+INFO  18:38:21,948 - #13 )
+INFO  18:38:21,952 - #3 {
+INFO  18:38:21,952 - #19 return
+INFO  18:38:21,954 - #6 ;
+INFO  18:38:21,954 - #4 }
+INFO  18:38:21,955 - #4 }
+INFO  18:38:21,955 - #4 }
+INFO  18:38:21,956 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       f
+      ) [MethodName]
+      FormParsOptYes(
+        FormParsError(
+        ) [FormParsError]
+      ) [FormParsOptYes]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorDesOrFuncCall(
+                        Designator(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                          DesignatorTailEpsilon(
+                          ) [DesignatorTailEpsilon]
+                        ) [Designator]
+                        CallOptEpsilon(
+                        ) [CallOptEpsilon]
+                      ) [FactorDesOrFuncCall]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailEpsilon(
+                ) [CondFactTailEpsilon]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListMore(
+              StmtReturnNoExpr(
+              ) [StmtReturnNoExpr]
+              StatementListEpsilon(
+              ) [StatementListEpsilon]
+            ) [StatementListMore]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:38:21,961 - Obradjuje se metoda: f na liniji 2
+ERROR 18:38:21,961 - Simbol nije nadjen: x na liniji 3
+ERROR 18:38:21,962 - Uslov u if mora biti bool na liniji 8
+ERROR 18:38:21,962 - Ne postoji main metoda! na liniji 1
+ERROR 18:38:21,962 - Parsiranje nije uspesno zavrseno.

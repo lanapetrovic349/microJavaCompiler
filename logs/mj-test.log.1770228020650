@@ -1,0 +1,97 @@
+INFO  19:00:11,970 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:00:12,000 - #2 program
+INFO  19:00:12,000 - #45 P
+INFO  19:00:12,000 - #45 int
+INFO  19:00:12,000 - #45 a
+INFO  19:00:12,001 - #9 [
+INFO  19:00:12,001 - #10 ]
+INFO  19:00:12,001 - #6 ;
+INFO  19:00:12,001 - #45 int
+INFO  19:00:12,002 - #45 i
+INFO  19:00:12,002 - #6 ;
+INFO  19:00:12,002 - #3 {
+INFO  19:00:12,002 - #14 void
+INFO  19:00:12,003 - #45 main
+INFO  19:00:12,003 - #12 (
+INFO  19:00:12,003 - #13 )
+INFO  19:00:12,003 - #45 int
+INFO  19:00:12,003 - #45 b
+INFO  19:00:12,003 - #6 ;
+INFO  19:00:12,004 - #3 {
+INFO  19:00:12,004 - #45 b
+INFO  19:00:12,004 - #8 =
+INFO  19:00:12,006 - #31 *
+ERROR 19:00:12,006 - 
+Sintaksna greska na liniji 10
+INFO  19:00:12,006 - #6 ;
+INFO  19:00:12,006 - #4 }
+INFO  19:00:12,006 - #4 }
+ERROR 19:00:12,006 - Greska na liniji: 9
+INFO  19:00:12,009 - Program(
+ P
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         a
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           i
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           b
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDecl]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStatementError(
+          ) [DesignatorStatementError]
+        ) [StmtDesignator]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  19:00:12,009 - AST stablo
+ERROR 19:00:12,009 - Parsiranje nije uspesno zavrseno.

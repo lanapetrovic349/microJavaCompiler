@@ -1,0 +1,123 @@
+INFO  17:21:07,767 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:21:07,793 - #2 program
+INFO  17:21:07,793 - #45 Test3
+INFO  17:21:07,793 - #3 {
+INFO  17:21:07,794 - #14 void
+INFO  17:21:07,794 - #45 main
+INFO  17:21:07,794 - #12 (
+INFO  17:21:07,795 - #13 )
+INFO  17:21:07,795 - #3 {
+INFO  17:21:07,795 - #40 if
+INFO  17:21:07,795 - #12 (
+INFO  17:21:07,796 - #46 5
+INFO  17:21:07,796 - #24 ==
+INFO  17:21:07,796 - #46 5
+INFO  17:21:07,797 - #38 ||
+INFO  17:21:07,798 - #46 3
+INFO  17:21:07,798 - #25 !=
+INFO  17:21:07,798 - #46 4
+INFO  17:21:07,798 - #13 )
+INFO  17:21:07,798 - #3 {
+INFO  17:21:07,798 - #4 }
+INFO  17:21:07,798 - #4 }
+INFO  17:21:07,800 - #4 }
+INFO  17:21:07,801 - Program(
+  ProgramName(
+   Test3
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionOr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailArithmetic(
+                    RelopEQ(
+                    ) [RelopEQ]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           5
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [CondFactTailArithmetic]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailArithmetic(
+                  RelopNEQ(
+                  ) [RelopNEQ]
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         4
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [CondFactTailArithmetic]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionOr]
+          StmtBlock(
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:21:07,806 - Obradjuje se metoda: main na liniji 3
+INFO  17:21:07,808 - Parsiranje uspesno zavrseno.

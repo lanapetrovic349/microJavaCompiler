@@ -1,0 +1,133 @@
+INFO  11:26:03,945 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  11:26:03,982 - #2 program
+INFO  11:26:03,982 - #45 TestGlobalAdvanced
+INFO  11:26:03,982 - #45 int
+INFO  11:26:03,982 - #45 a
+INFO  11:26:03,982 - #7 ,
+INFO  11:26:03,983 - #46 123
+ERROR 11:26:03,983 - 
+Sintaksna greska na liniji 3
+INFO  11:26:03,983 - #7 ,
+INFO  11:26:03,983 - #45 b
+INFO  11:26:03,983 - #6 ;
+INFO  11:26:03,983 - #45 int
+ERROR 11:26:03,984 - Oporavak: Greska u deklaraciji globalne promenljive do , na liniji 3
+INFO  11:26:03,984 - #20 ++
+ERROR 11:26:03,984 - 
+Sintaksna greska na liniji 8
+INFO  11:26:03,984 - #33 +
+INFO  11:26:03,984 - #7 ,
+INFO  11:26:03,985 - #45 d
+INFO  11:26:03,985 - #6 ;
+INFO  11:26:03,987 - #5 const
+INFO  11:26:03,987 - #45 int
+INFO  11:26:03,987 - #45 pi
+ERROR 11:26:03,987 - Oporavak: Greska u globalnoj deklaraciji do ; na liniji 3
+INFO  11:26:03,987 - #8 =
+INFO  11:26:03,987 - #46 3
+INFO  11:26:03,987 - #7 ,
+INFO  11:26:03,988 - #45 e
+INFO  11:26:03,988 - #8 =
+INFO  11:26:03,988 - #33 +
+ERROR 11:26:03,988 - 
+Sintaksna greska na liniji 11
+INFO  11:26:03,988 - #6 ;
+INFO  11:26:03,988 - #45 char
+INFO  11:26:03,989 - #31 *
+INFO  11:26:03,989 - #32 /
+INFO  11:26:03,989 - #6 ;
+INFO  11:26:03,989 - #45 bool
+INFO  11:26:03,989 - #45 flag
+INFO  11:26:03,989 - #6 ;
+ERROR 11:26:03,989 - Oporavak: Greska u globalnoj deklaraciji do ; na liniji 8
+INFO  11:26:03,989 - #3 {
+INFO  11:26:03,989 - #14 void
+INFO  11:26:03,989 - #45 main
+INFO  11:26:03,990 - #12 (
+INFO  11:26:03,990 - #13 )
+INFO  11:26:03,990 - #3 {
+INFO  11:26:03,991 - #18 print
+INFO  11:26:03,991 - #12 (
+INFO  11:26:03,991 - #45 a
+INFO  11:26:03,991 - #13 )
+INFO  11:26:03,992 - #6 ;
+INFO  11:26:03,992 - #4 }
+INFO  11:26:03,992 - #4 }
+INFO  11:26:03,996 - Program(
+ TestGlobalAdvanced
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         a
+        ) [VarDeclItemSingle]
+        VarDeclListError(
+          null
+        ) [VarDeclListError]
+      ) [VarDecl]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclErrorSemi(
+      ) [ConstVarDeclErrorSemi]
+      ConstVarDeclListList(
+        ConstVarDeclErrorSemi(
+        ) [ConstVarDeclErrorSemi]
+        ConstVarDeclListList(
+          ConstVarDeclVar(
+            VarDecl(
+              Type(
+               bool
+              ) [Type]
+              VarDeclItemSingle(
+               flag
+              ) [VarDeclItemSingle]
+              VarDeclListEpsilon(
+              ) [VarDeclListEpsilon]
+            ) [VarDecl]
+          ) [ConstVarDeclVar]
+          ConstVarDeclListEpsilon(
+          ) [ConstVarDeclListEpsilon]
+        ) [ConstVarDeclListList]
+      ) [ConstVarDeclListList]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDeclOk(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     main
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          ExprArithmetic(
+            ArithmeticExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  Designator(
+                   a
+                    DesignatorTailEpsilon(
+                    ) [DesignatorTailEpsilon]
+                  ) [Designator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ArithmeticExprTerm]
+          ) [ExprArithmetic]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDeclOk]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  11:26:03,996 - AST stablo
+ERROR 11:26:03,996 - Parsiranje nije uspesno zavrseno.

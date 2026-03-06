@@ -1,0 +1,161 @@
+INFO  14:25:47,347 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:25:47,383 - #2 program
+INFO  14:25:47,383 - #45 TestParamsError
+INFO  14:25:47,383 - #3 {
+INFO  14:25:47,383 - #14 void
+INFO  14:25:47,383 - #45 func2
+INFO  14:25:47,385 - #12 (
+INFO  14:25:47,385 - #45 int
+INFO  14:25:47,385 - #45 a
+INFO  14:25:47,385 - #45 B
+ERROR 14:25:47,385 - 
+Sintaksna greska na liniji 4
+INFO  14:25:47,385 - #45 int
+INFO  14:25:47,385 - #45 b
+INFO  14:25:47,385 - #13 )
+INFO  14:25:47,386 - #45 int
+INFO  14:25:47,386 - #45 x
+INFO  14:25:47,386 - #7 ,
+ERROR 14:25:47,386 - Oporavak: greska u formalnim argumentima
+INFO  14:25:47,387 - #45 y
+INFO  14:25:47,387 - #6 ;
+INFO  14:25:47,388 - #3 {
+INFO  14:25:47,388 - #45 x
+INFO  14:25:47,388 - #8 =
+INFO  14:25:47,389 - #6 ;
+ERROR 14:25:47,389 - 
+Sintaksna greska na liniji 7
+INFO  14:25:47,389 - #18 print
+INFO  14:25:47,389 - #12 (
+INFO  14:25:47,389 - #48 2
+ERROR 14:25:47,389 - Oporavak: greska prilikom dodele do ;
+INFO  14:25:47,390 - #13 )
+INFO  14:25:47,390 - #6 ;
+INFO  14:25:47,390 - #40 if
+INFO  14:25:47,391 - #12 (
+INFO  14:25:47,391 - #45 x
+INFO  14:25:47,391 - #27 >
+INFO  14:25:47,391 - #46 2
+INFO  14:25:47,391 - #13 )
+INFO  14:25:47,392 - #3 {
+INFO  14:25:47,393 - #18 print
+INFO  14:25:47,393 - #12 (
+INFO  14:25:47,393 - #48 e
+INFO  14:25:47,393 - #13 )
+INFO  14:25:47,393 - #6 ;
+INFO  14:25:47,393 - #4 }
+INFO  14:25:47,394 - #4 }
+INFO  14:25:47,395 - #4 }
+INFO  14:25:47,397 - Program(
+ TestParamsError
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     func2
+      FormParsOptYes(
+        FormParsError(
+        ) [FormParsError]
+      ) [FormParsOptYes]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListList(
+            VarDeclItemSingle(
+             y
+            ) [VarDeclItemSingle]
+            VarDeclListEpsilon(
+            ) [VarDeclListEpsilon]
+          ) [VarDeclListList]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListMore(
+          StmtPrint(
+            ExprArithmetic(
+              ArithmeticExprTerm(
+                TermFactor(
+                  FactorChar(
+                   2
+                  ) [FactorChar]
+                ) [TermFactor]
+              ) [ArithmeticExprTerm]
+            ) [ExprArithmetic]
+            PrintOptNo(
+            ) [PrintOptNo]
+          ) [StmtPrint]
+          StatementListMore(
+            StmtIf(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFact(
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          Designator(
+                           x
+                            DesignatorTailEpsilon(
+                            ) [DesignatorTailEpsilon]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                    CondFactTailArithmetic(
+                      RelopGT(
+                      ) [RelopGT]
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [CondFactTailArithmetic]
+                  ) [CondFact]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+              StmtBlock(
+                StatementListMore(
+                  StmtPrint(
+                    ExprArithmetic(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          FactorChar(
+                           e
+                          ) [FactorChar]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                    ) [ExprArithmetic]
+                    PrintOptNo(
+                    ) [PrintOptNo]
+                  ) [StmtPrint]
+                  StatementListEpsilon(
+                  ) [StatementListEpsilon]
+                ) [StatementListMore]
+              ) [StmtBlock]
+              ElseStmtNo(
+              ) [ElseStmtNo]
+            ) [StmtIf]
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StatementListMore]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  14:25:47,397 - AST stablo
+ERROR 14:25:47,397 - Parsiranje nije uspesno zavrseno.

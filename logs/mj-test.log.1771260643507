@@ -1,0 +1,71 @@
+INFO  17:40:51,712 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:40:51,738 - #2 program
+INFO  17:40:51,738 - #45 Fail6
+INFO  17:40:51,738 - #3 {
+INFO  17:40:51,739 - #14 void
+INFO  17:40:51,739 - #45 main
+INFO  17:40:51,740 - #12 (
+INFO  17:40:51,740 - #13 )
+INFO  17:40:51,740 - #45 int
+INFO  17:40:51,740 - #45 x
+INFO  17:40:51,740 - #6 ;
+INFO  17:40:51,740 - #3 {
+INFO  17:40:51,742 - #45 x
+INFO  17:40:51,742 - #8 =
+INFO  17:40:51,743 - #12 (
+INFO  17:40:51,745 - #46 5
+INFO  17:40:51,745 - #27 >
+ERROR 17:40:51,745 - 
+Sintaksna greska na liniji 5
+INFO  17:40:51,745 - #46 3
+INFO  17:40:51,745 - #13 )
+INFO  17:40:51,745 - #35 ?
+INFO  17:40:51,746 - #46 10
+INFO  17:40:51,748 - #36 :
+INFO  17:40:51,748 - #46 2
+INFO  17:40:51,748 - #6 ;
+INFO  17:40:51,748 - #4 }
+INFO  17:40:51,748 - #4 }
+ERROR 17:40:51,748 - Oporavak: greska prilikom dodele do ;
+INFO  17:40:51,750 - Program(
+  ProgramName(
+   Fail6
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemSingle(
+           x
+          ) [VarDeclItemSingle]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtDesignatorError(
+        ) [StmtDesignatorError]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:40:51,755 - Obradjuje se metoda: main na liniji 3
+ERROR 17:40:51,755 - Parsiranje nije uspesno zavrseno.

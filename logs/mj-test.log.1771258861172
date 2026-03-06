@@ -1,0 +1,87 @@
+INFO  17:20:38,473 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:20:38,499 - #2 program
+INFO  17:20:38,499 - #45 Test1
+INFO  17:20:38,499 - #3 {
+INFO  17:20:38,500 - #14 void
+INFO  17:20:38,500 - #45 main
+INFO  17:20:38,500 - #12 (
+INFO  17:20:38,500 - #13 )
+INFO  17:20:38,501 - #3 {
+INFO  17:20:38,501 - #40 if
+INFO  17:20:38,501 - #12 (
+INFO  17:20:38,501 - #46 5
+INFO  17:20:38,502 - #27 >
+INFO  17:20:38,502 - #46 3
+INFO  17:20:38,503 - #13 )
+INFO  17:20:38,504 - #3 {
+INFO  17:20:38,504 - #4 }
+INFO  17:20:38,504 - #4 }
+INFO  17:20:38,505 - #4 }
+INFO  17:20:38,506 - Program(
+  ProgramName(
+   Test1
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermSingle(
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailArithmetic(
+                  RelopGT(
+                  ) [RelopGT]
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                ) [CondFactTailArithmetic]
+              ) [CondFact]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  17:20:38,514 - Obradjuje se metoda: main na liniji 3
+INFO  17:20:38,515 - Parsiranje uspesno zavrseno.

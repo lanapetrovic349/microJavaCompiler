@@ -1,0 +1,71 @@
+INFO  16:56:24,811 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:56:24,838 - #2 program
+INFO  16:56:24,838 - #45 Test
+INFO  16:56:24,838 - #3 {
+INFO  16:56:24,839 - #14 void
+INFO  16:56:24,839 - #45 main
+INFO  16:56:24,840 - #12 (
+INFO  16:56:24,840 - #13 )
+INFO  16:56:24,840 - #45 int
+INFO  16:56:24,840 - #45 arr
+INFO  16:56:24,840 - #9 [
+INFO  16:56:24,840 - #10 ]
+INFO  16:56:24,840 - #6 ;
+INFO  16:56:24,842 - #3 {
+INFO  16:56:24,842 - #17 read
+INFO  16:56:24,842 - #12 (
+INFO  16:56:24,842 - #45 arr
+INFO  16:56:24,842 - #13 )
+INFO  16:56:24,843 - #6 ;
+INFO  16:56:24,843 - #4 }
+INFO  16:56:24,843 - #4 }
+INFO  16:56:24,844 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListMore(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemArray(
+           arr
+          ) [VarDeclItemArray]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+      ) [LocalVarDeclListMore]
+      StatementListMore(
+        StmtRead(
+          Designator(
+            DesignatorName(
+             arr
+            ) [DesignatorName]
+            DesignatorTailEpsilon(
+            ) [DesignatorTailEpsilon]
+          ) [Designator]
+        ) [StmtRead]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:56:24,851 - Obradjuje se metoda: main na liniji 2
+ERROR 16:56:24,851 - read podrzava samo int, char i bool na liniji 3
+ERROR 16:56:24,852 - Parsiranje nije uspesno zavrseno.

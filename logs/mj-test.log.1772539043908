@@ -1,0 +1,84 @@
+INFO  12:57:13,528 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:57:13,557 - #2 program
+INFO  12:57:13,557 - #45 Test
+INFO  12:57:13,557 - #3 {
+INFO  12:57:13,558 - #14 void
+INFO  12:57:13,558 - #45 main
+INFO  12:57:13,559 - #12 (
+INFO  12:57:13,559 - #13 )
+INFO  12:57:13,560 - #3 {
+INFO  12:57:13,560 - #18 print
+INFO  12:57:13,560 - #12 (
+INFO  12:57:13,560 - #46 10
+INFO  12:57:13,561 - #30 %
+INFO  12:57:13,562 - #46 5
+INFO  12:57:13,562 - #13 )
+INFO  12:57:13,564 - #6 ;
+INFO  12:57:13,564 - #4 }
+INFO  12:57:13,565 - #4 }
+INFO  12:57:13,568 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermMul(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorNumber(
+                           10
+                          ) [FactorNumber]
+                        ) [Factor]
+                      ) [TermFactor]
+                      MulopRem(
+                      ) [MulopRem]
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorNumber(
+                         5
+                        ) [FactorNumber]
+                      ) [Factor]
+                    ) [TermMul]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  12:57:13,576 - Obradjuje se metoda: main na liniji 4
+INFO  12:57:13,579 - Generisanje koda uspesno zavrseno.

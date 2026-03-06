@@ -1,0 +1,73 @@
+INFO  16:49:43,491 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:49:43,542 - #2 program
+INFO  16:49:43,542 - #45 P
+INFO  16:49:43,542 - #45 int
+INFO  16:49:43,542 - #45 k
+INFO  16:49:43,543 - #8 =
+ERROR 16:49:43,543 - 
+Sintaksna greska na liniji 2
+INFO  16:49:43,543 - #46 3
+INFO  16:49:43,543 - #6 ;
+INFO  16:49:43,543 - #3 {
+INFO  16:49:43,543 - #14 void
+INFO  16:49:43,543 - #45 main
+ERROR 16:49:43,544 - Oporavak: greska u globalnoj deklaraciji
+INFO  16:49:43,545 - #12 (
+INFO  16:49:43,546 - #13 )
+INFO  16:49:43,546 - #3 {
+INFO  16:49:43,547 - #17 read
+INFO  16:49:43,547 - #12 (
+INFO  16:49:43,547 - #45 k
+INFO  16:49:43,547 - #13 )
+INFO  16:49:43,549 - #6 ;
+INFO  16:49:43,552 - #19 return
+INFO  16:49:43,552 - #6 ;
+INFO  16:49:43,552 - #4 }
+INFO  16:49:43,552 - #4 }
+INFO  16:49:43,555 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclError(
+    ) [ConstVarDeclError]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtRead(
+          Designator(
+            DesignatorName(
+             k
+            ) [DesignatorName]
+            DesignatorTailEpsilon(
+            ) [DesignatorTailEpsilon]
+          ) [Designator]
+        ) [StmtRead]
+        StatementListMore(
+          StmtReturnNoExpr(
+          ) [StmtReturnNoExpr]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:49:43,561 - Obradjuje se metoda: main na liniji 4
+ERROR 16:49:43,561 - Simbol nije nadjen: k na liniji 5
+ERROR 16:49:43,561 - Neispravan designator u read na liniji 5
+ERROR 16:49:43,561 - Parsiranje nije uspesno zavrseno.

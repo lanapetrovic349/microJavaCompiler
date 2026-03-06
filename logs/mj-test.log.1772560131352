@@ -1,0 +1,107 @@
+INFO  18:48:34,477 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:48:34,520 - #2 program
+INFO  18:48:34,520 - #45 Test7
+INFO  18:48:34,520 - #11 enum
+INFO  18:48:34,520 - #45 A
+INFO  18:48:34,520 - #3 {
+INFO  18:48:34,520 - #45 X
+INFO  18:48:34,521 - #4 }
+INFO  18:48:34,521 - #3 {
+INFO  18:48:34,522 - #14 void
+INFO  18:48:34,522 - #45 main
+INFO  18:48:34,522 - #12 (
+INFO  18:48:34,522 - #13 )
+INFO  18:48:34,523 - #3 {
+INFO  18:48:34,523 - #18 print
+INFO  18:48:34,523 - #12 (
+INFO  18:48:34,523 - #45 A
+INFO  18:48:34,524 - #22 .
+INFO  18:48:34,525 - #45 Y
+INFO  18:48:34,525 - #13 )
+INFO  18:48:34,529 - #6 ;
+INFO  18:48:34,529 - #4 }
+INFO  18:48:34,529 - #4 }
+INFO  18:48:34,534 - Program(
+  ProgramName(
+   Test7
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclEnum(
+      EnumDecl(
+        EnumName(
+         A
+        ) [EnumName]
+        EnumValueListSingle(
+          EnumValueDecl(
+           X
+          ) [EnumValueDecl]
+        ) [EnumValueListSingle]
+      ) [EnumDecl]
+    ) [ConstVarDeclEnum]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtPrint(
+          Expr(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorDesOrFuncCall(
+                          Designator(
+                            DesignatorName(
+                             A
+                            ) [DesignatorName]
+                            DesignatorTailMore(
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                              DesignatorSuffixField(
+                               Y
+                              ) [DesignatorSuffixField]
+                            ) [DesignatorTailMore]
+                          ) [Designator]
+                          CallOptEpsilon(
+                          ) [CallOptEpsilon]
+                        ) [FactorDesOrFuncCall]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailEpsilon(
+                  ) [CondFactTailEpsilon]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            ExprOptEpsilon(
+            ) [ExprOptEpsilon]
+          ) [Expr]
+          PrintOptNo(
+          ) [PrintOptNo]
+        ) [StmtPrint]
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:48:34,542 - Obradjuje se metoda: main na liniji 6
+ERROR 18:48:34,543 - Enum nema vrednost Y na liniji 14
+ERROR 18:48:34,544 - print podrzava samo int, char i bool na liniji 13
+ERROR 18:48:34,544 - Generisanje koda nije uspesno zavrseno.

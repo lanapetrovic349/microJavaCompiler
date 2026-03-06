@@ -1,0 +1,126 @@
+INFO  13:42:03,431 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:42:03,487 - #2 program
+INFO  13:42:03,487 - #45 Test
+INFO  13:42:03,487 - #45 int
+INFO  13:42:03,488 - #45 x
+INFO  13:42:03,489 - #6 ;
+INFO  13:42:03,489 - #3 {
+INFO  13:42:03,490 - #14 void
+INFO  13:42:03,490 - #45 main
+INFO  13:42:03,491 - #12 (
+INFO  13:42:03,491 - #13 )
+INFO  13:42:03,492 - #3 {
+INFO  13:42:03,492 - #45 x
+INFO  13:42:03,492 - #8 =
+INFO  13:42:03,495 - #46 5
+INFO  13:42:03,496 - #33 +
+INFO  13:42:03,497 - #6 ;
+ERROR 13:42:03,498 - 
+Sintaksna greska na liniji 7
+INFO  13:42:03,498 - #45 x
+INFO  13:42:03,498 - #8 =
+INFO  13:42:03,498 - #46 10
+ERROR 13:42:03,498 - Oporavak: greska u konstrukciji if-a
+INFO  13:42:03,502 - #6 ;
+INFO  13:42:03,504 - #4 }
+INFO  13:42:03,504 - #4 }
+INFO  13:42:03,507 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemSingle(
+         x
+        ) [VarDeclItemSingle]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListEpsilon(
+    ) [ConstVarDeclListEpsilon]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtDesignator(
+          DesignatorStmtAssign(
+            Designator(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              DesignatorTailEpsilon(
+              ) [DesignatorTailEpsilon]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ConditionSingle(
+                ConditionError(
+                ) [ConditionError]
+              ) [ConditionSingle]
+              ExprOptEpsilon(
+              ) [ExprOptEpsilon]
+            ) [Expr]
+          ) [DesignatorStmtAssign]
+        ) [StmtDesignator]
+        StatementListMore(
+          StmtDesignator(
+            DesignatorStmtAssign(
+              Designator(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+                DesignatorTailEpsilon(
+                ) [DesignatorTailEpsilon]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ConditionSingle(
+                  CondTermSingle(
+                    CondFact(
+                      ArithmeticExprTerm(
+                        TermFactor(
+                          Factor(
+                            UnaryEpsilon(
+                            ) [UnaryEpsilon]
+                            FactorNumber(
+                             10
+                            ) [FactorNumber]
+                          ) [Factor]
+                        ) [TermFactor]
+                      ) [ArithmeticExprTerm]
+                      CondFactTailEpsilon(
+                      ) [CondFactTailEpsilon]
+                    ) [CondFact]
+                  ) [CondTermSingle]
+                ) [ConditionSingle]
+                ExprOptEpsilon(
+                ) [ExprOptEpsilon]
+              ) [Expr]
+            ) [DesignatorStmtAssign]
+          ) [StmtDesignator]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  13:42:03,515 - Obradjuje se metoda: main na liniji 6

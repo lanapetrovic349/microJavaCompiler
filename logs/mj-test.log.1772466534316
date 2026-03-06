@@ -1,0 +1,192 @@
+INFO  16:36:49,484 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:36:49,535 - #2 program
+INFO  16:36:49,535 - #45 Test
+INFO  16:36:49,535 - #45 int
+INFO  16:36:49,536 - #45 a
+INFO  16:36:49,537 - #9 [
+INFO  16:36:49,537 - #10 ]
+INFO  16:36:49,537 - #6 ;
+INFO  16:36:49,537 - #45 int
+INFO  16:36:49,537 - #45 b
+INFO  16:36:49,538 - #9 [
+INFO  16:36:49,538 - #10 ]
+INFO  16:36:49,538 - #6 ;
+INFO  16:36:49,538 - #3 {
+INFO  16:36:49,538 - #14 void
+INFO  16:36:49,538 - #45 main
+INFO  16:36:49,539 - #12 (
+INFO  16:36:49,539 - #13 )
+INFO  16:36:49,540 - #3 {
+INFO  16:36:49,540 - #4 }
+INFO  16:36:49,541 - #14 void
+INFO  16:36:49,542 - #45 f
+INFO  16:36:49,542 - #12 (
+INFO  16:36:49,545 - #45 int
+INFO  16:36:49,545 - #45 x
+INFO  16:36:49,545 - #7 ,
+INFO  16:36:49,545 - #45 int
+INFO  16:36:49,545 - #45 y
+INFO  16:36:49,545 - #13 )
+INFO  16:36:49,545 - #3 {
+INFO  16:36:49,545 - #40 if
+INFO  16:36:49,545 - #12 (
+INFO  16:36:49,545 - #45 a
+INFO  16:36:49,546 - #26 <
+INFO  16:36:49,549 - #45 b
+INFO  16:36:49,549 - #13 )
+INFO  16:36:49,550 - #3 {
+INFO  16:36:49,550 - #19 return
+INFO  16:36:49,550 - #6 ;
+INFO  16:36:49,550 - #4 }
+INFO  16:36:49,552 - #4 }
+INFO  16:36:49,553 - #4 }
+INFO  16:36:49,555 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListList(
+    ConstVarDeclVar(
+      VarDeclOk(
+        Type(
+         int
+        ) [Type]
+        VarDeclItemArray(
+         a
+        ) [VarDeclItemArray]
+        VarDeclListEpsilon(
+        ) [VarDeclListEpsilon]
+      ) [VarDeclOk]
+    ) [ConstVarDeclVar]
+    ConstVarDeclListList(
+      ConstVarDeclVar(
+        VarDeclOk(
+          Type(
+           int
+          ) [Type]
+          VarDeclItemArray(
+           b
+          ) [VarDeclItemArray]
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+        ) [VarDeclOk]
+      ) [ConstVarDeclVar]
+      ConstVarDeclListEpsilon(
+      ) [ConstVarDeclListEpsilon]
+    ) [ConstVarDeclListList]
+  ) [ConstVarDeclListList]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+    ) [MethodDecl]
+    MethodDeclListMore(
+      MethodDecl(
+        MethodTypeVoid(
+        ) [MethodTypeVoid]
+        MethodName(
+         f
+        ) [MethodName]
+        FormParsOptYes(
+          FormParsMore(
+            FormParsSingle(
+              FormParSingle(
+                Type(
+                 int
+                ) [Type]
+               x
+              ) [FormParSingle]
+            ) [FormParsSingle]
+            FormParSingle(
+              Type(
+               int
+              ) [Type]
+             y
+            ) [FormParSingle]
+          ) [FormParsMore]
+        ) [FormParsOptYes]
+        LocalVarDeclListEpsilon(
+        ) [LocalVarDeclListEpsilon]
+        StatementListMore(
+          StmtIf(
+            ConditionSingle(
+              CondTermSingle(
+                CondFact(
+                  ArithmeticExprTerm(
+                    TermFactor(
+                      Factor(
+                        UnaryEpsilon(
+                        ) [UnaryEpsilon]
+                        FactorDesOrFuncCall(
+                          Designator(
+                            DesignatorName(
+                             a
+                            ) [DesignatorName]
+                            DesignatorTailEpsilon(
+                            ) [DesignatorTailEpsilon]
+                          ) [Designator]
+                          CallOptEpsilon(
+                          ) [CallOptEpsilon]
+                        ) [FactorDesOrFuncCall]
+                      ) [Factor]
+                    ) [TermFactor]
+                  ) [ArithmeticExprTerm]
+                  CondFactTailArithmetic(
+                    RelopLT(
+                    ) [RelopLT]
+                    ArithmeticExprTerm(
+                      TermFactor(
+                        Factor(
+                          UnaryEpsilon(
+                          ) [UnaryEpsilon]
+                          FactorDesOrFuncCall(
+                            Designator(
+                              DesignatorName(
+                               b
+                              ) [DesignatorName]
+                              DesignatorTailEpsilon(
+                              ) [DesignatorTailEpsilon]
+                            ) [Designator]
+                            CallOptEpsilon(
+                            ) [CallOptEpsilon]
+                          ) [FactorDesOrFuncCall]
+                        ) [Factor]
+                      ) [TermFactor]
+                    ) [ArithmeticExprTerm]
+                  ) [CondFactTailArithmetic]
+                ) [CondFact]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            StmtBlock(
+              StatementListMore(
+                StmtReturnNoExpr(
+                ) [StmtReturnNoExpr]
+                StatementListEpsilon(
+                ) [StatementListEpsilon]
+              ) [StatementListMore]
+            ) [StmtBlock]
+            ElseStmtNo(
+            ) [ElseStmtNo]
+          ) [StmtIf]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [MethodDecl]
+      MethodDeclListEpsilon(
+      ) [MethodDeclListEpsilon]
+    ) [MethodDeclListMore]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  16:36:49,561 - Obradjuje se metoda: main na liniji 9
+INFO  16:36:49,561 - Obradjuje se metoda: f na liniji 12
+ERROR 16:36:49,565 - Operatori < > <= >= dozvoljeni su samo nad int na liniji 11
+ERROR 16:36:49,565 - Uslov u if mora biti bool na liniji 11
+ERROR 16:36:49,565 - Parsiranje nije uspesno zavrseno.

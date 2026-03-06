@@ -1,0 +1,91 @@
+INFO  18:40:57,875 - Compiling source file: D:\faks\semestar VII\PP\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:40:57,905 - #2 program
+INFO  18:40:57,905 - #45 Test
+INFO  18:40:57,905 - #3 {
+INFO  18:40:57,906 - #14 void
+INFO  18:40:57,906 - #45 main
+INFO  18:40:57,906 - #12 (
+INFO  18:40:57,907 - #13 )
+INFO  18:40:57,907 - #3 {
+INFO  18:40:57,907 - #40 if
+INFO  18:40:57,907 - #12 (
+INFO  18:40:57,907 - #46 5
+INFO  18:40:57,908 - #26 <
+INFO  18:40:57,909 - #39 &&
+ERROR 18:40:57,909 - 
+Sintaksna greska na liniji 4
+INFO  18:40:57,909 - #46 7
+INFO  18:40:57,909 - #13 )
+INFO  18:40:57,909 - #3 {
+ERROR 18:40:57,909 - Oporavak: greska u izrazu
+INFO  18:40:57,910 - #4 }
+INFO  18:40:57,910 - #45 int
+INFO  18:40:57,914 - #45 x
+ERROR 18:40:57,914 - 
+Sintaksna greska na liniji 6
+INFO  18:40:57,914 - #6 ;
+INFO  18:40:57,914 - #4 }
+INFO  18:40:57,914 - #4 }
+ERROR 18:40:57,914 - Oporavak: greska prilikom dodele do ;
+INFO  18:40:57,916 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConstVarDeclListEpsilon(
+  ) [ConstVarDeclListEpsilon]
+  MethodDeclListMore(
+    MethodDecl(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsOptNo(
+      ) [FormParsOptNo]
+      LocalVarDeclListEpsilon(
+      ) [LocalVarDeclListEpsilon]
+      StatementListMore(
+        StmtIf(
+          ConditionSingle(
+            CondTermAnd(
+              ConditionError(
+              ) [ConditionError]
+              CondFact(
+                ArithmeticExprTerm(
+                  TermFactor(
+                    Factor(
+                      UnaryEpsilon(
+                      ) [UnaryEpsilon]
+                      FactorNumber(
+                       7
+                      ) [FactorNumber]
+                    ) [Factor]
+                  ) [TermFactor]
+                ) [ArithmeticExprTerm]
+                CondFactTailEpsilon(
+                ) [CondFactTailEpsilon]
+              ) [CondFact]
+            ) [CondTermAnd]
+          ) [ConditionSingle]
+          StmtBlock(
+            StatementListEpsilon(
+            ) [StatementListEpsilon]
+          ) [StmtBlock]
+          ElseStmtNo(
+          ) [ElseStmtNo]
+        ) [StmtIf]
+        StatementListMore(
+          StmtDesignatorError(
+          ) [StmtDesignatorError]
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+        ) [StatementListMore]
+      ) [StatementListMore]
+    ) [MethodDecl]
+    MethodDeclListEpsilon(
+    ) [MethodDeclListEpsilon]
+  ) [MethodDeclListMore]
+) [Program]
+INFO  18:40:57,921 - Obradjuje se metoda: main na liniji 3
+ERROR 18:40:57,921 - Uslov u if mora biti bool na liniji 11
+ERROR 18:40:57,921 - Parsiranje nije uspesno zavrseno.
